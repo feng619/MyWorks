@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>jQuery</title>
+		<style type="text/css">
+			table, th, td {
+			    border: 1px solid black;
+			    border-collapse: collapse;
+			}
+			.boldt{
+				font-weight: bold;
+			}
+		</style>
+		<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+		<script>
+			$(function(){
+				var item, c1=1, c2=1, c3=1, c4=1, max=1;
+				$('.bre').click(function(){
+					c1++;
+					item = $(this).text();
+					if(c1>max){
+						$('#bre_tr').append('<td>'+item+'</td>');
+						$('#cof_tr').append('<td></td>');
+						$('#con_tr').append('<td></td>');
+						$('#deli_tr').append('<td></td>');
+					}else{
+						$('#bre_tr td:nth-child('+c1+')').text(item);
+					}					
+					max = c1>max ? c1:max;
+				});
+				$('.cof').click(function(){
+					c2++; 
+					item = $(this).text();
+					if(c2>max){
+						$('#bre_tr').append('<td></td>');
+						$('#cof_tr').append('<td>'+item+'</td>');
+						$('#con_tr').append('<td></td>');
+						$('#deli_tr').append('<td></td>');
+					}else{
+						$('#cof_tr td:nth-child('+c2+')').text(item);
+					}					
+					max = c2>max ? c2:max;
+				});
+				$('.con').click(function(){
+					c3++; 
+					item = $(this).text();
+					if(c3>max){
+						$('#bre_tr').append('<td></td>');
+						$('#cof_tr').append('<td></td>');
+						$('#con_tr').append('<td>'+item+'</td>');
+						$('#deli_tr').append('<td></td>');
+					}else{
+						$('#con_tr td:nth-child('+c3+')').text(item);
+					}					
+					max = c3>max ? c3:max;
+				});
+				$('.deli').click(function(){
+					c4++; 
+					item = $(this).text();
+					if(c4>max){
+						$('#bre_tr').append('<td></td>');
+						$('#cof_tr').append('<td></td>');
+						$('#con_tr').append('<td></td>');
+						$('#deli_tr').append('<td>'+item+'</td>');
+					}else{
+						$('#deli_tr td:nth-child('+c4+')').text(item);
+					}					
+					max = c4>max ? c4:max;
+				});
+			});
+		</script>
+	</head>
+	<body>	
+		<h2>Bread</h2>
+		<p>
+			<button class="bre">white bread</button>
+			<button class="bre">wheat bread</button>
+			<button class="bre">whole grain bread</button>
+			<button class="bre">rye bread</button>
+			<button class="bre">pretzel</button>
+			<button class="bre">pita bread</button>
+		</p>
+
+		<h2>Coffee and Tea</h2>
+		<p>
+			<button class="cof">coffee</button>
+			<button class="cof">herbal tea</button>
+			<button class="cof">hot chocolate</button>
+			<button class="cof">cafe au lait </button>
+			<button class="cof">latte</button>
+			<button class="cof">Con Panna</button>
+			<button class="cof">Viennese coffee</button>
+		</p>
+
+		<h2>Condiments</h2>
+		<p>
+			<button class='con'>mustard</button>
+			<button class='con'>salt</button>
+			<button class='con'>pepper</button>
+			<button class='con'>spices</button>
+			<button class='con'>soy source</button>
+			<button class='con'>olive oil</button>
+		</p>
+
+		<h2>Deli</h2>
+		<p>
+			<button class='deli'>roast beef</button>
+			<button class='deli'>turkey</button>
+			<button class='deli'>Swiss cheese</button>
+			<button class='deli'>potato salad</button>
+			<button class='deli'>potato Diane</button>
+		</p>
+		<hr>
+
+		<h2 style="color:red;">選擇表 : </h2>
+		<!-- create a Dropdown Menu -->
+		<table id="myTable">
+			<tr id="bre_tr"><td class="boldt">Bread</td></tr>
+			<tr id="cof_tr"><td class="boldt">Coffee and Tea</td></tr>
+			<tr id="con_tr"><td class="boldt">Condiments</td></tr>
+			<tr id="deli_tr"><td class="boldt">Deli</td></tr>
+		</table>
+
+		
+	</body>
+</html>

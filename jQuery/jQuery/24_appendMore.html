@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>jQuery</title>
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/jquery-3.1.0.min.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('.food').click(function(){
+					var item = $(this).text();
+				//	alert(item);
+					
+					$('#mySelect').append('<option>'+item+'</option>');
+					$('#myList').append('<li>'+item+'</li>');
+				});
+			});
+		</script>
+	</head>
+	<body>	
+		<h2>Bread</h2>
+		<p>
+			<button class="food">white bread</button>
+			<button class="food">wheat bread</button>
+			<button class="food">whole grain bread</button>
+			<button class="food">rye bread</button>
+			<button class="food">pretzel</button>
+			<button class="food">pita bread</button>
+		</p>
+		<h2>Coffee and Tea</h2>
+		<p>
+			<button class="food">coffee</button>
+			<button class="food">herbal tea</button>
+			<button class="food">hot chocolate</button>
+			<button class="food">cafe au lait </button>
+			<button class="food">latte</button>
+		</p>
+		<hr>
+		<h2 style="color:red;">Your choices : </h2>
+		<!-- create a Dropdown Menu -->
+		<select id="mySelect">
+		</select>
+		
+		<!-- create an Ordered list -->
+		<ol id="myList">
+		</ol>
+		
+	</body>
+</html>

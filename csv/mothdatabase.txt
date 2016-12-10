@@ -1,0 +1,41 @@
+﻿提供者,年,月,日,縣市,鄉鎮,地點,經度,緯度,科名,屬名,學名,中文名,圖片位址
+林宏達,2016,8,31,花蓮縣,秀林鄉,太魯閣小錐麓,121.619962,24.159568,Erebidae,Ischyja,Ischyja manlia,藍條裳蛾,https://scontent-hkg3-1.xx.fbcdn.net/t31.0-8/14138581_10205428819519307_4057468814550073853_o.jpg
+林麗華,2016,8,31,台北市,北投區,陽明山二子坪,121.520247,25.183913,Zygaenidae,Clelea,Clelea formosana,蓬萊藍紋斑蛾,https://scontent-hkg3-1.xx.fbcdn.net/t31.0-8/14138192_1125488400849753_3570259813723859510_o.jpg
+林麗華,2016,8,20,台北市,北投區,陽明山二子坪,121.520247,25.183913,Erebidae,Erebus,Erebus gemmans,玉線目裳蛾,https://scontent-hkg3-1.xx.fbcdn.net/t31.0-8/14124897_1125471360851457_4097877887140936982_o.jpg
+林宏達,2016,8,31,花蓮縣,秀林鄉,太魯閣小錐麓,121.619962,24.159568,Erebidae,Ommatophora,Ommatophora luminosa,瞳裳蛾,https://scontent-hkg3-1.xx.fbcdn.net/t31.0-8/14232015_10205436973763158_4279124678705706978_o.jpg
+林宏達,2016,8,31,花蓮縣,秀林鄉,太魯閣小錐麓,121.619962,24.159568,Erebidae,Bastilla,Bastilla arcuata,弓巾裳蛾,https://scontent-hkg3-1.xx.fbcdn.net/t31.0-8/14188554_10205436971763108_1425974504626059500_o.jpg
+鄭華庭,2016,9,1,宜蘭縣,礁溪鄉,礁溪跑馬古道,121.772167,24.836614,Geometridae,Biston,Biston perclarus,黑線黃尺蛾,https://scontent-hkg3-1.xx.fbcdn.net/t31.0-8/14206147_1420222117994929_8585583089760263551_o.jpg
+林麗華,2016,9,5,台北市,文山區,木柵動物園,121.581036,24.998824,Geometridae,Agathia,Agathia laetata,Y紋艷青尺蛾,https://scontent-hkg3-1.xx.fbcdn.net/t31.0-8/14138658_1129666537098606_8220664797579458901_o.jpg
+張惠足,2012,4,24,桃園市,桃園區,中山國小,121.289659,24.986199,Sphingidae,Theretra,Theretra oldenlandiae oldenlandiae,雙斜紋天蛾,https://scontent-hkg3-1.xx.fbcdn.net/v/t1.0-9/12342423_720254811409483_8201056593952611874_n.jpg?oh=52a7476611f5fdc4bde1aea1dd06aa96&oe=584E3949
+張惠足,2015,8,6,桃園市,桃園區,中山國小,121.289659,24.986199,Erebidae,Eudocima,Eudocima salaminia,豔葉裳蛾,https://scontent-hkg3-1.xx.fbcdn.net/v/t1.0-9/12346531_720134264754871_1994787411183353681_n.jpg?oh=49264be45736293ac3f515e7a3daac15&oe=584BDDD8
+張惠足,2013,9,30,桃園市,桃園區,中山國小,121.289659,24.986199,Noctuidae,Spodoptera,Spodoptera picta,彩灰翅夜蛾,https://scontent-hkg3-1.xx.fbcdn.net/v/t1.0-9/12301462_720133961421568_8796235157906205680_n.jpg?oh=347d8db9a0cbc2519880a43334346f29&oe=58485BBE
+謝振邦,2012,6,16,嘉義縣,阿里山鄉,豐山村,120.763779,23.58979,Saturniidae,Actias,Actias ningpoana ningtaiwana,長尾水青蛾,http://twmoth.tesri.gov.tw/images/twmoth002/twmoth006583.jpg
+曾聰賢,2013,6,26,南投縣,魚池鄉,魚池,120.940075,23.898747,Saturniidae,Actias,Actias ningpoana ningtaiwana,長尾水青蛾,http://twmoth.tesri.gov.tw/images/twmoth005/twmoth021775.jpg
+周俠客,2014,6,19,宜蘭縣,南澳鄉,武塔,121.776032,24.443432,Saturniidae,Actias,Actias ningpoana ningtaiwana,長尾水青蛾,http://twmoth.tesri.gov.tw/images/twmoth007/twmoth034489.jpg
+林歐弟,2014,6,28,嘉義縣,梅山鄉,瑞里國小,120.66522,23.53995,Saturniidae,Actias,Actias ningpoana ningtaiwana,長尾水青蛾,http://twmoth.tesri.gov.tw/images/twmoth009/twmoth041544.jpg
+董華嘉,2015,9,11,宜蘭縣,員山鄉,福山植物園,121.613045,24.753691,Saturniidae,Actias,Actias ningpoana ningtaiwana,長尾水青蛾,http://twmoth.tesri.gov.tw/images/twmoth022/twmoth108065.jpg
+徐晉清,2016,8,11,新竹縣,北埔鄉,五指山,121.089656,24.642401,Saturniidae,Actias,Actias ningpoana ningtaiwana,長尾水青蛾,http://twmoth.tesri.gov.tw/images/twmoth023/twmoth112502.jpg
+李銘崇,2014,4,25,台中市,和平區,大雪山林道,120.894125,24.22769,Saturniidae,Actias,Actias ningpoana ningtaiwana,長尾水青蛾,http://twmoth.tesri.gov.tw/images/twmoth012/twmoth057252.jpg
+威爾森,2016,4,26,台北市,內湖區,大崙頭山,121.585549,25.10878,Saturniidae,Actias,Actias ningpoana ningtaiwana,長尾水青蛾,http://twmoth.tesri.gov.tw/images/twmoth020/twmoth097128.jpg
+邱岳瑩,2014,4,7,南投縣,鹿谷鄉,鳳凰自然教育園區,120.787765,23.728351,Saturniidae,Actias,Actias ningpoana ningtaiwana,長尾水青蛾,http://twmoth.tesri.gov.tw/images/twmoth006/twmoth027950.jpg
+陳睿瀅,2014,4,5,南投縣,仁愛鄉,仁愛高農,121.133509,24.02232,Saturniidae,Actias,Actias ningpoana ningtaiwana,長尾水青蛾,http://twmoth.tesri.gov.tw/images/twmoth006/twmoth027924.jpg
+古華光,2011,9,26,宜蘭縣,大同鄉,明池,121.473357,24.650905,Erebidae,Erebus,Erebus gemmans,玉線目裳蛾,http://twmoth.tesri.gov.tw/images/twmoth001/twmoth001723.jpg
+賴羅剛,2012,6,9,桃園市,復興區,觀音洞,121.367745,24.830301,Erebidae,Erebus,Erebus gemmans,玉線目裳蛾,http://twmoth.tesri.gov.tw/images/twmoth002/twmoth006083.jpg
+古華光,2013,7,7,新北市,烏來區,內洞,121.528438,24.825379,Geometridae,Biston,Biston perclarus,黑線黃尺蛾,http://twmoth.tesri.gov.tw/images/twmoth004/twmoth016790.jpg
+賴羅剛,2013,10,5,南投縣,魚池鄉,蓮華池,120.890279,23.926664,Geometridae,Biston,Biston perclarus,黑線黃尺蛾,http://twmoth.tesri.gov.tw/images/twmoth008/twmoth036794.jpg
+賴羅剛,2016,7,28,宜蘭縣,大同鄉,明池,121.473357,24.650905,Geometridae,Biston,Biston perclarus,黑線黃尺蛾,http://twmoth.tesri.gov.tw/images/twmoth023/twmoth110154.jpg
+曾聰賢,2005,7,9,南投縣,仁愛鄉,梅峰,121.174251,24.089537,Geometridae,Agathia,Agathia laetata,Y紋艷青尺蛾,http://twmoth.tesri.gov.tw/images/twmoth006/twmoth028151.jpg
+謝麗琴,2012,7,29,新北市,新店區,花園新城,121.550159,24.934701,Geometridae,Agathia,Agathia laetata,Y紋艷青尺蛾,http://twmoth.tesri.gov.tw/images/twmoth002/twmoth009748.jpg
+謝麗琴,2012,6,17,新北市,新店區,花園新城,121.550159,24.934701,Geometridae,Agathia,Agathia laetata,Y紋艷青尺蛾,http://twmoth.tesri.gov.tw/images/twmoth001/twmoth004117.jpg
+王欽淮,2013,8,26,屏東縣,瑪家鄉,瑪家村,120.683441,22.680549,Erebidae,Ischyja,Ischyja manlia,藍條裳蛾,http://twmoth.tesri.gov.tw/images/twmoth005/twmoth020702.jpg
+曾聰賢,2012,6,28,台北市,北投區,大屯國小,121.503983,25.154919,Erebidae,Ischyja,Ischyja manlia,藍條裳蛾,http://twmoth.tesri.gov.tw/images/twmoth015/twmoth074911.jpg
+邱碧財,2013,8,7,新竹縣,尖石鄉,宇老,121.364486,24.5771,Erebidae,Ischyja,Ischyja manlia,藍條裳蛾,http://twmoth.tesri.gov.tw/images/twmoth005/twmoth023511.jpg
+鄭華庭,2014,8,1,台北市,文山區,中國科技大學,121.555021,24.998252,Sphingidae,Theretra,Theretra oldenlandiae oldenlandiae,雙斜紋天蛾,http://twmoth.tesri.gov.tw/images/twmoth008/twmoth036592.jpg
+古華光,2014,9,13,台北市,信義區,象山,121.575294,25.029018,Sphingidae,Theretra,Theretra oldenlandiae oldenlandiae,雙斜紋天蛾,http://twmoth.tesri.gov.tw/images/twmoth009/twmoth042505.jpg
+黃義欽,2014,8,10,台北市,文山區,明興里,121.567065,24.989228,Erebidae,Eudocima,Eudocima salaminia,豔葉裳蛾,http://twmoth.tesri.gov.tw/images/twmoth008/twmoth037492.jpg
+黃義欽,2014,9,3,台北市,文山區,明興里,121.567065,24.989228,Erebidae,Eudocima,Eudocima salaminia,豔葉裳蛾,http://twmoth.tesri.gov.tw/images/twmoth009/twmoth040463.jpg
+黃義欽,2014,8,30,台北市,大安區,富陽公園,121.557012,25.019297,Erebidae,Eudocima,Eudocima salaminia,豔葉裳蛾,http://twmoth.tesri.gov.tw/images/twmoth010/twmoth045349.jpg
+黃義欽,2013,11,7,台北市,文山區,明興里,121.567065,24.989228,Noctuidae,Spodoptera,Spodoptera picta,彩灰翅夜蛾,http://twmoth.tesri.gov.tw/images/twmoth006/twmoth027015.jpg
+古華光,2013,11,17,台北市,北投區,貴子坑,121.494341,25.150568,Noctuidae,Spodoptera,Spodoptera picta,彩灰翅夜蛾,http://twmoth.tesri.gov.tw/images/twmoth008/twmoth038004.jpg
+黃義欽,2012,9,30,台北市,文山區,明興里,121.567065,24.989228,Zygaenidae,Clelea,Clelea formosana,蓬萊藍紋斑蛾,http://twmoth.tesri.gov.tw/images/twmoth003/twmoth011738.jpg
+古華光,2014,7,21,新北市,三芝區,二子坪,121.525094,25.186243,Zygaenidae,Clelea,Clelea formosana,蓬萊藍紋斑蛾,http://twmoth.tesri.gov.tw/images/twmoth007/twmoth031359.jpg

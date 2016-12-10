@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>jQuery</title>
+		<style type="text/css">
+			#cont{
+				width: 200px;
+				border:1px solid #ccc;
+				word-wrap:break-word;
+			}
+		</style>
+		<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+		<script>
+			$(function(){
+				$('#inp').keyup(function(){
+					var t = $(this).val();
+					$('#cont').text(t);
+					$('#leng').text(t.length);
+				});
+			});
+		</script>
+	</head>
+	<body>
+
+		<textarea id='inp'></textarea>
+		<p>內容 : </p>
+		<p id='cont'></p>
+		<p>字數 : </p>
+		<p id='leng'></p>
+		
+	</body>
+</html>

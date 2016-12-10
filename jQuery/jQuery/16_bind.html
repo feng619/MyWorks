@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>jQuery</title>
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/jquery-3.1.0.min.js"></script>
+		<script>
+			$(document).ready(function(){
+			//step1	$('#myName').mouseenter().mouseleave();
+			//step2	$('#myName').mouseenter(function(){}).mouseleave(function(){});
+				
+			/*	$('#myName').mouseenter(function(){
+					$(this).addClass('highlight');
+				}).mouseleave(function(){
+					$(this).removeClass('highlight');
+				});
+			*/
+			
+			//step1	$('#myName').bind().bind();
+			//step2	$('#myName').bind('mouseenter',function(){}).bind('mouseleave',function(){});
+				
+			/*	$('#myName').bind('mouseenter',function(){
+					$(this).addClass('highlight');
+				}).bind('mouseleave',function(){
+					$(this).removeClass('highlight');
+				});	
+			*/	
+			
+			//	$('#myName').bind();
+				$('#myName').bind('mouseenter mouseleave',function(){
+					$(this).toggleClass('highlight');
+				});
+				
+			});
+		</script>
+	</head>
+	<body>
+		<div id="myName">omgSilvia</div>		
+	</body>
+</html>
+
+<!--  -->

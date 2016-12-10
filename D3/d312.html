@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" ></script>
+<style>
+.axis path,
+.axis line{
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+}
+.mytext{
+    fill: white;
+    text-anchor: middle;
+}
+</style>
+</head>
+<body>
+    <script>
+
+
+        function calc_svg_cir_path_pe(x,y,perimeter,start){
+            let r = perimeter/(2*Math.PI);
+            let d = '';
+            let ci = r*0.552284;
+            let w, wn, nw, n, ne, en, e, es, se, s, sw, ws;
+            w  = (x-r) +','+ y    +' ';
+            wn = (x-r) +','+(y-ci)+' ';
+            nw = (x-ci)+','+(y-r) +' ';
+            n  =  x    +','+(y-r) +' ';
+            ne = (x+ci)+','+(y-r) +' ';
+            en = (x+r) +','+(y-ci)+' ';
+            e  = (x+r) +','+ y    +' ';
+            es = (x+r) +','+(y+ci)+' ';
+            se = (x+ci)+','+(y+r) +' ';
+            s  =  x    +','+(y+r) +' ';
+            sw = (x-ci)+','+(y+r) +' ';
+            ws = (x-r) +','+(y+ci)+' ';
+
+            if(start=='w'){
+                d = 'M'+w+'C'+wn+nw+n+'C'+ne+en+e+'C'+es+se+s+'C'+sw+ws+w;
+            }else if(start=='n'){
+                d = 'M'+n+'C'+ne+en+e+'C'+es+se+s+'C'+sw+ws+w+'C'+wn+nw+n;
+            }else if(start=='e'){
+                d = 'M'+e+'C'+es+se+s+'C'+sw+ws+w+'C'+wn+nw+n+'C'+ne+en+e;
+            }else if(start=='s'){
+                d = 'M'+s+'C'+sw+ws+w+'C'+wn+nw+n+'C'+ne+en+e+'C'+es+se+s;
+            }
+            return d;
+        }
+
+        function calc_svg_line_path(x,y,long){
+            let q = long/4;
+            let qi = q/2;
+            let d = '';
+            let w, wn, nw, n, ne, en, e, es, se, s, sw, ws;
+            w  =  x        +','+ y +' ';
+            wn = (x+qi)    +','+ y +' ';
+            nw = (x+qi)    +','+ y +' ';
+            n  = (x+q*1)   +','+ y +' ';
+            ne = (x+q*1+qi)+','+ y +' ';
+            en = (x+q*1+qi)+','+ y +' ';
+            e  = (x+q*2)   +','+ y +' ';
+            es = (x+q*2+qi)+','+ y +' ';
+            se = (x+q*2+qi)+','+ y +' ';
+            s  = (x+q*3)   +','+ y +' ';
+            sw = (x+q*3+qi)+','+ y +' ';
+            ws = (x+q*3+qi)+','+ y +' ';
+            w_ = (x+q*4)   +','+ y +' ';
+
+            d = 'M'+w+'C'+wn+nw+n+'C'+ne+en+e+'C'+es+se+s+'C'+sw+ws+w_;
+            return d;
+        }
+
+    	var w = 800, h = 650;
+    	var svg1 = d3.select('body')
+                	.append('svg')
+                	.attr('width',w)
+                	.attr('height',h);
+
+        svg1.style('border','1px solid black');
+
+        var data_1 = [{'name': '古華光', 'num': 1178},
+                      {'name': '謝振邦', 'num': 923 },
+                      {'name': '賴羅剛', 'num': 642 },
+                      {'name': '廖文泉', 'num': 465 },
+                      {'name': '福勞爾', 'num': 424 },
+                      {'name': 'zero'  , 'num': 0   }];
+
+        var linear = d3.scale.linear()
+                    .domain([0, 1178])
+                    .range([0, 700]);
+        var ordinal= d3.scale.ordinal()
+                    .domain(['','福勞爾','廖文泉','賴羅剛','謝振邦','古華光'])
+                    .range([250,200,150,100,50,0]);
+ 
+        var svg1_paths = svg1.selectAll('path').data(data_1).enter().append('path')
+            .attr('d',function(d,i){
+               return calc_svg_line_path(50,50+i*50,linear(d.num)) 
+            })
+            .attr('stroke','#888')
+            .attr('stroke-width',3)
+            .attr('fill','none')
+            .transition()
+            .duration(2000)
+            .attr('d',function(d,i){
+                let x_arr = [170,370,520,625,710];
+                let direction = ['w','e','s','w','n'];
+               return calc_svg_cir_path_pe( x_arr[i], 480, linear(d.num), direction[i])
+            });
+
+        var axis = d3.svg.axis()
+                     .scale(linear)
+                     .orient("bottom")
+                     .ticks(10); 
+        var axis2= d3.svg.axis()
+                     .scale(ordinal)
+                     .orient("left")
+                     .ticks(5);
+
+        svg1.append("g")
+            .attr("class","axis")
+            .attr("transform","translate(50,300)")
+            .call(axis);
+        svg1.append("g")
+            .attr("class","axis")
+            .attr("transform","translate(50,50)")
+            .call(axis2);
+
+        // svg1_paths.append('text')
+        //           .style("fill", "black")
+        //           .style('font-size', '56px')
+        //           .attr("x", 0)
+        //           .attr("y", 0)
+        //           .attr("dx", 0)
+        //           .attr("dy", 0)
+        //           .text('123666666666666666666666666');
+
+
+        // svg.append('path')
+        // .attr('d',calc_svg_cir_path_pe(300,300,800))
+        // .attr('stroke','red')
+        // .attr('stroke-width',1)
+        // .attr('fill','none');
+
+        // svg1.append('path')
+        // .attr('d',calc_svg_line_path(300,300,800))
+        // .attr('stroke','green')
+        // .attr('stroke-width',1)
+        // .attr('fill','none')
+        // .transition()
+        // .duration(2000)
+        // .attr('d',calc_svg_cir_path_pe(300,300,800,'n'));
+
+
+        // svg.append('path')
+        // .attr('d','M100,300 C100,190 190,100 300,100 C410,100 500,190 500,300 C500,410 410,500 300,500 C190,500 100,410 100,300 ')
+        // .attr('stroke','green')
+        // .attr('stroke-width',1)
+        // .attr('fill','none');
+
+
+        // .transition()
+        // .duration(3000)
+        // .attr('d','M100,250 C100,250 400,250 400,250')
+        // .attr('stroke-width',30);
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

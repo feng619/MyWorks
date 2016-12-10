@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>  
+<style>
+*{
+	margin: 0;
+	padding: 0;
+}
+svg{
+	outline: 2px solid #aaa;
+	margin: 20px;
+}
+</style>
+</head>
+<body>  
+
+    <script>		   
+		
+	var width = 800;
+	var height = 500;
+	
+	var svg = d3.select("body")
+				.append("svg")
+				.attr("width",width)
+				.attr("height",height);
+
+	svg.append('svg:image')
+		.attr('xlink:href','tt01.jpg')
+		.attr("x",0)
+		.attr("y",0)
+		.attr("width",width)
+		.attr("height",height);
+
+	//strokewidth 是從邊框的中間往上下各長一半(3px)
+	var data = [{'x': 0 ,'y': 0 ,'wid': width ,'hgt': height ,'fill': 'white' ,'stroke': 'none' ,'strokewidth': 0},
+				{'x': 10 ,'y': height+3 ,'wid': width-20 ,'hgt': 200 ,'fill': 'none' ,'stroke': '#2378ae' ,'strokewidth': 6},
+				{'x': 0 ,'y': height+200+6 ,'wid': width ,'hgt': height ,'fill': 'white' ,'stroke': 'none' ,'strokewidth': 0}];
+
+	var view = svg.append('g')
+					.attr('class','port')
+					.attr("x",0)
+					.attr("y",0);
+
+
+	//設定方塊
+	view.selectAll('rect').data(data).enter().append('rect')
+		.attr("x", (d)=>d.x)
+		.attr("y", (d)=>d.y)
+		.attr("width", (d)=>d.wid)
+		.attr("height", (d)=>d.hgt)
+		.attr("fill", (d)=>d.fill)
+		.attr('stroke', (d)=>d.stroke)
+		.attr("stroke-width", (d)=>d.strokewidth);
+
+	//第 1 次往上滾
+	d3.selectAll('rect')
+		.transition()
+		.ease('linear')
+		.duration(2000)
+		.attr('y',(d)=>d.y-(height+200+6));
+
+
+	//方塊回到最初的位置
+	function to_init(delay_time){
+		d3.selectAll('rect')
+			.transition()
+			.ease('linear')
+			.delay(delay_time)
+			.duration(0)
+			.attr("x", (d)=>d.x)
+			.attr("y", (d)=>d.y)
+			.attr("width", (d)=>d.wid)
+			.attr("height", (d)=>d.hgt)
+			.attr("fill", (d)=>d.fill)
+			.attr('stroke', (d)=>d.stroke)
+			.attr("stroke-width", (d)=>d.strokewidth);	
+	}
+
+	to_init(2000);
+
+	//第 2 次往上滾
+	d3.selectAll('rect')
+		.transition()
+		.ease('linear')
+		.delay(3000)
+		.duration(1000)
+		.attr('y',(d)=>d.y-(height+200+6));
+
+
+					
+
+
+		  
+    </script>  
+    
+</body>
+</html>

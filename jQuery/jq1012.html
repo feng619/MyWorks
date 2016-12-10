@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+</head>
+<body>
+	<button id='aa'>OHH</button>
+	<span>hello</span>
+	<p>world</p>
+
+	<div id='bb'></div>
+
+	<button class='food'>coffee</button>
+	<button class='food'>tea</button>
+	<button class='food'>juice</button>
+
+	<select id='mys'></select>
+	<ol id='myo'></ol>
+
+	<input type="text" id="name">
+	<button id='name_btn'>check</button>
+	<p id='n_r'></p>
+
+    <script>
+    	$(function(){
+    		$('#aa').click(function(){
+    			$('span').appendTo('#bb').clone();
+    		});
+    		$('.food').click(function(){
+    			var tt = $(this).text();
+    			$('#mys').append('<option>'+tt+'</option>');
+    			$('#myo').append('<li>'+tt+'</li>');
+    		});
+
+    		var names=['john','amy','ok'];
+    		$('#name_btn').click(function(){
+    			var nn = $('#name').val();
+    			console.log(nn);
+    			console.log($.inArray(nn,names));
+    			$.inArray(nn,names)!=-1
+    			?	$('#n_r').text('is in array')
+    			:	$('#n_r').text('is NOT in array');
+
+    		});
+    	});
+    </script>
+</body>
+</html>

@@ -1,0 +1,685 @@
+﻿科名,family_c,學名,主要中名,refsource之第一筆,參考連結之第一筆
+Adelidae,長角蛾科,Nemophora ahenea,紅長角蛾,認識台灣的昆蟲  20 長角蛾科 穀蛾科麥蛾科和其他一些小蛾類 ;  Page : 5,#https://www.facebook.com/photo.php?fbid=412170742146998&set=o.177883715557195&type=1&theater#
+Adelidae,長角蛾科,Nemophora decisella,黃帶長角蛾,認識台灣的昆蟲  20 長角蛾科 穀蛾科麥蛾科和其他一些小蛾類 ;  Page : 10,#https://www.facebook.com/photo.php?fbid=651055474942661&set=o.177883715557195&type=1&permPage=1#
+Adelidae,長角蛾科,Nemophora sakaii,鑲黃帶長角蛾,認識台灣的昆蟲  20 長角蛾科 穀蛾科麥蛾科和其他一些小蛾類 ;  Page : 17,#https://www.facebook.com/photo.php?fbid=665787260159186&set=o.177883715557195&type=1&permPage=1#
+Bombycidae,樺蛾科,Andraca theae,茶蠶蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 19,#https://www.facebook.com/photo.php?fbid=208849225902828&set=o.177883715557195&type=3&theater#
+Bombycidae,蠶蛾科,Bombyx mandarina formosana,端褐蠶蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 8,#https://www.facebook.com/photo.php?fbid=515896571850140&set=o.177883715557195&type=1&permPage=1#
+Bombycidae,蠶蛾科,Bombyx rotundapex,黃蠶蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 24,#https://www.facebook.com/photo.php?fbid=10201103217822460&set=o.458912734201477&type=3&theater#
+Bombycidae,蠶蛾科,Ernolatia moorei,黑點白蠶蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 11,
+Bombycidae,樺蛾科,Mustilia sphingiformis gerontica,鉤翅赭蠶蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 18,#https://www.facebook.com/photo.php?fbid=246280512242084&set=oa.649039165188832&type=1&theater#
+Bombycidae,蠶蛾科,Prismosticta fenestrata,小窗蠶蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 22,#https://www.facebook.com/photo.php?fbid=472347002779439&set=o.177883715557195&type=1&theater#
+Bombycidae,蠶蛾科,Trilocha varians,三角斑褐蠶蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 15,#https://www.facebook.com/photo.php?fbid=334174500073689&set=o.458912734201477&type=3&theater#
+Bombycidae,蠶蛾科,Triuncina brunnea,褐斑白蠶蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 13,#https://www.facebook.com/photo.php?fbid=10201205782026501&set=o.458912734201477&type=3&theater#
+Brahmaeidae,籮紋蛾科,Brahmaea wallichii insulata,枯球籮紋蛾,認識台灣的昆蟲 10 蘿紋娥科 帶蛾科 大?蛾科 ?蛾科 舟蛾科 ;  Page : 5,#https://www.facebook.com/photo.php?fbid=320283398129944&set=o.458912734201477&type=3&theater#
+Callidulidae,錨紋蛾科,Callidula attenuata,,,#https://www.facebook.com/photo.php?fbid=399653520073290&set=o.177883715557195&type=3&theater#
+Callidulidae,錨紋蛾科,Pterodecta felderi,,,#https://www.facebook.com/photo.php?fbid=151486458317294&set=o.177883715557195&type=1&permPage=1#
+Callidulidae,錨紋蛾科,Tetragonus catamitus,,,#https://www.facebook.com/photo.php?fbid=10152187578645583&set=oa.685087791583969&type=3&permPage=1#
+Choreutidae,偽捲蛾科,Choreutis amethystodes,,認識台灣的昆蟲  20 長角蛾科 穀蛾科麥蛾科和其他一些小蛾類 ;  Page : 200,#https://www.facebook.com/photo.php?fbid=614664898551403&set=oa.480638538695563&type=3&theater#
+Choreutidae,偽捲蛾科,Choreutis basalis,,認識台灣的昆蟲  20 長角蛾科 穀蛾科麥蛾科和其他一些小蛾類 ;  Page : 201,#https://www.facebook.com/photo.php?fbid=614665281884698&set=oa.480638538695563&type=3&theater#
+Choreutidae,偽捲蛾科,Choreutis sexfasciella,,,#https://www.facebook.com/photo.php?fbid=772572689428001&set=o.177883715557195&type=1&permPage=1#
+Choreutidae,偽捲蛾科,Choreutis xanthogramma,,認識台灣的昆蟲  20 長角蛾科 穀蛾科麥蛾科和其他一些小蛾類 ;  Page : 204,#https://www.facebook.com/photo.php?fbid=615114641839762&set=oa.480269582065792&type=3&theater#
+Choreutidae,偽捲蛾科,Choreutis yakushimensis,,,#https://www.facebook.com/photo.php?fbid=856548281028985&set=o.177883715557195&type=1&permPage=1#
+Choreutidae,偽捲蛾科,Saptha divitiosa,,認識台灣的昆蟲  20 長角蛾科 穀蛾科麥蛾科和其他一些小蛾類 ;  Page : 208,#https://www.facebook.com/photo.php?fbid=690494084320687&set=o.177883715557195&type=1&permPage=1#
+Cossidae,蠹蛾科,Xyleutes strix formosicola,梟斑蠹蛾,認識台灣的昆蟲 6 鱗翅目王蛾科　木蠹蛾科 ;  Page : 116,#https://www.facebook.com/photo.php?fbid=629156983835654&set=o.458912734201477&type=3&theater#
+Cossidae,蠹蛾科,Zeuzera multistrigata,大豹斑蠹蛾,認識台灣的昆蟲 6 鱗翅目王蛾科　木蠹蛾科 ;  Page : 109,#https://www.facebook.com/photo.php?fbid=288144081321010&set=oa.467684346657649&type=3&theater#
+Crambidae,草螟科,Aethaloessa calidalis tiphalis,,,#http://www.facebook.com/photo.php?fbid=403027139728025&set=o.177883715557195&type=1&ref=nf#
+Crambidae,草螟科,Analthes insignis,,,#https://www.facebook.com/photo.php?fbid=459157547505116&set=oa.458927214200029&type=3&theater#
+Crambidae,草螟科,Bradina aulacodialis,,認識台灣的昆蟲 19 螟蛾總科 ;  Page : 250,#https://www.facebook.com/photo.php?fbid=394744500578235&set=o.177883715557195&type=1&theater#
+Crambidae,草螟科,Bradina diagonalis,,認識台灣的昆蟲 19 螟蛾總科 ;  Page : 249,#https://www.facebook.com/photo.php?fbid=2893371513256&set=o.177883715557195&type=1&theater#
+Crambidae,草螟科,Camptomastix hisbonalis,,認識台灣的昆蟲 19 螟蛾總科 ;  Page : 192,#https://www.facebook.com/photo.php?fbid=394720707247281&set=o.177883715557195&type=1&ref=nf#
+Crambidae,草螟科,Cataclysta angulata,,,#https://www.facebook.com/photo.php?fbid=256845801124423&set=oa.465717243521026&type=3&theater#
+Crambidae,草螟科,Ceratarcha umbrosa,黑紋蠟野螟,認識台灣的昆蟲 19 螟蛾總科 ;  Page : 232,#https://www.facebook.com/photo.php?fbid=254238661385137&set=oa.463437060415711&type=3&theater#
+Crambidae,草螟科,Circobotys aurealis,,認識台灣的昆蟲 19 螟蛾總科 ;  Page : 262,#https://www.facebook.com/photo.php?fbid=333925940028278&set=oa.457274324284798&type=1&theater#
+Crambidae,草螟科,Cirrhochrista spinuella,單棘黃緣禾螟蛾,Waiting for collect ;  Page : ,#https://www.facebook.com/photo.php?fbid=4989419412664&set=oa.465470320212385&type=3&theater#
+Crambidae,草螟科,Cirrhochrista spissalis,,認識台灣的昆蟲 19 螟蛾總科 ;  Page : 187,#https://www.facebook.com/photo.php?fbid=10204276368143369&set=o.458912734201477&type=3&theater#
+Crambidae,草螟科,Cotachena pubescens,,認識台灣的昆蟲 19 螟蛾總科 ;  Page : 245,#https://www.facebook.com/photo.php?fbid=571382052884419&set=oa.461796713913079&type=3&theater#
+Crambidae,草螟科,Diplopseustis perieresalis,,認識台灣的昆蟲 19 螟蛾總科 ;  Page : 96,#https://www.facebook.com/photo.php?fbid=337278176397201&set=oa.589852744440808&type=3&theater#
+Crambidae,草螟科,Eoophyla conjunctalis,連斑水螟,認識台灣的昆蟲 19 螟蛾總科 ;  Page : 61,#https://www.facebook.com/photo.php?fbid=390788877726687&set=o.458912734201477&type=3&theater#
+Crambidae,草螟科,Eugauria albidentata,,Waiting for collect ;  Page : ,#https://www.facebook.com/photo.php?fbid=650206271672879&set=oa.460230424069708&type=3&theater#
+Crambidae,草螟科,Glyphodes actorionalis,,認識台灣的昆蟲 19 螟蛾總科 ;  Page : 116,#https://www.facebook.com/photo.php?fbid=479077565559990&set=o.177883715557195&type=1&permPage=1#
+Crambidae,草螟科,Glyphodes pyloalis,,認識台灣的昆蟲 19 螟蛾總科 ;  Page : 118,#https://www.facebook.com/photo.php?fbid=2735130156375&set=gm.438150936197137&type=1&theater#
+Crambidae,草螟科,Haritalodes derogatus,,,#https://www.facebook.com/photo.php?fbid=649200278428402&set=gm.601317683213794&type=1#
+Crambidae,草螟科,Leucinodes apicalis,黑頂白翅野螟,認識台灣的昆蟲 19 螟蛾總科 ;  Page : 242,#https://www.facebook.com/photo.php?fbid=468930933121146&set=o.177883715557195&type=1&theater#
+Crambidae,草螟科,Maruca vitrata,豆莢螟,認識台灣的昆蟲 19 螟蛾總科 ;  Page : 138,#https://www.facebook.com/photo.php?fbid=231422126972902&set=o.177883715557195&type=3&theater#
+Crambidae,草螟科,Nacoleia commixta,,認識台灣的昆蟲 19 螟蛾總科 ;  Page : 221,#http://www.facebook.com/photo.php?fbid=3212680156156&set=o.177883715557195&type=1&ref=nf#
+Crambidae,草螟科,Nevrina procopia,脈紋野螟蛾,鞍馬山的蛾 2 ;  Page : 29,#https://www.facebook.com/photo.php?fbid=4928812262707&set=o.177883715557195&type=1&permPage=1#
+Crambidae,草螟科,Nymphicula yoshiyasui,,,
+Crambidae,草螟科,Paracymoriza cataclystalis,,認識台灣的昆蟲 19 螟蛾總科 ;  Page : 65,#https://www.facebook.com/photo.php?fbid=653450321338397&set=oa.461210637305020&type=1&theater#
+Crambidae,草螟科,Parotis margarita,,,#https://www.facebook.com/photo.php?fbid=584295538277739&set=oa.463074407118643&type=3&theater#
+Crambidae,草螟科,Physematia defloralis,,認識台灣的昆蟲 19 螟蛾總科 ;  Page : 258,#https://www.facebook.com/photo.php?fbid=509109879105330&set=o.177883715557195&type=1&permPage=1#
+Crambidae,草螟科,Piletocera aegimiusalis,,認識台灣的昆蟲 19 螟蛾總科 ;  Page : 191,#https://www.facebook.com/photo.php?fbid=458788907541980&set=oa.458927214200029&type=3&theater#
+Crambidae,草螟科,Pleuroptya chlorophanta,,,#https://www.facebook.com/photo.php?fbid=343857115739307&set=oa.589852744440808&type=3&theater#
+Crambidae,草螟科,Pleuroptya quadrimaculalis,,認識台灣的昆蟲 19 螟蛾總科 ;  Page : 160,#https://www.facebook.com/photo.php?fbid=571400682882556&set=oa.461796713913079&type=3&theater#
+Crambidae,草螟科,Rhectothyris gratiosalis,,認識台灣的昆蟲 19 螟蛾總科 ;  Page : 255,#https://www.facebook.com/photo.php?fbid=861327653884381&set=o.177883715557195&type=1&permPage=1#
+Crambidae,草螟科,Sameodes cancellalis,,認識台灣的昆蟲 19 螟蛾總科 ;  Page : 104,#https://www.facebook.com/photo.php?fbid=247548608782982&set=o.458912734201477&type=3&theater#
+Crambidae,草螟科,Spoladea recurvalis,,認識台灣的昆蟲 19 螟蛾總科 ;  Page : 108,#https://www.facebook.com/photo.php?fbid=486516154754191&set=gm.606336486045247&type=1#
+Crambidae,草螟科,Tyspanodes hypsalis,黃黑紋野螟,認識台灣的昆蟲 19 螟蛾總科 ;  Page : 212,#https://www.facebook.com/photo.php?fbid=3348578153521&set=o.177883715557195&type=1&permPage=1#
+Drepanidae,鉤蛾科,Amphitorna purpureofascia,後凹角鉤蛾,認識台灣的昆蟲 10 蘿紋娥科 帶蛾科 大?蛾科 ?蛾科 舟蛾科 ;  Page : 65,#https://www.facebook.com/photo.php?fbid=4267822551931&set=o.458912734201477&type=3&theater#
+Drepanidae,鉤蛾科,Auzatellodes arizanus,阿里山透明鉤蛾,認識台灣的昆蟲 10 蘿紋娥科 帶蛾科 大?蛾科 ?蛾科 舟蛾科 ;  Page : 59,#https://www.facebook.com/photo.php?fbid=471754712838668&set=o.177883715557195&type=1&permPage=1#
+Drepanidae,鉤蛾科,Callidrepana patrana,五倍樹鉤蛾,認識台灣的昆蟲 10 蘿紋娥科 帶蛾科 大?蛾科 ?蛾科 舟蛾科 ;  Page : 44,#https://www.facebook.com/photo.php?fbid=352534894801241&set=o.177883715557195&type=1&theater#
+Drepanidae,鉤蛾科,Cyclidia substigmaria substigmaria,八角楓鉤蛾,太魯閣國家公園區蛾類相之研究 ;  Page : ,#http://www.facebook.com/photo.php?fbid=3311219499578&set=o.177883715557195&type=1&ref=nf#
+Drepanidae,鉤蛾科,Ditrigona triangularia,燕鉤蛾,認識台灣的昆蟲 10 蘿紋娥科 帶蛾科 大?蛾科 ?蛾科 舟蛾科 ;  Page : 48,#https://www.facebook.com/photo.php?fbid=859784517368217&set=o.458912734201477&type=3&theater#
+Drepanidae,鉤蛾科,Drapetodes mitaria,細紋黃鉤蛾,認識台灣的昆蟲 10 蘿紋娥科 帶蛾科 大?蛾科 ?蛾科 舟蛾科 ;  Page : 22,#https://www.facebook.com/photo.php?fbid=864283463588800&set=o.177883715557195&type=1&permPage=1#
+Drepanidae,鉤蛾科,Horithyatira takamukui,連珠波紋蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 31,#https://www.facebook.com/photo.php?fbid=394713437248008&set=o.177883715557195&type=1&theater#
+Drepanidae,鉤蛾科,Leucobrepsis fenestraria,六窗帶鉤蛾,認識台灣的昆蟲 10 蘿紋娥科 帶蛾科 大?蛾科 ?蛾科 舟蛾科 ;  Page : 69,#https://www.facebook.com/photo.php?fbid=644292448918326&set=o.177883715557195&type=3&permPage=1#
+Drepanidae,鉤蛾科,Leucobrepsis taiwanensis,四窗帶鉤蛾,認識台灣的昆蟲 10 蘿紋娥科 帶蛾科 大?蛾科 ?蛾科 舟蛾科 ;  Page : 67,#https://www.facebook.com/photo.php?fbid=416042775085300&set=o.177883715557195&type=1&permPage=1#
+Drepanidae,鉤蛾科,Macrocilix mysticata flavotincta,啞鈴帶鉤蛾,認識台灣的昆蟲 10 蘿紋娥科 帶蛾科 大?蛾科 ?蛾科 舟蛾科 ;  Page : 55,#https://www.facebook.com/photo.php?fbid=629890740428945&set=o.458912734201477&type=3&theater#
+Drepanidae,鉤蛾科,Microblepsis manleyi formosensis,黑角帶釣蛾,認識台灣的昆蟲 10 蘿紋娥科 帶蛾科 大?蛾科 ?蛾科 舟蛾科 ;  Page : 31,#https://www.facebook.com/photo.php?fbid=252950778180592&set=oa.462004073892343&type=3&theater#
+Drepanidae,鉤蛾科,Nordstromia semililacina,黑點雙帶鉤蛾,合歡山的蛾 ;  Page : 47,#http://www.facebook.com/photo.php?fbid=234214373283873&set=o.177883715557195&type=1&ref=nf#
+Drepanidae,鉤蛾科,Oreta extensa,L紋鉤蛾,認識台灣的昆蟲 10 蘿紋娥科 帶蛾科 大?蛾科 ?蛾科 舟蛾科 ;  Page : 77,#https://www.facebook.com/photo.php?fbid=3306028049795&set=o.177883715557195&type=1&theater#
+Drepanidae,鉤蛾科,Oreta fuscopurpurea,鉛斑鉤蛾,認識台灣的昆蟲 10 蘿紋娥科 帶蛾科 大?蛾科 ?蛾科 舟蛾科 ;  Page : 78,#https://www.facebook.com/photo.php?fbid=461929823891305&set=oa.459494137476670&type=3&theater#
+Drepanidae,鉤蛾科,Oreta insignis,波帶鉤蛾,認識台灣的昆蟲 10 蘿紋娥科 帶蛾科 大?蛾科 ?蛾科 舟蛾科 ;  Page : 26,#https://www.facebook.com/photo.php?fbid=150034405121580&set=oa.433870243291873&type=1&theater#
+Drepanidae,鉤蛾科,Oreta loochooana,黃斜帶鉤蛾,認識台灣的昆蟲 10 蘿紋娥科 帶蛾科 大?蛾科 ?蛾科 舟蛾科 ;  Page : 70,#http://www.facebook.com/photo.php?fbid=3311281941139&set=o.177883715557195&type=1&ref=nf#
+Drepanidae,鉤蛾科,Phalacra kagiensis,擬凹角鉤蛾,認識台灣的昆蟲 10 蘿紋娥科 帶蛾科 大?蛾科 ?蛾科 舟蛾科 ;  Page : 64,#https://www.facebook.com/photo.php?fbid=310197165730572&set=o.177883715557195&type=3&theater#
+Drepanidae,鉤蛾科,Sewa taiwana,台灣波紋鉤蛾,鞍馬山的蛾 2 ;  Page : 33,#https://www.facebook.com/photo.php?fbid=398418746877477&set=o.177883715557195&type=1&permPage=1#
+Drepanidae,鉤蛾科,Thyatira batis formosicola,大斑波紋蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 26,#https://www.facebook.com/photo.php?fbid=208827092571708&set=o.177883715557195&type=1&theater#
+Drepanidae,鉤蛾科,Zusidava serratilinea,波帶白鉤蛾,認識台灣的昆蟲 10 蘿紋娥科 帶蛾科 大?蛾科 ?蛾科 舟蛾科 ;  Page : 51,#https://www.facebook.com/photo.php?fbid=10150828449550583&set=o.177883715557195&type=1&theater#
+Erebidae,裳蛾科,Adrapsa ablualis,廣櫛裳蛾,認識台灣的昆蟲 14夜蛾科--台灣鄰近地區的相關種類 ;  Page : 5,#https://www.facebook.com/photo.php?fbid=334141830076956&set=o.458912734201477&type=3&theater#
+Erebidae,裳蛾科,Adrapsa quadrilinealis,鋸帶櫛裳蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 437,#https://www.facebook.com/photo.php?fbid=637410753008121&set=o.458912734201477&type=3&theater#
+Erebidae,裳蛾科,Adrapsoides reticulatis,,,#https://www.facebook.com/photo.php?fbid=223068477809807&set=o.177883715557195&type=1&theater#
+Erebidae,裳蛾科,Aglaomorpha histrio formosana,大麗燈蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 29,#https://www.facebook.com/photo.php?fbid=314760591938317&set=o.177883715557195&type=3&theater#
+Erebidae,裳蛾科,Amata hirayamae,明窗鹿蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 173,#http://www.facebook.com/photo.php?fbid=235861849862263&set=o.177883715557195&type=1&theater#
+Erebidae,裳蛾科,Amata perixanthia,廣鹿蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 182,#https://www.facebook.com/photo.php?fbid=419806451392606&set=o.177883715557195&type=3&theater#
+Erebidae,裳蛾科,Amerila astrea,閃光玫燈蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 6,#https://www.facebook.com/photo.php?fbid=4989398412139&set=oa.465470320212385&type=3&theater#
+Erebidae,裳蛾科,Amsacta lactinea,紅緣燈蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 41,#https://www.facebook.com/photo.php?fbid=576004202440206&set=oa.463074407118643&type=3&theater#
+Erebidae,裳蛾科,Amsactoides solitaria,,,#https://www.facebook.com/photo.php?fbid=782116205153682&set=o.177883715557195&type=1&permPage=1#
+Erebidae,裳蛾科,Anisoneura aluco,樹皮亂紋夜蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 199,#https://www.facebook.com/photo.php?fbid=469931659807914&set=o.177883715557195&type=1&permPage=1#
+Erebidae,裳蛾科,Anisoneura salebrosa,亂紋夜蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 200,#https://www.facebook.com/photo.php?fbid=293532090739426&set=o.177883715557195&type=1&theater#
+Erebidae,裳蛾科,Arctornis cygna,小點白毒蛾,認識台灣的昆蟲 4 鱗翅目毒蛾科 ;  Page : 36,#http://www.flickr.com/photos/hkguu/4015198689/in/set-72157622169894055#
+Erebidae,裳蛾科,Areas galactina formosana,乳白斑燈蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 43,#https://www.facebook.com/photo.php?fbid=472912682820440&set=oa.590022091090540&type=3&theater#
+Erebidae,裳蛾科,Argina argus,胡麻斑紅燈娥,認識台灣的昆蟲 7 燈蛾科 ;  Page : 8,#https://www.facebook.com/photo.php?fbid=1434753560114685&set=gm.649189745173774&type=1&theater#
+Erebidae,裳蛾科,Arna bipunctapex,雙斑黃毒蛾,認識台灣的昆蟲 4 鱗翅目毒蛾科 ;  Page : 69,#https://www.facebook.com/photo.php?fbid=461359790618225&set=oa.461679043924846&type=3&theater#
+Erebidae,裳蛾科,Asota caricae,一點擬燈夜蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 8,#https://www.facebook.com/photo.php?fbid=583998755032710&set=o.458912734201477&type=3&theater#
+Erebidae,裳蛾科,Asota egens indica,橙擬燈夜蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 7,#https://www.facebook.com/photo.php?fbid=10151432229935583&set=oa.459529720806445&type=3&theater#
+Erebidae,裳蛾科,Asota ficus,榕擬燈夜蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 9,#https://www.facebook.com/photo.php?fbid=866521633362931&set=oa.623156694443746&type=3&theater#
+Erebidae,裳蛾科,Asota heliconia zebrina,圓端擬燈夜蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 6,#https://www.facebook.com/photo.php?fbid=863721133645033&set=o.177883715557195&type=1&permPage=1#
+Erebidae,裳蛾科,Asota plana lacteata,長斑擬燈夜蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 11,#https://www.facebook.com/photo.php?fbid=880512728631149&set=o.458912734201477&type=3&theater#
+Erebidae,裳蛾科,Asura arcuata,短梯紋豔苔蛾,Lepidoptera of Taiwan Volume 1 ;  Page : 168,#https://www.facebook.com/photo.php?fbid=4989404292286&set=oa.465470320212385&type=3&theater#
+Erebidae,裳蛾科,Asura strigipennis,,Lepidoptera of Taiwan Volume 1 ;  Page : 168,#https://www.facebook.com/photo.php?fbid=228961160548928&set=o.177883715557195&type=1&permPage=1#
+Erebidae,裳蛾科,Asura tricolor,三色艷苔蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 137,#https://www.facebook.com/photo.php?fbid=254315378044132&set=oa.463463577079726&type=3&theater#
+Erebidae,裳蛾科,Asuridia inouei,井上氏鏽苔蛾,Waiting for collect ;  Page : ,#https://www.facebook.com/photo.php?fbid=414566838574055&set=o.177883715557195&type=1&theater#
+Erebidae,裳蛾科,Avatha chinensis,華宇夜蛾,鞍馬山的蛾1 ;  Page : 69,#https://www.facebook.com/photo.php?fbid=765634816790371&set=gm.654433357982746&type=1&theater#
+Erebidae,裳蛾科,Barsine albidorsalis,褐白美苔蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 138,#https://www.facebook.com/photo.php?fbid=471754462838693&set=o.177883715557195&type=1&permPage=1#
+Erebidae,裳蛾科,Barsine fuscozonata,灰黑美苔蛾,合歡山的蛾 ;  Page : 314,#https://www.facebook.com/photo.php?fbid=452471194847047&set=o.177883715557195&type=1&permPage=1#
+Erebidae,裳蛾科,Barsine horishanella,埔里美苔蛾,合歡山的蛾 ;  Page : 320,#https://www.facebook.com/photo.php?fbid=468928896454683&set=o.177883715557195&type=1&theater#
+Erebidae,裳蛾科,Barsine sauteri,,,#https://www.facebook.com/photo.php?fbid=471755416171931&set=o.177883715557195&type=1&permPage=1#
+Erebidae,裳蛾科,Bastilla arcuata,,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 179,#https://www.facebook.com/photo.php?fbid=420802784693354&set=oa.465220416904042&type=3&theater#
+Erebidae,裳蛾科,Bastilla joviana,,,#https://www.facebook.com/photo.php?fbid=4989407612369&set=oa.465470320212385&type=3&theater#
+Erebidae,裳蛾科,Batracharta divisa,雀裳蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 113,#https://www.facebook.com/photo.php?fbid=571807196168931&set=o.177883715557195&type=1&permPage=1#
+Erebidae,裳蛾科,Bertula abjudicalis,彎帶擬胸鬚裳蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 402,#https://www.facebook.com/photo.php?fbid=652029088219323&set=o.458912734201477&type=3&theater#
+Erebidae,裳蛾科,Bertula albipunctata,車厚翅蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 411,#https://www.facebook.com/photo.php?fbid=464481503639387&set=oa.458927214200029&type=3&theater#
+Erebidae,裳蛾科,Bertula kosemponica,甲仙擬胸鬚裳蛾,認識台灣的昆蟲 14夜蛾科--台灣鄰近地區的相關種類 ;  Page : 14,#https://www.facebook.com/photo.php?fbid=10152832132440173&set=o.177883715557195&type=3&theater#
+Erebidae,裳蛾科,Blasticorhinus bifasciata,雙線幅裳蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 91,#https://www.facebook.com/photo.php?fbid=853140411380333&set=o.458912734201477&type=3&theater#
+Erebidae,裳蛾科,Bocana manifestalis,砵裳蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 440,
+Erebidae,裳蛾科,Caduca albopunctata,,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 130,#http://www.flickr.com/photos/hkguu/6079992560/in/photostream#
+Erebidae,裳蛾科,Calliteara angulata,點茸毒蛾,認識台灣的昆蟲 4 鱗翅目毒蛾科 ;  Page : 7,#https://www.facebook.com/photo.php?fbid=3338573863420&set=o.177883715557195&type=1&theater#
+Erebidae,裳蛾科,Calliteara grotei horishanella,線茸毒蛾,認識台灣的昆蟲 4 鱗翅目毒蛾科 ;  Page : 10,#https://www.facebook.com/photo.php?fbid=4275429343817&set=gm.614705575208338&type=1#
+Erebidae,裳蛾科,Calliteara lunulata takamukana,,,#https://www.facebook.com/photo.php?fbid=226761764107145&set=o.177883715557195&type=1&permPage=1#
+Erebidae,裳蛾科,Calliteara postfusca,褐結麗毒蛾,認識台灣的昆蟲 4 鱗翅目毒蛾科 ;  Page : 14,#https://www.facebook.com/photo.php?fbid=909645009049169&set=o.177883715557195&type=1&permPage=1#
+Erebidae,裳蛾科,Cephena costata,泛裳蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 33,#https://www.facebook.com/photo.php?fbid=979968792020226&set=o.458912734201477&type=3&theater#
+Erebidae,裳蛾科,Cerynea igniaria,,,#https://www.facebook.com/photo.php?fbid=483831678323208&set=o.177883715557195&type=1&permPage=1#
+Erebidae,裳蛾科,Chalciope mygdon,,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 190,#https://www.facebook.com/photo.php?fbid=788821431136927&set=o.177883715557195&type=1&permPage=1#
+Erebidae,裳蛾科,Chamaita hirta,半褐小苔蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 153,#https://www.facebook.com/photo.php?fbid=653446888005407&set=oa.461210637305020&type=1&theater#
+Erebidae,裳蛾科,Chamaita ranruna,單點昏黃小苔蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 154,#http://www.facebook.com/photo.php?fbid=414134865277810&set=o.177883715557195&type=1&ref=nf#
+Erebidae,裳蛾科,Chrysaeglia magnifica,閃光苔蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 95,#https://www.facebook.com/photo.php?fbid=181319635326390&set=oa.486546851357545&type=1&theater#
+Erebidae,裳蛾科,Chrysorabdia vilemani,雙帶苔蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 93,#https://www.facebook.com/photo.php?fbid=246282335575235&set=oa.649040601855355&type=1&theater#
+Erebidae,裳蛾科,Churinga virago,橙褐丘苔蛾,鞍馬山的蛾1 ;  Page : 130,#https://www.facebook.com/photo.php?fbid=393939930658692&set=o.177883715557195&type=1&theater#
+Erebidae,裳蛾科,Cidariplura gladiata,棕胸鬚裳蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 397,#http://www.facebook.com/photo.php?fbid=295730490510573&set=o.177883715557195&type=1&ref=nf#
+Erebidae,裳蛾科,Cifuna locuples,腎毒蛾,認識台灣的昆蟲 4 鱗翅目毒蛾科 ;  Page : 22,#https://www.facebook.com/photo.php?fbid=379358492171117&set=oa.544207992258097&type=1&relevant_count=1&ref=nf#
+Erebidae,裳蛾科,Creatonotos transiens vacillans,灰白燈蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 48,#https://www.facebook.com/photo.php?fbid=254220688053601&set=oa.463408530418564&type=3&theater#
+Erebidae,裳蛾科,Cyana hamata,二斑叉紋苔蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 110,#https://www.facebook.com/photo.php?fbid=309586502458305&set=o.177883715557195&type=1&theater#
+Erebidae,裳蛾科,Cyana propinqua,三斑離苔蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 115,#https://www.facebook.com/photo.php?fbid=254238788051791&set=oa.463437060415711&type=3&theater#
+Erebidae,裳蛾科,Cyana sanguinea,二斑紅緣苔蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 111,#https://www.facebook.com/photo.php?fbid=343287889129563&set=oa.589852744440808&type=3&theater#
+Erebidae,裳蛾科,Cyana subalba,短棒苔蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 117,#https://www.facebook.com/photo.php?fbid=586618744733946&set=o.458912734201477&type=3&theater#
+Erebidae,裳蛾科,Daddala lucilla,光炬夜蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 216,#https://www.facebook.com/photo.php?fbid=489953187685487&set=o.177883715557195&type=1&permPage=1#
+Erebidae,裳蛾科,Dasychira mendosa,基斑毒蛾,認識台灣的昆蟲 4 鱗翅目毒蛾科 ;  Page : 25,#https://www.facebook.com/photo.php?fbid=255505077925162&set=oa.462060277220056&type=3&theater#
+Erebidae,裳蛾科,Diduga flavicostata,黃波緣苔蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 157,#https://www.facebook.com/photo.php?fbid=309679682448729&set=o.177883715557195&type=1&theater#
+Erebidae,裳蛾科,Dura alba,扇毒蛾,認識台灣的昆蟲 4 鱗翅目毒蛾科 ;  Page : 39,#https://www.facebook.com/photo.php?fbid=418394464934186&set=oa.462259177200166&type=3&theater#
+Erebidae,裳蛾科,Eilema arizana,白苔蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 77,#https://www.facebook.com/photo.php?fbid=418854901554809&set=oa.462259177200166&type=3&theater#
+Erebidae,裳蛾科,Eilema costipuncta,緣點苔蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 78,#https://www.facebook.com/photo.php?fbid=339335562820649&set=oa.475278785817685&type=1&theater#
+Erebidae,裳蛾科,Eilema obliquistria,凹翅土苔蛾,Lepidoptera of Taiwan Volume 1 ;  Page : 166,#https://www.facebook.com/photo.php?fbid=866414766705192&set=o.458912734201477&type=3&theater#
+Erebidae,裳蛾科,Eilema usuguronis,淡白凹苔蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 88,#https://www.facebook.com/photo.php?fbid=571382159551075&set=oa.461796713913079&type=3&theater#
+Erebidae,裳蛾科,Ercheia umbrosa,陰耳夜蛾,認識台灣的昆蟲 14夜蛾科--台灣鄰近地區的相關種類 ;  Page : 99,#https://www.facebook.com/photo.php?fbid=462663140487890&set=oa.458927214200029&type=3&theater#
+Erebidae,裳蛾科,Erebus albicincta obscurata,玉邊目夜蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 151,#https://www.facebook.com/photo.php?fbid=590557614363249&set=gm.757320504280177&type=1#
+Erebidae,裳蛾科,Erebus caprimulgus,羊魔目夜蛾,認識台灣的昆蟲 14夜蛾科--台灣鄰近地區的相關種類 ;  Page : 61,#http://www.facebook.com/photo.php?fbid=223711174407260&set=o.177883715557195&type=1&ref=nf#
+Erebidae,裳蛾科,Erebus ephesperis,魔目裳蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 152,#https://www.facebook.com/photo.php?fbid=815495038463417&set=o.177883715557195&type=1&permPage=1#
+Erebidae,裳蛾科,Erebus gemmans,玉線目夜蛾,認識台灣的昆蟲 14夜蛾科--台灣鄰近地區的相關種類 ;  Page : 57,#https://www.facebook.com/photo.php?fbid=197246250396211&set=o.177883715557195&type=3&theater#
+Erebidae,裳蛾科,Eressa confinis finitima,斑腹鹿蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 189,#http://www.facebook.com/photo.php?fbid=3272768934474&set=o.177883715557195&type=1&ref=nf#
+Erebidae,裳蛾科,Eudocima homaena,鑲落葉夜蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 27,#http://www.facebook.com/photo.php?fbid=393930577326294&set=o.177883715557195&type=1&ref=nf#
+Erebidae,裳蛾科,Eudocima salaminia,豔葉夜蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 28,#http://www.facebook.com/photo.php?fbid=418753811478247&set=o.177883715557195&type=1&ref=nf#
+Erebidae,裳蛾科,Eugoa grisea,雙點良苔蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 159,#https://www.facebook.com/photo.php?fbid=418394491600850&set=oa.462259177200166&type=3&theater#
+Erebidae,裳蛾科,Euproctis baibarana,,Lepidoptera of Taiwan Volume 1 ;  Page : 165,#https://www.facebook.com/photo.php?fbid=255495441259459&set=oa.462004073892343&type=3&theater#
+Erebidae,裳蛾科,Euproctis dissimilis,雙線黃毒蛾,認識台灣的昆蟲 4 鱗翅目毒蛾科 ;  Page : 72,#https://www.facebook.com/photo.php?fbid=396771647104559&set=oa.464023377023746&type=3&theater#
+Erebidae,裳蛾科,Euproctis inornata,白斑黃毒蛾,認識台灣的昆蟲 4 鱗翅目毒蛾科 ;  Page : 74,#https://www.facebook.com/photo.php?fbid=572514416181144&set=o.458912734201477&type=3&theater#
+Erebidae,裳蛾科,Euproctis insulata,黃斑黃毒蛾,認識台灣的昆蟲 4 鱗翅目毒蛾科 ;  Page : 75,#https://www.facebook.com/photo.php?fbid=288145191320899&set=oa.467684346657649&type=3&theater#
+Erebidae,裳蛾科,Euproctis kanshireia,頂斑黃毒蛾,認識台灣的昆蟲 4 鱗翅目毒蛾科 ;  Page : 77,#https://www.facebook.com/photo.php?fbid=489948944352578&set=o.177883715557195&type=1&permPage=1#
+Erebidae,裳蛾科,Euproctis nigricauda,橙黃毒蛾,認識台灣的昆蟲 4 鱗翅目毒蛾科 ;  Page : 83,#https://www.facebook.com/photo.php?fbid=571382209551070&set=oa.461796713913079&type=3&theater#
+Erebidae,裳蛾科,Euproctis staudingeri,寬帶黃毒蛾,認識台灣的昆蟲 4 鱗翅目毒蛾科 ;  Page : 96,#https://www.facebook.com/photo.php?fbid=464500613637476&set=oa.458927214200029&type=3&theater#
+Erebidae,裳蛾科,Euproctis taiwana,台灣黃毒蛾,認識台灣的昆蟲 4 鱗翅目毒蛾科 ;  Page : 98,#https://www.facebook.com/photo.php?fbid=418109751553097&set=o.177883715557195&type=1&permPage=1#
+Erebidae,裳蛾科,Euproctis virguncula,黑櫛白毒蛾,認識台灣的昆蟲 4 鱗翅目毒蛾科 ;  Page : 104,#https://www.facebook.com/photo.php?fbid=489949104352562&set=o.177883715557195&type=1&permPage=1#
+Erebidae,裳蛾科,Fodina contigua,白符帶夜蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 237,#https://www.facebook.com/photo.php?fbid=838316892862904&set=o.458912734201477&type=3&theater#
+Erebidae,裳蛾科,Hemipsilia coavestis,半明苔蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 156,#http://www.facebook.com/photo.php?fbid=245169602188881&set=o.177883715557195&type=1&ref=nf#
+Erebidae,裳蛾科,Hepatica irrorata,,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 235,#https://www.facebook.com/photo.php?fbid=568530153194020&set=gm.534123670013716&type=1&theater#
+Erebidae,裳蛾科,Hipoepa biasalis,雙弧瓢鬚裳蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 429,#https://www.facebook.com/photo.php?fbid=418394514934181&set=oa.462259177200166&type=3&theater#
+Erebidae,裳蛾科,Hipoepa fractalis,中瓢鬚裳蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 430,#https://www.facebook.com/photo.php?fbid=853140184713689&set=o.458912734201477&type=3&theater#
+Erebidae,裳蛾科,Hydrillodes gravatalis,曲斑亥鬚裳蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 451,#https://www.facebook.com/photo.php?fbid=10151446938055583&set=oa.459529720806445&type=3&theater#
+Erebidae,裳蛾科,Hydrillodes lentalis,?亥鬚裳蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 449,#https://www.facebook.com/photo.php?fbid=334102526747553&set=o.458912734201477&type=3&theater#
+Erebidae,裳蛾科,Hydrillodes pseudomorosa,,Lepidoptera of Taiwan Volume 1 ;  Page : 172,#https://www.facebook.com/photo.php?fbid=10200594516617985&set=o.177883715557195&type=1&permPage=1#
+Erebidae,裳蛾科,Hypena longipennis,長翅髯鬚夜蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 371,#https://www.facebook.com/photo.php?fbid=394740217245330&set=o.177883715557195&type=1&ref=nf#
+Erebidae,裳蛾科,Hypena sagitta,馬蹄髯鬚夜蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 368,#https://www.facebook.com/photo.php?fbid=638359332903205&set=o.177883715557195&type=1&permPage=1#
+Erebidae,裳蛾科,Hypena trigonalis,,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 370,#https://www.facebook.com/photo.php?fbid=387189538054679&set=oa.544207992258097&type=1&relevant_count=1&ref=nf#
+Erebidae,裳蛾科,Hypersypnoides punctosa,,認識台灣的昆蟲 14夜蛾科--台灣鄰近地區的相關種類 ;  Page : 102,#https://www.facebook.com/photo.php?fbid=394717967247555&set=o.177883715557195&type=1&theater#
+Erebidae,裳蛾科,Hypersypnoides umbrosa,,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 166,#https://www.facebook.com/photo.php?fbid=228960927215618&set=o.177883715557195&type=1&theater#
+Erebidae,裳蛾科,Hypospila bolinoides,濁裳蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 47,#http://www.facebook.com/photo.php?fbid=268820933239102&set=o.177883715557195&type=1&permPage=1#
+Erebidae,裳蛾科,Ilema kosemponica,甲仙毒蛾,認識台灣的昆蟲 4 鱗翅目毒蛾科 ;  Page : 19,#https://www.facebook.com/photo.php?fbid=596790780427886&set=oa.626549394104476&type=3&theater#
+Erebidae,裳蛾科,Itmaharela basalis,基伊裳蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 115,#https://www.facebook.com/photo.php?fbid=733588470066887&set=oa.879455338733359&type=3&permPage=1#
+Erebidae,裳蛾科,Lemyra alikangensis,三條橙燈蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 32,#https://www.facebook.com/photo.php?fbid=343047252486960&set=oa.589852744440808&type=3&theater#
+Erebidae,裳蛾科,Lemyra imparillis,暗點燈蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 39,#https://www.facebook.com/photo.php?fbid=372838319440428&set=o.177883715557195&type=1&theater#
+Erebidae,裳蛾科,Lemyra rhodophilodes,擬姬白望燈蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 36,#https://www.facebook.com/photo.php?fbid=181319441993076&set=oa.486546851357545&type=1&theater#
+Erebidae,裳蛾科,Locharna strigipennis,細紋黃毒蛾,認識台灣的昆蟲 4 鱗翅目毒蛾科 ;  Page : 60,#https://www.facebook.com/photo.php?fbid=10152423561639525&set=o.177883715557195&type=1&permPage=1#
+Erebidae,裳蛾科,Lymantria concolor concolor,絡毒蛾,認識台灣的昆蟲 4 鱗翅目毒蛾科 ;  Page : 46,#https://www.facebook.com/photo.php?fbid=1434319160168428&set=o.458912734201477&type=3&theater#
+Erebidae,裳蛾科,Lymantria iris,,,#https://www.facebook.com/photo.php?fbid=874255329255185&set=o.458912734201477&type=3&theater#
+Erebidae,裳蛾科,Lymantria mathura subpallida,波斑毒蛾,認識台灣的昆蟲 4 鱗翅目毒蛾科 ;  Page : 47,#https://www.facebook.com/photo.php?fbid=470303112986788&set=o.177883715557195&type=1&theater#
+Erebidae,裳蛾科,Lymantria sinica sinica,,,#https://www.facebook.com/photo.php?fbid=150034075121613&set=oa.433870243291873&type=1&theater#
+Erebidae,裳蛾科,Lymantria xylina,黑角舞蛾,認識台灣的昆蟲 4 鱗翅目毒蛾科 ;  Page : 53,#https://www.facebook.com/photo.php?fbid=310806155669673&set=o.177883715557195&type=1&theater#
+Erebidae,裳蛾科,Macaduma cretacea,小灰苔蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 106,#https://www.facebook.com/photo.php?fbid=418855101554789&set=oa.462259177200166&type=3&theater#
+Erebidae,裳蛾科,Macrobrochis gigas,巨斑苔蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 104,#http://www.facebook.com/photo.php?fbid=3338596863995&set=o.177883715557195&type=1&theater#
+Erebidae,裳蛾科,Mataeomera biangulata,,,#https://www.facebook.com/photo.php?fbid=254220611386942&set=oa.463408530418564&type=3&theater#
+Erebidae,裳蛾科,Mecodina albodentata,,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 62,#https://www.facebook.com/photo.php?fbid=902124243134565&set=gm.658389274253821&type=1&theater#
+Erebidae,裳蛾科,Metaemene atrigutta,姬胡麻斑小夜蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 269,#https://www.facebook.com/photo.php?fbid=4989477694121&set=oa.465470320212385&type=3&theater#
+Erebidae,裳蛾科,Miltochrista convexa,,認識台灣的昆蟲 7 燈蛾科 ;  Page : 140,#https://www.facebook.com/photo.php?fbid=377639262343040&set=oa.544207992258097&type=1&theater#
+Erebidae,裳蛾科,Miltochrista ziczac,彎拐美苔蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 145,#https://www.facebook.com/photo.php?fbid=654315307916040&set=oa.465023146923769&type=3&theater#
+Erebidae,裳蛾科,Mithuna arizana,雙線苔蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 76,#https://www.facebook.com/photo.php?fbid=653445584672204&set=oa.461210637305020&type=1&theater#
+Erebidae,裳蛾科,Mocis frugalis,實毛脛夜蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 192,#https://www.facebook.com/photo.php?fbid=671342059605404&set=o.458912734201477&type=3&theater#
+Erebidae,裳蛾科,Mocis undata,毛脛夜蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 193,#http://www.facebook.com/photo.php?fbid=242682535770390&set=o.177883715557195&type=1&ref=nf#
+Erebidae,裳蛾科,Nyctemera adversata,粉蝶燈蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 17,#https://www.facebook.com/photo.php?fbid=466357230045183&set=o.177883715557195&type=1&permPage=1#
+Erebidae,裳蛾科,Nyctemera coleta,毛脛蝶燈蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 21,#https://www.facebook.com/photo.php?fbid=629609563734707&set=o.177883715557195&type=1&permPage=1#
+Erebidae,裳蛾科,Nyctemera formosana,後凸蝶燈蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 27,#https://www.facebook.com/photo.php?fbid=466359283378311&set=o.177883715557195&type=1&permPage=1#
+Erebidae,裳蛾科,Nyctemera lacticinia,五斑蝶燈蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 19,#https://www.facebook.com/photo.php?fbid=869282239764389&set=o.458912734201477&type=3&theater#
+Erebidae,裳蛾科,Olene dudgeoni,桃毒蛾,鞍馬山的蛾 2 ;  Page : 123,#https://www.facebook.com/photo.php?fbid=3357059645553&set=o.177883715557195&type=1&theater#
+Erebidae,裳蛾科,Olene mendosa,基斑毒蛾,認識台灣的昆蟲 4 鱗翅目毒蛾科 ;  Page : 25,#https://www.facebook.com/photo.php?fbid=456564371024050&set=o.177883715557195&type=1&theater#
+Erebidae,裳蛾科,Ommatophora luminosa,瞳夜蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 111,#https://www.facebook.com/photo.php?fbid=4989475974078&set=oa.465470320212385&type=3&theater#
+Erebidae,裳蛾科,Ophiusa trapezium,,認識台灣的昆蟲 14夜蛾科--台灣鄰近地區的相關種類 ;  Page : 128,#https://www.facebook.com/photo.php?fbid=3370245935202&set=o.177883715557195&type=3&theater#
+Erebidae,裳蛾科,Orgyia postica,小白紋毒蛾,認識台灣的昆蟲 4 鱗翅目毒蛾科 ;  Page : 30,#https://www.facebook.com/photo.php?fbid=580301698657018&set=o.177883715557195&type=1&permPage=1#
+Erebidae,裳蛾科,Oruza divisa,粉條巧夜蛾,Lepidoptera of Taiwan Volume 1 ;  Page : 189,#https://www.facebook.com/photo.php?fbid=618881144867451&set=o.458912734201477&type=3&theater#
+Erebidae,裳蛾科,Oxyodes scrobiculata,佩夜蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 81,#https://www.facebook.com/photo.php?fbid=231430273638754&set=o.177883715557195&type=3&theater#
+Erebidae,裳蛾科,Pangrapta costinotata,,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 71,#https://www.facebook.com/photo.php?fbid=461361293951408&set=oa.461679043924846&type=3&theater#
+Erebidae,裳蛾科,Pangrapta plumbilineata,,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 76,#https://www.facebook.com/photo.php?fbid=430157160424583&set=oa.465220416904042&type=3&theater#
+Erebidae,裳蛾科,Paracolax fentoni,小奴裳蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 388,#https://www.facebook.com/photo.php?fbid=854745161206319&set=o.458912734201477&type=3&theater#
+Erebidae,裳蛾科,Paracolax sugii,杉氏奴裳蛾,認識台灣的昆蟲 14夜蛾科--台灣鄰近地區的相關種類 ;  Page : 10,#https://www.facebook.com/photo.php?fbid=343856455739373&set=oa.589852744440808&type=3&theater#
+Erebidae,裳蛾科,Parallelia stuposa,,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 181,#http://www.facebook.com/photo.php?fbid=3272749293983&set=o.177883715557195&type=1&ref=nf#
+Erebidae,裳蛾科,Parasiccia punctilinea,灰綠小苔蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 126,#https://www.facebook.com/photo.php?fbid=421070367999929&set=oa.465220416904042&type=3&theater#
+Erebidae,裳蛾科,Pelosia muscerda tetrasticta,六點苔蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 73,#https://www.facebook.com/photo.php?fbid=597213803718917&set=oa.626549394104476&type=3&theater#
+Erebidae,裳蛾科,Perciana marmorea,修夜蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 141,#https://www.facebook.com/photo.php?fbid=339039366251362&set=o.177883715557195&type=1&permPage=1#
+Erebidae,裳蛾科,Pericyma cruegeri,,認識台灣的昆蟲 14夜蛾科--台灣鄰近地區的相關種類 ;  Page : 75,#https://www.facebook.com/photo.php?fbid=4079289710480&set=o.177883715557195&type=1&theater#
+Erebidae,裳蛾科,Perina nuda,透翅毒蛾,認識台灣的昆蟲 4 鱗翅目毒蛾科 ;  Page : 61,#https://www.facebook.com/photo.php?fbid=603353106420255&set=o.458912734201477&type=3&theater#
+Erebidae,裳蛾科,Philenora latifasciata,淡褐帶小苔蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 150,#https://www.facebook.com/photo.php?fbid=568529869860715&set=gm.534123526680397&type=1&theater#
+Erebidae,裳蛾科,Phyllodes eyndhovii,黃帶擬葉夜蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 159,#https://www.facebook.com/photo.php?fbid=3370224734672&set=o.177883715557195&type=3&theater#
+Erebidae,裳蛾科,Pida decolorata maculosa,灰白毒蛾,認識台灣的昆蟲 4 鱗翅目毒蛾科 ;  Page : 58,#https://www.facebook.com/photo.php?fbid=440069619355370&set=o.177883715557195&type=1&theater#
+Erebidae,裳蛾科,Pindara illibata,失巾夜蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 173,#https://www.facebook.com/photo.php?fbid=579049175448937&set=o.177883715557195&type=3&permPage=1#
+Erebidae,裳蛾科,Plusiodonta coelonota,肖金夜蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 34,#https://www.facebook.com/photo.php?fbid=209207812540892&set=o.177883715557195&type=1&permPage=1#
+Erebidae,裳蛾科,Progonia olieusalis,,,#https://www.facebook.com/photo.php?fbid=652029088219323&set=o.458912734201477&type=3&theater#
+Erebidae,裳蛾科,Psimada quadripennis,,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 86,#https://www.facebook.com/photo.php?fbid=343047072486978&set=oa.589852744440808&type=3&theater#
+Erebidae,裳蛾科,Rusicada combinans,連錦葵裳蛾,合歡山的蛾 ;  Page : 293,#https://www.facebook.com/photo.php?fbid=171254569666230&set=o.177883715557195&type=1&permPage=1#
+Erebidae,裳蛾科,Rusicada fulvida,,,#https://www.facebook.com/photo.php?fbid=453049988041369&set=o.177883715557195&type=1&theater#
+Erebidae,裳蛾科,Rusicada privata,紅棕錦葵裳蛾,合歡山的蛾 ;  Page : 293,#http://www.facebook.com/photo.php?fbid=174698065991867&set=o.177883715557195&type=1&ref=nf#
+Erebidae,裳蛾科,Schistophleps bipuncta,珠苔蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 152,#https://www.facebook.com/photo.php?fbid=653445681338861&set=oa.461210637305020&type=1&theater#
+Erebidae,裳蛾科,Semiothisops macariata,五角裳蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 79,#https://www.facebook.com/photo.php?fbid=231424643639317&set=o.177883715557195&type=3&theater#
+Erebidae,裳蛾科,Serrodes campana,鈴斑翅裳蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 222,#https://www.facebook.com/photo.php?fbid=407586739281954&set=o.177883715557195&type=1&permPage=1#
+Erebidae,裳蛾科,Siccia taiwana,紛點苔蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 122,#https://www.facebook.com/photo.php?fbid=419749954798637&set=oa.462259177200166&type=3&theater#
+Erebidae,裳蛾科,Simplicia bimarginata,弧緣貧裳蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 426,#https://www.facebook.com/photo.php?fbid=246279628908839&set=oa.649037245189024&type=1&theater#
+Erebidae,裳蛾科,Sinarella nigrisigna,黑點辛裳蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 415,#https://www.facebook.com/photo.php?fbid=246279608908841&set=oa.649037245189024&type=1&theater#
+Erebidae,裳蛾科,Somena scintillans,緣黃毒蛾,認識台灣的昆蟲 4 鱗翅目毒蛾科 ;  Page : 89,#https://www.facebook.com/photo.php?fbid=571400442882580&set=oa.461796713913079&type=3&theater#
+Erebidae,裳蛾科,Spilarctia clava,棍棒污燈蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 58,#https://www.facebook.com/photo.php?fbid=1434002106866800&set=o.458912734201477&type=3&theater#
+Erebidae,裳蛾科,Spilarctia postrubida,橙污燈蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 65,#https://www.facebook.com/photo.php?fbid=665276130212946&set=gm.652587814833967&type=1#
+Erebidae,裳蛾科,Spilarctia subcarnea,人紋污燈蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 67,#https://www.facebook.com/photo.php?fbid=891404354210044&set=o.458912734201477&type=3&theater#
+Erebidae,裳蛾科,Spilarctia subtestacea,黃腹污燈蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 69,#http://www.facebook.com/photo.php?fbid=220622814719500&set=o.177883715557195&type=1&ref=nf#
+Erebidae,裳蛾科,Spilarctia tienmushana werneri,,Lepidoptera of Taiwan Volume 1 ;  Page : 170,#https://www.facebook.com/photo.php?fbid=369388663172843&set=oa.468623806563703&type=3&theater#
+Erebidae,裳蛾科,Spilarctia wilemani,褐赭污燈蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 70,#https://www.facebook.com/photo.php?fbid=489930074354465&set=o.177883715557195&type=1&permPage=1#
+Erebidae,裳蛾科,Stenhypena costalis,莖狹翅鬚裳蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 395,#https://www.facebook.com/photo.php?fbid=256843327791337&set=oa.465717243521026&type=3&theater#
+Erebidae,裳蛾科,Sympis rufibasis,合裳蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 114,#https://www.facebook.com/photo.php?fbid=623804930981297&set=gm.606046459407583&type=1&theater#
+Erebidae,裳蛾科,Syntomoides imaon,伊貝鹿蛾,Waiting for collect ;  Page : ,#https://www.facebook.com/photo.php?fbid=399652980073344&set=o.177883715557195&type=3&theater#
+Erebidae,裳蛾科,Sypnoides simplex,,認識台灣的昆蟲 14夜蛾科--台灣鄰近地區的相關種類 ;  Page : 103,#https://www.facebook.com/photo.php?fbid=331416713650014&set=oa.589852744440808&type=3&theater#
+Erebidae,裳蛾科,Taicallimorpha albipuncta,烏麗燈蛾,合歡山的蛾 ;  Page : 329,#https://www.facebook.com/photo.php?fbid=640396066044679&set=oa.585519974874085&type=3&theater#
+Erebidae,裳蛾科,Tamba lala,,,#https://www.facebook.com/photo.php?fbid=479077298893350&set=o.177883715557195&type=1&permPage=1#
+Erebidae,裳蛾科,Tamba taiwana,,鞍馬山的蛾1 ;  Page : 66,#https://www.facebook.com/photo.php?fbid=732964606795940&set=o.458912734201477&type=3&theater#
+Erebidae,裳蛾科,Thyas honesta,,認識台灣的昆蟲 14夜蛾科--台灣鄰近地區的相關種類 ;  Page : 96,#https://www.facebook.com/photo.php?fbid=574111489296144&set=oa.463074407118643&type=3&theater#
+Erebidae,裳蛾科,Thyas juno,庸肖毛翅夜蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 160,#https://www.facebook.com/photo.php?fbid=493567987411517&set=o.458912734201477&type=3&theater#
+Erebidae,裳蛾科,Thysanoptyx incurvata,黑長斑苔蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 90,#https://www.facebook.com/photo.php?fbid=452471634847003&set=o.177883715557195&type=1&permPage=1#
+Erebidae,裳蛾科,Trigonodes hyppasia,,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 189,#https://www.facebook.com/photo.php?fbid=256845777791092&set=oa.465717243521026&type=3&theater#
+Erebidae,裳蛾科,Utetheisa inconstans,,,#https://www.facebook.com/photo.php?fbid=633200383430800&set=gm.648807491878666&type=1&theater#
+Erebidae,裳蛾科,Utetheisa lotrix,擬三色星燈蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 10,#http://www.facebook.com/photo.php?fbid=1477188986974&set=o.177883715557195&type=1&ref=nf#
+Erebidae,裳蛾科,Utetheisa pulchelloides vaga,普三色星燈蛾,認識台灣的昆蟲 7 燈蛾科 ;  Page : 11,#https://www.facebook.com/photo.php?fbid=333961756761630&set=gm.673589049400510&type=1&theater#
+Erebidae,裳蛾科,Vamuna alboluteora,黃黑瓦苔蛾,合歡山的蛾 ;  Page : 311,#https://www.facebook.com/photo.php?fbid=391533204318885&set=o.458912734201477&type=3&theater#
+Eupterotidae,帶蛾科,Ganisa postica formosicola,灰紋帶蛾,認識台灣的昆蟲 10 蘿紋娥科 帶蛾科 大?蛾科 ?蛾科 舟蛾科 ;  Page : 10,#https://www.facebook.com/photo.php?fbid=803658986318860&set=o.458912734201477&type=3&theater#
+Eupterotidae,帶蛾科,Palirisa cervina formosana,褐帶蛾,認識台灣的昆蟲 10 蘿紋娥科 帶蛾科 大?蛾科 ?蛾科 舟蛾科 ;  Page : 13,#https://www.facebook.com/photo.php?fbid=903010176391473&set=gm.790277607651133&type=1#
+Euteliidae,尾夜蛾科,Atacira affinis,,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 284,#https://www.facebook.com/photo.php?fbid=459604967460374&set=oa.458927214200029&type=3&theater#
+Euteliidae,尾夜蛾科,Phalga clarirena,清波尾夜蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 289,#https://www.facebook.com/photo.php?fbid=768542809846464&set=o.458912734201477&type=3&theater#
+Geometridae,尺蛾科,Acolutha pictaria imbecilla,前褐帶黃波尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 338,#https://www.facebook.com/photo.php?fbid=394737540578931&set=o.177883715557195&type=1&ref=nf#
+Geometridae,尺蛾科,Acolutha pulchella semifulva,,,#https://www.facebook.com/photo.php?fbid=756642254369853&set=o.458912734201477&type=3&theater#
+Geometridae,尺蛾科,Aethalura duplicata,雙線歪紋小尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 216,#https://www.facebook.com/photo.php?fbid=858296800850322&set=o.458912734201477&type=3&theater#
+Geometridae,尺蛾科,Agaraeus discolor,,,#https://www.facebook.com/photo.php?fbid=343047369153615&set=oa.589852744440808&type=3&theater#
+Geometridae,尺蛾科,Agathia diversiformis,短尾豔青尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 49,#https://www.facebook.com/photo.php?fbid=371741352927515&set=gm.611075408904688&type=1&theater#
+Geometridae,尺蛾科,Agathia hemithearia,烏雲豔青尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 48,#https://www.facebook.com/photo.php?fbid=4106744076930&set=o.177883715557195&type=3&theater#
+Geometridae,尺蛾科,Agathia laetata,Y紋豔青尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 45,#https://www.facebook.com/photo.php?fbid=597215603718737&set=oa.626549394104476&type=3&theater#
+Geometridae,尺蛾科,Agathia lycaenaria,豔青尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 44,#https://www.facebook.com/photo.php?fbid=792176257467304&set=gm.660090204083728&type=1&theater#
+Geometridae,尺蛾科,Agathia magnificentia,大豔青尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 46,#https://www.facebook.com/photo.php?fbid=686350171436801&set=o.177883715557195&type=1&permPage=1#
+Geometridae,尺蛾科,Agathia visenda curvifiniens,焦斑豔青尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 47,#https://www.facebook.com/photo.php?fbid=464034373684100&set=oa.458927214200029&type=3&theater#
+Geometridae,尺蛾科,Alcis maculata,,,#https://www.facebook.com/photo.php?fbid=288143881321030&set=oa.467684346657649&type=3&theater#
+Geometridae,尺蛾科,Amblychia angeronaria,白斑褐尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 253,#https://www.facebook.com/photo.php?fbid=4106735516716&set=o.177883715557195&type=3&theater#
+Geometridae,尺蛾科,Antitrygodes divisaria perturbatus,綠斑姬尺蛾,Waiting for collect ;  Page : ,#https://www.facebook.com/photo.php?fbid=650209865005853&set=oa.460230424069708&type=3&theater#
+Geometridae,尺蛾科,Aplochlora costipicta,褐綠尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 313,#https://www.facebook.com/photo.php?fbid=460946157326255&set=oa.458927214200029&type=3&theater#
+Geometridae,尺蛾科,Argyrocosma inductaria,,,#https://www.facebook.com/photo.php?fbid=755052267850565&set=o.177883715557195&type=1&permPage=1#
+Geometridae,尺蛾科,Asthena undulata,煙斗紋波尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 335,#https://www.facebook.com/photo.php?fbid=394742623911756&set=o.177883715557195&type=1&theater#
+Geometridae,尺蛾科,Biston perclarus,淡黃突峰尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 274,#https://www.facebook.com/photo.php?fbid=136419029880692&set=o.177883715557195&type=1&permPage=1#
+Geometridae,尺蛾科,Biston regalis comitatus,雙雲突峰尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 270,#https://www.facebook.com/photo.php?fbid=464656346951986&set=oa.459494137476670&type=3&theater#
+Geometridae,尺蛾科,Borbacha pardaria,黃豹尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 72,#https://www.facebook.com/photo.php?fbid=760454950654901&set=gm.785169811495246&type=1#
+Geometridae,尺蛾科,Calletaera postvittata,黑線小尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 95,#https://www.facebook.com/photo.php?fbid=10203431557183623&set=o.458912734201477&type=3&theater#
+Geometridae,尺蛾科,Callygris compositata basistrigaria,地錦波尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 282,#https://www.facebook.com/photo.php?fbid=765345236832888&set=o.458912734201477&type=3&theater#
+Geometridae,尺蛾科,Carige scutilimbata,窗紋波姬尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 227,#https://www.facebook.com/photo.php?fbid=765630673457452&set=gm.654429517983130&type=1&theater#
+Geometridae,尺蛾科,Catarhoe obscura,,,#https://www.facebook.com/photo.php?fbid=479077448893335&set=o.177883715557195&type=1&permPage=1#
+Geometridae,尺蛾科,Catoria olivescens,,,#https://www.facebook.com/photo.php?fbid=461358430618361&set=oa.461679043924846&type=3&theater#
+Geometridae,尺蛾科,Catoria sublavaria,點紋灰尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 206,#https://www.facebook.com/photo.php?fbid=869674086383071&set=o.177883715557195&type=1&permPage=1#
+Geometridae,尺蛾科,Celenna festivaria formosensis,綠紋尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 363,#https://www.facebook.com/photo.php?fbid=393933160659369&set=o.177883715557195&type=1&theater#
+Geometridae,尺蛾科,Chaetolopha incurvata,明池波尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 347,#https://www.facebook.com/photo.php?fbid=458829470871257&set=oa.458927214200029&type=3&theater#
+Geometridae,尺蛾科,Chartographa convexa,,Lepidoptera of Taiwan Volume 1 ;  Page : 126,#https://www.facebook.com/photo.php?fbid=10202796587827029&set=o.458912734201477&type=3&theater#
+Geometridae,尺蛾科,Chiasmia eleonora,白帶尾尺蛾,Waiting for collect ;  Page : ,#https://www.facebook.com/photo.php?fbid=422345814456715&set=o.177883715557195&type=3&theater#
+Geometridae,尺蛾科,Chiasmia emersaria,刺尾尺蛾,台灣蛾類圖說四 ;  Page : 224,#https://www.facebook.com/photo.php?fbid=419751208131845&set=oa.462259177200166&type=3&theater#
+Geometridae,尺蛾科,Chiasmia inchoata,污帶尾尺蛾,Waiting for collect ;  Page : ,#https://www.facebook.com/photo.php?fbid=3348542872639&set=o.177883715557195&type=1&permPage=1#
+Geometridae,尺蛾科,Chiasmia intermediaria,四黑斑尾尺蛾,台灣蛾類圖說四 ;  Page : 226,#https://www.facebook.com/photo.php?fbid=3306368058295&set=o.177883715557195&type=1&theater#
+Geometridae,尺蛾科,Chlorodontopera taiwana,台灣四眼綠尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 52,#https://www.facebook.com/photo.php?fbid=667834669899516&set=oa.462151650544252&type=3&theater#
+Geometridae,尺蛾科,Chorodna creataria,褐枯尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 257,#https://www.facebook.com/photo.php?fbid=820106701341354&set=gm.697623876997027&type=1&theater#
+Geometridae,尺蛾科,Chorodna ochreimacula,黃枯尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 256,#https://www.facebook.com/photo.php?fbid=351096171678977&set=o.177883715557195&type=1&permPage=1#
+Geometridae,尺蛾科,Chrysocraspeda sanguinea,三角赤姬尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 129,#http://www.facebook.com/photo.php?fbid=393934297325922&set=o.177883715557195&type=1&ref=nf#
+Geometridae,尺蛾科,Cleora alienaria,,,#https://www.facebook.com/photo.php?fbid=343047175820301&set=oa.589852744440808&type=3&theater#
+Geometridae,尺蛾科,Cleora fraterna,黑腰鋸尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 195,#https://www.facebook.com/photo.php?fbid=461357600618444&set=oa.461679043924846&type=3&theater#
+Geometridae,尺蛾科,Cleora injectaria,,,#https://www.facebook.com/photo.php?fbid=10203124022975385&set=gm.785827821429445&type=1#
+Geometridae,尺蛾科,Collix stellata,緣白星波尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 396,#https://www.facebook.com/photo.php?fbid=459208414166696&set=oa.458927214200029&type=3&theater#
+Geometridae,尺蛾科,Comibaena procumbaria,白腎紋綠尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 70,#https://www.facebook.com/photo.php?fbid=229607850484259&set=o.177883715557195&type=1&permPage=1#
+Geometridae,尺蛾科,Comostola laesaria,小四圈青尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 119,#https://www.facebook.com/photo.php?fbid=256883467787323&set=oa.465717243521026&type=3&theater#
+Geometridae,尺蛾科,Comostola subtiliaria demeritaria,長斑四圈青尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 118,#https://www.facebook.com/photo.php?fbid=398420020210683&set=o.177883715557195&type=1&permPage=1#
+Geometridae,尺蛾科,Corymica arnearia,白點圓窗黃尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 377,#https://www.facebook.com/photo.php?fbid=653446314672131&set=oa.461210637305020&type=1&theater#
+Geometridae,尺蛾科,Corymica deducta,褐帶圓窗黃尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 381,#https://www.facebook.com/photo.php?fbid=891731040842791&set=o.177883715557195&type=1&permPage=1#
+Geometridae,尺蛾科,Corymica pryeri,滿月圓窗黃尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 380,#https://www.facebook.com/photo.php?fbid=334265103327695&set=oa.457274324284798&type=1&theater#
+Geometridae,尺蛾科,Corymica spatiosa,細紋圓窗黃尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 379,#https://www.facebook.com/photo.php?fbid=489917104355762&set=o.177883715557195&type=1&permPage=1#
+Geometridae,尺蛾科,Cusiala boarmioides,白波緣尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 205,#https://www.facebook.com/photo.php?fbid=465396213547916&set=oa.458927214200029&type=3&theater#
+Geometridae,尺蛾科,Cystidia stratonice,蜻尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 120,#http://www.facebook.com/photo.php?fbid=507188575981890&set=o.177883715557195&type=1&theater#
+Geometridae,尺蛾科,Dindica polyphaenaria,裏黃峰尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 39,#https://www.facebook.com/photo.php?fbid=257463497729320&set=oa.465717243521026&type=3&theater#
+Geometridae,尺蛾科,Dindica taiwana,台灣峰尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 40,#https://www.facebook.com/photo.php?fbid=226763340773654&set=o.177883715557195&type=1&permPage=1#
+Geometridae,尺蛾科,Dischidesia cinerea,白鋸小黑尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 249,#https://www.facebook.com/photo.php?fbid=205363182925355&set=o.177883715557195&type=1&permPage=1#
+Geometridae,尺蛾科,Discoglypha locupletata,銀掌紋姬尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 125,#http://www.facebook.com/photo.php?fbid=3311145777735&set=o.177883715557195&type=1&ref=nf#
+Geometridae,尺蛾科,Dysstroma fumata,烏滌尺蛾,鞍馬山的蛾1 ;  Page : 59,#https://www.facebook.com/photo.php?fbid=858296657517003&set=o.458912734201477&type=3&theater#
+Geometridae,尺蛾科,Ecliptopera benigna,大齒紋波尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 294,#https://www.facebook.com/photo.php?fbid=331689310289421&set=oa.589852744440808&type=3&theater#
+Geometridae,尺蛾科,Ecliptopera delecta,三角齒紋波尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 298,#https://www.facebook.com/photo.php?fbid=779146282119450&set=o.458912734201477&type=3&theater#
+Geometridae,尺蛾科,Ecliptopera rectilinea kanshinensis,土黃齒紋波尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 297,#https://www.facebook.com/photo.php?fbid=332863406838678&set=oa.589852744440808&type=3&theater#
+Geometridae,尺蛾科,Ectropis bhurmitra,淡猗尺蛾,鞍馬山的蛾1 ;  Page : 24,#https://www.facebook.com/photo.php?fbid=597215760385388&set=oa.626549394104476&type=3&theater#
+Geometridae,尺蛾科,Entomopteryx rubridisca,雙目安尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 346,#http://www.facebook.com/photo.php?fbid=295730640510558&set=o.177883715557195&type=1&ref=nf#
+Geometridae,尺蛾科,Epobeidia tigrata maxima,大斑豹紋尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 125,#https://www.facebook.com/photo.php?fbid=880772305271562&set=o.177883715557195&type=1&permPage=1#
+Geometridae,尺蛾科,Eucosmabraxas octoscripta,豹斑波尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 281,#https://www.facebook.com/photo.php?fbid=472347489446057&set=o.177883715557195&type=1&theater#
+Geometridae,尺蛾科,Eulithis subalba,白珠波尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 283,#https://www.facebook.com/photo.php?fbid=765345236832888&set=o.458912734201477&type=3&theater#
+Geometridae,尺蛾科,Eumelea ludovicata,雌黃粉尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 21,#https://www.facebook.com/photo.php?fbid=584294538277839&set=oa.463074407118643&type=3&theater#
+Geometridae,尺蛾科,Euryobeidia languidata,黑斑尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 126,#https://www.facebook.com/photo.php?fbid=252350001635135&set=oa.660196844073064&type=1&permPage=1#
+Geometridae,尺蛾科,Euryobeidia largeteaui,豹紋尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 127,#https://www.facebook.com/photo.php?fbid=738867602802529&set=o.458912734201477&type=3&theater#
+Geometridae,尺蛾科,Eustroma contorta,,,#https://www.facebook.com/photo.php?fbid=820110288007662&set=o.458912734201477&type=3&theater#
+Geometridae,尺蛾科,Fascellina chromataria,褐缺口尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 336,#https://www.facebook.com/photo.php?fbid=10150828442680583&set=o.177883715557195&type=1&theater#
+Geometridae,尺蛾科,Garaeus apicata formosanus,,,#https://www.facebook.com/photo.php?fbid=653450798005016&set=oa.461210637305020&type=1&theater#
+Geometridae,尺蛾科,Gasterocome pannosaria orta,綠絨雙斑尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 202,#https://www.facebook.com/photo.php?fbid=879773242038544&set=o.458912734201477&type=3&theater#
+Geometridae,尺蛾科,Gnophos delitescens,灰隱絨尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 245,#https://www.facebook.com/photo.php?fbid=224156157696095&set=o.177883715557195&type=3&theater#
+Geometridae,尺蛾科,Gonodontis pallida,,,#https://www.facebook.com/photo.php?fbid=837264296301497&set=o.458912734201477&type=3&theater#
+Geometridae,尺蛾科,Harutaea flavizona,黃戴褐尺蛾,鞍馬山的蛾1 ;  Page : ,#https://www.facebook.com/photo.php?fbid=464510560303148&set=oa.458927214200029&type=3&theater#
+Geometridae,尺蛾科,Harutalcis fumigata,帶紋星尺蛾,鞍馬山的蛾1 ;  Page : 27,#https://www.facebook.com/photo.php?fbid=288145481320870&set=oa.467684346657649&type=3&theater#
+Geometridae,尺蛾科,Hastina subfalcaria caeruleolineata,黑歷尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 246,#https://www.facebook.com/photo.php?fbid=452471258180374&set=o.177883715557195&type=1&permPage=1#
+Geometridae,尺蛾科,Hemithea aquamarina,翠銹腰青尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 103,#https://www.facebook.com/photo.php?fbid=393939183992100&set=o.177883715557195&type=1&theater#
+Geometridae,尺蛾科,Herochroma cristata,塔綠粉尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 29,#https://www.facebook.com/photo.php?fbid=623858970976999&set=o.458912734201477&type=3&permPage=1#
+Geometridae,尺蛾科,Herochroma supraviridaria,,Waiting for collect ;  Page : ,#https://www.facebook.com/photo.php?fbid=842468102435719&set=o.177883715557195&type=1&permPage=1#
+Geometridae,尺蛾科,Heteralex aspersa formosana,慧尺蛾,台灣蛾類圖說三 ;  Page : 9,#https://www.facebook.com/photo.php?fbid=653448724671890&set=oa.461210637305020&type=1&theater#
+Geometridae,尺蛾科,Heterolocha coccinea,紫紅斑小黃尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 371,#https://www.facebook.com/photo.php?fbid=653449848005111&set=oa.461210637305020&type=1&theater#
+Geometridae,尺蛾科,Heterophleps taiwana,台灣四斑波尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 232,#https://www.facebook.com/photo.php?fbid=246282372241898&set=oa.649040601855355&type=1&theater#
+Geometridae,尺蛾科,Heterophleps variegata,白線四斑波尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 231,#https://www.facebook.com/photo.php?fbid=618880911534141&set=o.458912734201477&type=3&theater#
+Geometridae,尺蛾科,Heterostegane subtessellata,大斑四格尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 33,#http://www.facebook.com/photo.php?fbid=3212633434988&set=o.177883715557195&type=1&ref=nf#
+Geometridae,尺蛾科,Hypochrosis baenzigeri,吸淚斑尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 360,#https://www.facebook.com/photo.php?fbid=838337036194223&set=o.458912734201477&type=3&theater#
+Geometridae,尺蛾科,Hypocometa clauda,橄欖綠波尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 245,#https://www.facebook.com/photo.php?fbid=224156521029392&set=o.177883715557195&type=3&theater#
+Geometridae,尺蛾科,Hyposidra infixaria,黃鉤尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 326,#https://www.facebook.com/photo.php?fbid=755117544510704&set=o.177883715557195&type=1&permPage=1#
+Geometridae,尺蛾科,Hyposidra leucomela,白條黯鉤尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 327,#https://www.facebook.com/photo.php?fbid=10201364181006175&set=gm.713518375327057&type=1#
+Geometridae,尺蛾科,Hyposidra talaca,突角黯鉤尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 324,#https://www.facebook.com/photo.php?fbid=368328146639954&set=o.458912734201477&type=3&theater#
+Geometridae,尺蛾科,Idaea purpurea,擬三線波姬尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 206,#https://www.facebook.com/photo.php?fbid=783078668390769&set=gm.781035138575380&type=1#
+Geometridae,尺蛾科,Iotaphora admirabilis,青輻射尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 61,#https://www.facebook.com/photo.php?fbid=454838357877890&set=oa.446128408732723&type=1&theater#
+Geometridae,尺蛾科,Jankowskia taiwanensis,台灣後眉尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 228,#https://www.facebook.com/photo.php?fbid=1507303916160216&set=o.177883715557195&type=1&permPage=1#
+Geometridae,尺蛾科,Krananda latimarginaria,三角璃尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 110,#https://www.facebook.com/photo.php?fbid=254238134718523&set=oa.463437060415711&type=3&theater#
+Geometridae,尺蛾科,Krananda lucidaria,三斑璃尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 107,#https://www.facebook.com/photo.php?fbid=837062222977591&set=o.458912734201477&type=3&theater#
+Geometridae,尺蛾科,Krananda oliveomarginata,橄璃尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 109,#https://www.facebook.com/photo.php?fbid=472347402779399&set=o.177883715557195&type=1&theater#
+Geometridae,尺蛾科,Krananda semihyalina,玻璃尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 108,#https://www.facebook.com/photo.php?fbid=254314934710843&set=oa.463463577079726&type=3&theater#
+Geometridae,尺蛾科,Lassaba parvalbidaria,污雪雙斑尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 283,#https://www.facebook.com/photo.php?fbid=820109311341093&set=o.458912734201477&type=3&theater#
+Geometridae,尺蛾科,Lipomelia subusta,褐雲紋姬尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 161,#https://www.facebook.com/photo.php?fbid=489953401018799&set=o.177883715557195&type=1&permPage=1#
+Geometridae,尺蛾科,Lophobates inchoata,褐緣黃尺蛾,臺灣尺蛾科圖鑑１ ;  Page : ,#https://www.facebook.com/photo.php?fbid=919646991384093&set=o.177883715557195&type=1&permPage=1#
+Geometridae,尺蛾科,Lophophelma iterans onerosus,明線垂耳尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 38,#https://www.facebook.com/photo.php?fbid=246279658908836&set=oa.649037245189024&type=1&theater#
+Geometridae,尺蛾科,Luxiaria mitorrhaphes,雙斑鉤尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 114,#https://www.facebook.com/photo.php?fbid=324074347680104&set=oa.457274324284798&type=1&theater#
+Geometridae,尺蛾科,Luxiaria obliquata,斜紋鉤尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 118,#https://www.facebook.com/photo.php?fbid=343856539072698&set=oa.589852744440808&type=3&theater#
+Geometridae,尺蛾科,Maxates glaucaria,肖尖尾尺蛾,鞍馬山的蛾1 ;  Page : 41,#https://www.facebook.com/photo.php?fbid=223072087809446&set=o.177883715557195&type=1&theater#
+Geometridae,尺蛾科,Melanthia catenaria mesozona,鏈黑島尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 402,#https://www.facebook.com/photo.php?fbid=246281435575325&set=oa.649039751855440&type=1&theater#
+Geometridae,尺蛾科,Melanthia procellata szechuanensis,黑島尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 404,#https://www.facebook.com/photo.php?fbid=653450161338413&set=oa.461210637305020&type=1&theater#
+Geometridae,尺蛾科,Menophra humeraria,,太魯閣國家公園區蛾類相之研究 ;  Page : ,#https://www.facebook.com/photo.php?fbid=246281452241990&set=oa.649039751855440&type=1&theater#
+Geometridae,尺蛾科,Menophra nakajimai,中島洱尺蛾,鞍馬山的蛾1 ;  Page : 22,#https://www.facebook.com/photo.php?fbid=226749004108421&set=o.177883715557195&type=1&permPage=1#
+Geometridae,尺蛾科,Mesastrape fulguraria,樹形尺蛾,合歡山的蛾 ;  Page : 200,#https://www.facebook.com/photo.php?fbid=226745570775431&set=o.177883715557195&type=1&permPage=1#
+Geometridae,尺蛾科,Metallolophia arenaria,,,#https://www.facebook.com/photo.php?fbid=864284530255360&set=o.458912734201477&type=3&theater#
+Geometridae,尺蛾科,Microcalicha melanosticta,,,#https://www.facebook.com/photo.php?fbid=226766544106667&set=o.177883715557195&type=1&theater#
+Geometridae,尺蛾科,Microlygris complicata dactylotypa,四線波尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 305,#http://www.facebook.com/photo.php?fbid=1755054454499&set=o.177883715557195&type=1&ref=nf#
+Geometridae,尺蛾科,Milionia zonea pryeri,,,#https://www.facebook.com/photo.php?fbid=435165919835008&set=o.177883715557195&type=1&theater#
+Geometridae,尺蛾科,Naxidia punctata,胡麻斑白波尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 222,#https://www.facebook.com/photo.php?fbid=452471771513656&set=o.177883715557195&type=1&permPage=1#
+Geometridae,尺蛾科,Ninodes splendens,緣點姬黃尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 47,#https://www.facebook.com/photo.php?fbid=868722709810291&set=o.177883715557195&type=1&permPage=1#
+Geometridae,尺蛾科,Nothomiza flavicosta,大黃齒尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 309,#https://www.facebook.com/photo.php?fbid=781593681872601&set=o.177883715557195&type=1&permPage=1#
+Geometridae,尺蛾科,Ophthalmitis herbidaria,鋸紋四星尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 208,#https://www.facebook.com/photo.php?fbid=478160942318319&set=o.177883715557195&type=1&permPage=1#
+Geometridae,尺蛾科,Opisthograptis punctilineata,刺斑黃尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 331,#https://www.facebook.com/photo.php?fbid=609069029204862&set=o.458912734201477&type=3&theater#
+Geometridae,尺蛾科,Organopoda carnearia carnearia,須姬尺蛾,合歡山的蛾 ;  Page : 136,#https://www.facebook.com/photo.php?fbid=461357367285134&set=oa.461679043924846&type=3&theater#
+Geometridae,尺蛾科,Orthocabera sericea,山茶斜帶尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 51,#https://www.facebook.com/photo.php?fbid=820094981342526&set=gm.697612936998121&type=1&theater#
+Geometridae,尺蛾科,Orthocabera tinagmaria,波斜帶尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 52,#https://www.facebook.com/photo.php?fbid=329388007186218&set=oa.589852744440808&type=3&theater#
+Geometridae,尺蛾科,Ourapteryx changi,張氏尾尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 385,#https://www.facebook.com/photo.php?fbid=288142394654512&set=oa.467684346657649&type=3&theater#
+Geometridae,尺蛾科,Ourapteryx clara formosana,白寬尾尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 395,#https://www.facebook.com/photo.php?fbid=623804940981296&set=gm.606046459407583&type=1#
+Geometridae,尺蛾科,Ourapteryx sciticaudaria,黃尾尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 386,#https://www.facebook.com/photo.php?fbid=843986368950559&set=o.177883715557195&type=1&permPage=1#
+Geometridae,尺蛾科,Ourapteryx similaria horishana,褐緣白短尾尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 394,#https://www.facebook.com/photo.php?fbid=359756357424487&set=o.177883715557195&type=1&permPage=1#
+Geometridae,尺蛾科,Ourapteryx yerburii virescens,,,#https://www.facebook.com/photo.php?fbid=796124923739532&set=o.177883715557195&type=1&permPage=1#
+Geometridae,尺蛾科,Palpoctenidia phoenicosoma semilauta,,,#https://www.facebook.com/photo.php?fbid=465015216916099&set=oa.463123573780393&type=3&theater#
+Geometridae,尺蛾科,Paramaxates taiwana,副鋸翅青尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 110,#https://www.facebook.com/photo.php?fbid=314548132081988&set=gm.733945450031536&type=1&theater#
+Geometridae,尺蛾科,Parapercnia giraffata,巨星尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 129,#https://www.facebook.com/photo.php?fbid=614667495217810&set=oa.480638538695563&type=3&theater#
+Geometridae,尺蛾科,Pareclipsis serrulata,淡黃尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 334,#https://www.facebook.com/photo.php?fbid=243207239155248&set=gm.599991556679740&type=1#
+Geometridae,尺蛾科,Parectropis subflava,雙白斑尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 234,#https://www.facebook.com/photo.php?fbid=228961417215569&set=o.177883715557195&type=1&permPage=1#
+Geometridae,尺蛾科,Pennithera subcomis,亞羽帶尺蛾,鞍馬山的蛾1 ;  Page : 315,#https://www.facebook.com/photo.php?fbid=226760447440610&set=o.177883715557195&type=1&permPage=1#
+Geometridae,尺蛾科,Percnia suffusa,煙胡麻斑星尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 133,#http://www.facebook.com/photo.php?fbid=354698501260674&set=o.177883715557195&type=1&ref=nf#
+Geometridae,尺蛾科,Phoenissa brephos albofascia,後橙白波尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 348,#http://www.facebook.com/photo.php?fbid=245165805522594&set=o.177883715557195&type=1&ref=nf#
+Geometridae,尺蛾科,Phthonoloba viridifasciata,窄翅綠波尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 244,#https://www.facebook.com/photo.php?fbid=653448541338575&set=oa.461210637305020&type=1&theater#
+Geometridae,尺蛾科,Piercia viridiplana,曲帶寬波尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 254,#https://www.facebook.com/photo.php?fbid=229195217197133&set=o.177883715557195&type=3&theater#
+Geometridae,尺蛾科,Pingasa ruginaria pacifica,基黃粉尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 31,#https://www.facebook.com/photo.php?fbid=3362781948607&set=o.177883715557195&type=3&theater#
+Geometridae,尺蛾科,Plagodis reticulata,縐紋黃尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 359,#https://www.facebook.com/photo.php?fbid=246282482241887&set=oa.649040601855355&type=1&theater#
+Geometridae,尺蛾科,Platycerota vitticostata,前帶花尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 69,#https://www.facebook.com/photo.php?fbid=307177382696638&set=o.177883715557195&type=1&theater#
+Geometridae,尺蛾科,Plesiomorpha flaviceps,灰尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 56,#https://www.facebook.com/photo.php?fbid=650206361672870&set=oa.460230424069708&type=3&theater#
+Geometridae,尺蛾科,Pogonopygia pavidus pavidus,台灣八角尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 136,#http://www.facebook.com/photo.php?fbid=3217535517537&set=o.177883715557195&type=1&ref=nf#
+Geometridae,尺蛾科,Problepsis albidior matsumurai,雙目白姬尺蛾,Waiting for collect ;  Page : ,#https://www.facebook.com/photo.php?fbid=456118721088045&set=o.177883715557195&type=1&permPage=1#
+Geometridae,尺蛾科,Problepsis discophora,粗斑雙目白姬尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 158,#https://www.facebook.com/photo.php?fbid=796125210406170&set=gm.805529556125938&type=1#
+Geometridae,尺蛾科,Prochasma dentilinea,齒紋淡黃小尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 221,#https://www.facebook.com/photo.php?fbid=226747794108542&set=o.177883715557195&type=1&permPage=1#
+Geometridae,尺蛾科,Pseudomiza aurata,褐斑黃普尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 347,#http://www.facebook.com/photo.php?fbid=232728476765796&set=o.177883715557195&type=1&ref=nf#
+Geometridae,尺蛾科,Psilalcis breta rantaizana,,,#https://www.facebook.com/photo.php?fbid=331416683650017&set=oa.589852744440808&type=3&theater#
+Geometridae,尺蛾科,Psilalcis pulveraria,碎紋尺蛾,鞍馬山的蛾1 ;  Page : 25,#https://www.facebook.com/photo.php?fbid=228527453925632&set=o.177883715557195&type=1&theater#
+Geometridae,尺蛾科,Psyra spurcataria,雙斑黃絨尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 299,#https://www.facebook.com/photo.php?fbid=226752004108121&set=o.177883715557195&type=1&permPage=1#
+Geometridae,尺蛾科,Racotis boarmiaria,橄皺'樟尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 212,#https://www.facebook.com/photo.php?fbid=343047392486946&set=oa.589852744440808&type=3&theater#
+Geometridae,尺蛾科,Sarcinodes yayeyamanus,一線沙尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 19,#http://www.flickr.com/photos/hkguu/5714645663/in/set-72157622169894055#
+Geometridae,尺蛾科,Sarcinodes yeni,顏氏沙尺蛾,鞍馬山的蛾1 ;  Page : 13,#https://www.facebook.com/photo.php?fbid=429793990378564&set=o.177883715557195&type=3&theater#
+Geometridae,尺蛾科,Satoblephara owadai,腹毛墨紋尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 224,#https://www.facebook.com/photo.php?fbid=288144444654307&set=oa.467684346657649&type=3&theater#
+Geometridae,尺蛾科,Schistophyle falcifera,,Waiting for collect ;  Page : ,#http://www.facebook.com/photo.php?fbid=223745967737114&set=o.177883715557195&type=1&ref=nf#
+Geometridae,尺蛾科,Scopula anatreces,台灣姬尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 182,#https://www.facebook.com/photo.php?fbid=227376090712379&set=o.177883715557195&type=3&theater#
+Geometridae,尺蛾科,Scopula propinquaria,花邊灰姬尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 166,#https://www.facebook.com/photo.php?fbid=461358750618329&set=oa.461679043924846&type=3&theater#
+Geometridae,尺蛾科,Scopula yamanei,山根姬尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 190,#https://www.facebook.com/photo.php?fbid=343047032486982&set=oa.589852744440808&type=3&theater#
+Geometridae,尺蛾科,Sibatania arizana,阿里山絨波尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 308,#https://www.facebook.com/photo.php?fbid=246281098908692&set=oa.649039751855440&type=1&theater#
+Geometridae,尺蛾科,Somatina rosacea anaemica,框姬尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 154,#https://www.facebook.com/photo.php?fbid=598363660270598&set=oa.626549394104476&type=3&theater#
+Geometridae,尺蛾科,Spaniocentra hollowayi,荷氏綠尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 108,#https://www.facebook.com/photo.php?fbid=461358827284988&set=oa.461679043924846&type=3&theater#
+Geometridae,尺蛾科,Synegia estherodes,寬鋸黃尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 67,#https://www.facebook.com/photo.php?fbid=837263679634892&set=o.458912734201477&type=3&theater#
+Geometridae,尺蛾科,Synegiodes histrionarius ornatus,黑頷花姬尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 131,#https://www.facebook.com/photo.php?fbid=758515237515888&set=o.458912734201477&type=3&theater#
+Geometridae,尺蛾科,Tanaoctenia haliaria,綠翅茶斑尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 308,#https://www.facebook.com/photo.php?fbid=394725667246785&set=o.177883715557195&type=3&theater#
+Geometridae,尺蛾科,Tanaorhinus formosanus,台灣鐮翅綠尺蛾,鞍馬山的蛾1 ;  Page : 40,#https://www.facebook.com/photo.php?fbid=459616630792541&set=oa.458927214200029&type=3&theater#
+Geometridae,尺蛾科,Tasta argozana,銀斑小尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 45,#https://www.facebook.com/photo.php?fbid=226750877441567&set=o.177883715557195&type=1&permPage=1#
+Geometridae,尺蛾科,Thinopteryx crocoptera assamensis,黃蝶尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 263,#https://www.facebook.com/photo.php?fbid=714426268616943&set=o.177883715557195&type=1&permPage=1#
+Geometridae,尺蛾科,Thinopteryx nebulosa,灰斑黃蝶尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 265,#http://www.facebook.com/photo.php?fbid=10150784764060583&set=oa.434363429909221&type=1&ref=nf#
+Geometridae,尺蛾科,Timandra convectaria,尖角線尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 136,#https://www.facebook.com/photo.php?fbid=634424149918565&set=o.177883715557195&type=1&permPage=1#
+Geometridae,尺蛾科,Traminda aventiaria,缺口姬尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 139,#http://www.flickr.com/photos/hkguu/4660066122/in/set-72157622169894055#
+Geometridae,尺蛾科,Tristrophis rectifascia,粗帶刺尾尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 397,#https://www.facebook.com/photo.php?fbid=1425003794445619&set=o.458912734201477&type=3&theater#
+Geometridae,尺蛾科,Trotocraspeda divaricata,金黃歧帶尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 376,#https://www.facebook.com/photo.php?fbid=865058790177934&set=o.177883715557195&type=1&permPage=1#
+Geometridae,尺蛾科,Xandrames dholaria,玉臂黑尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 250,#https://www.facebook.com/photo.php?fbid=4198975310793&set=o.458912734201477&type=3&theater#
+Geometridae,尺蛾科,Xandrames latiferaria curvistriga,刮紋玉臂尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 251,#https://www.facebook.com/photo.php?fbid=4738510391609&set=o.177883715557195&type=1&permPage=1#
+Geometridae,尺蛾科,Xanthorhoe taiwana,台灣?波尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 252,#https://www.facebook.com/photo.php?fbid=865846320106801&set=o.458912734201477&type=3&theater#
+Geometridae,尺蛾科,Xenoplia trivialis,胡麻斑星尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 128,#https://www.facebook.com/photo.php?fbid=222424447874210&set=o.177883715557195&type=1&theater#
+Geometridae,尺蛾科,Xerodes albonotaria aritai,,,#https://www.facebook.com/photo.php?fbid=329387963852889&set=oa.589852744440808&type=3&theater#
+Geometridae,尺蛾科,Xerodes contiguaria,白點截角尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 322,#https://www.facebook.com/photo.php?fbid=394735457245806&set=o.177883715557195&type=1&theater#
+Geometridae,尺蛾科,Yashmakia suffusa,烏塗花尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 70,#https://www.facebook.com/photo.php?fbid=473633966104350&set=o.177883715557195&type=1&permPage=1#
+Geometridae,尺蛾科,Zanclopera calidata,黃褐尖尾小尺蛾,臺灣尺蛾科圖鑑 2 ;  Page : 111,#https://www.facebook.com/photo.php?fbid=468930183121221&set=o.177883715557195&type=1&theater#
+Geometridae,尺蛾科,Ziridava kanshireiensis,扳手波尺蛾,臺灣尺蛾科圖鑑１ ;  Page : 395,#https://www.facebook.com/photo.php?fbid=3348572873389&set=o.177883715557195&type=1&permPage=1#
+Glyphipterigidae,雕翅蛾科,Glyphipterix marinae,,認識台灣的昆蟲  20 長角蛾科 穀蛾科麥蛾科和其他一些小蛾類 ;  Page : 163,#https://www.facebook.com/photo.php?fbid=583450218346273&set=o.177883715557195&type=3&permPage=1#
+Hyblaeidae,駝蛾科,Hyblaea constellata,白星駝蛾,Waiting for collect ;  Page : ,#https://www.facebook.com/photo.php?fbid=10151580569934525&set=o.177883715557195&type=3&theater#
+Hyblaeidae,駝蛾科,Hyblaea firmamentum,,,#https://www.facebook.com/photo.php?fbid=10203969071775479&set=o.458912734201477&type=3&theater#
+Immidae,奇蛾科,Alampla palaeodes,,,#https://www.facebook.com/photo.php?fbid=10202759541900904&set=o.458912734201477&type=3#
+Immidae,奇蛾科,Birthana taiwana,,認識台灣的昆蟲  20 長角蛾科 穀蛾科麥蛾科和其他一些小蛾類 ;  Page : 179,#https://www.facebook.com/photo.php?fbid=647314038616211&set=oa.466191706806913&type=3&theater#
+Lasiocampidae,枯葉蛾科,Bharetta owadai,雙角小黑枯葉蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 127,#http://www.facebook.com/photo.php?fbid=10150784764370583&set=oa.434363429909221&type=1&ref=nf#
+Lasiocampidae,枯葉蛾科,Dendrolimus ariaznus,,,#https://www.facebook.com/photo.php?fbid=378052512301715&set=oa.544207992258097&type=1&relevant_count=1&ref=nf#
+Lasiocampidae,枯葉蛾科,Lebeda nobilis,大灰枯葉蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 154,#https://www.facebook.com/photo.php?fbid=607073692645073&set=o.177883715557195&type=1&permPage=1#
+Lasiocampidae,枯葉蛾科,Metanastria hyrtaca,大斑ㄚ枯葉蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 129,#https://www.facebook.com/photo.php?fbid=401980083286908&set=o.458912734201477&type=3&theater#
+Lasiocampidae,枯葉蛾科,Odonestis formosae,直帶黃枯葉蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 146,#https://www.facebook.com/photo.php?fbid=271669569671348&set=o.177883715557195&type=1&permPage=1#
+Lasiocampidae,枯葉蛾科,Pachypasoides albisparsus,斜紋枯葉蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 165,#https://www.facebook.com/photo.php?fbid=4808965909575&set=gm.599384643407098&type=1#
+Lasiocampidae,枯葉蛾科,Paradoxopla sinuata taiwana,台灣枯葉蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 128,#https://www.facebook.com/photo.php?fbid=288143127987772&set=oa.467684346657649&type=3&theater#
+Lasiocampidae,枯葉蛾科,Paralebeda plagifera,大褐斑枯葉蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 149,#https://www.facebook.com/photo.php?fbid=491110714323911&set=o.458912734201477&type=3&theater#
+Lasiocampidae,枯葉蛾科,Trabala Vishnou guttata,青黃枯葉蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 151,#https://www.facebook.com/photo.php?fbid=467575983384837&set=o.458912734201477&type=3&theater#
+Lecithoceridae,折角蛾科,Caveana senuri,,,#https://www.facebook.com/photo.php?fbid=571382369551054&set=oa.461796713913079&type=3&theater#
+Lecithoceridae,折角蛾科,Issikiopteryx taipingensis,,,#https://www.facebook.com/photo.php?fbid=10203356085479027&set=o.177883715557195&type=1&permPage=1#
+Lecithoceridae,折角蛾科,Spatulignatha olaxana,,,#https://www.facebook.com/photo.php?fbid=853139551380419&set=o.458912734201477&type=3&theater#
+Lecithoceridae,折角蛾科,Tisis mesozosta,,認識台灣的昆蟲  20 長角蛾科 穀蛾科麥蛾科和其他一些小蛾類 ;  Page : 134,#https://www.facebook.com/photo.php?fbid=589464404502592&set=o.458912734201477&type=3&theater#
+Limacodidae,刺蛾科,Althonarosa horisyaensis,黑眉白刺蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 73,#https://www.facebook.com/photo.php?fbid=462641873823350&set=oa.458927214200029&type=3&theater#
+Limacodidae,刺蛾科,Belippa horrida,背刺蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 66,#https://www.facebook.com/photo.php?fbid=447137571965381&set=o.177883715557195&type=1&theater#
+Limacodidae,刺蛾科,Cania heppneri,灰雙線刺蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 77,#https://www.facebook.com/photo.php?fbid=461361527284718&set=oa.461679043924846&type=1&theater#
+Limacodidae,刺蛾科,Darna furva,三點斑刺蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 116,#http://www.facebook.com/photo.php?fbid=3212624794772&set=o.177883715557195&type=1&ref=nf#
+Limacodidae,刺蛾科,Darna pallivitta,赭刺蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 115,#https://www.facebook.com/photo.php?fbid=331416770316675&set=oa.589852744440808&type=3&theater#
+Limacodidae,刺蛾科,Demonarosa rufotessellata subrosea,艷刺蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 74,#https://www.facebook.com/photo.php?fbid=175000142628326&set=o.177883715557195&type=1&theater#
+Limacodidae,刺蛾科,Flavinarosa obscura,灰刺蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 72,#https://www.facebook.com/photo.php?fbid=334654453329560&set=o.458912734201477&type=3&theater#
+Limacodidae,刺蛾科,Miresa fulgida,中銀紋刺蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 81,#https://www.facebook.com/photo.php?fbid=418855168221449&set=oa.462259177200166&type=3&theater#
+Limacodidae,刺蛾科,Monema rubriceps,黃刺蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 85,#https://www.facebook.com/photo.php?fbid=308819582534739&set=o.177883715557195&type=1&theater#
+Limacodidae,刺蛾科,Narosa fulgens,褐點眉刺蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 70,#https://www.facebook.com/photo.php?fbid=2893374513331&set=o.177883715557195&type=1&theater#
+Limacodidae,刺蛾科,Narosoideus vulpinus,銀灰帶刺蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 75,#https://www.facebook.com/photo.php?fbid=10151446938770583&set=oa.459529720806445&type=3&theater#
+Limacodidae,刺蛾科,Parasa bicolor virescens,褐點綠刺蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 91,#https://www.facebook.com/photo.php?fbid=10203431587544382&set=o.458912734201477&type=3&theater#
+Limacodidae,刺蛾科,Parasa pastoralis,基黃綠刺蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 87,#http://www.facebook.com/photo.php?fbid=536088489757736&set=oa.555949914417238&type=1&theater#
+Limacodidae,刺蛾科,Parasa shirakii,褐邊綠刺蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 90,#https://www.facebook.com/photo.php?fbid=10151400793805583&set=oa.459529720806445&type=1&relevant_count=1&ref=nf#
+Limacodidae,刺蛾科,Parasa tessellata,基褐綠刺蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 88,#https://www.facebook.com/photo.php?fbid=174998619295145&set=o.177883715557195&type=1&theater#
+Limacodidae,刺蛾科,Phlossa conjuncta,三角斑刺蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 96,#https://www.facebook.com/photo.php?fbid=329387920519560&set=oa.589852744440808&type=3&theater#
+Limacodidae,刺蛾科,Phrixolepia inouei,角斑栗刺蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 93,#https://www.facebook.com/photo.php?fbid=644817885532449&set=o.177883715557195&type=1&permPage=1#
+Limacodidae,刺蛾科,Scopelodes contractus,球鬚刺蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 68,#https://www.facebook.com/photo.php?fbid=1404288723193494&set=o.458912734201477&type=3&theater#
+Limacodidae,刺蛾科,Setora postornata,八字褐刺蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : ,#https://www.facebook.com/photo.php?fbid=174999155961758&set=o.177883715557195&type=1&theater#
+Limacodidae,刺蛾科,Spatulifimbria castaneiceps opprimata,,,#https://www.facebook.com/photo.php?fbid=396713087110415&set=o.458912734201477&type=3&theater#
+Limacodidae,刺蛾科,Susica sinensis formosana,素刺蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 103,#https://www.facebook.com/photo.php?fbid=213581608762923&set=o.177883715557195&type=1&theater#
+Limacodidae,刺蛾科,Thosea cana,垂帶刺蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 108,#https://www.facebook.com/photo.php?fbid=461360440618160&set=oa.461679043924846&type=1&permPage=1#
+Limacodidae,刺蛾科,Thosea castanea,小褐刺蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 109,#https://www.facebook.com/photo.php?fbid=174998772628463&set=o.177883715557195&type=1&theater#
+Limacodidae,刺蛾科,Thosea rufa,三色刺蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 110,#https://www.facebook.com/photo.php?fbid=3322920352092&set=o.177883715557195&type=1&theater#
+Limacodidae,刺蛾科,Thosea sinensis,內點刺蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 112,#https://www.facebook.com/photo.php?fbid=489953604352112&set=o.177883715557195&type=1&permPage=1#
+Limacodidae,刺蛾科,Trichogyia circulifera,,,#https://www.facebook.com/photo.php?fbid=786330658057994&set=o.177883715557195&type=1&permPage=1#
+Neopseustidae,卵翅蛾科,Neopseustis meyricki,,認識台灣的昆蟲  20 長角蛾科 穀蛾科麥蛾科和其他一些小蛾類 ;  Page : 146,#http://www.facebook.com/photo.php?fbid=390617014378598&set=oa.544207992258097&type=1&relevant_count=1&ref=nf#
+Noctuidae,夜蛾科,Abrostola suisharyonis suisharyonis,,,#https://www.facebook.com/photo.php?fbid=1506407542916520&set=o.177883715557195&type=1&permPage=1#
+Noctuidae,夜蛾科,Acronicta gigasa,台灣桑劍紋夜蛾,台灣蛾類圖說五 ;  Page : 32,#https://www.facebook.com/photo.php?fbid=460934227327448&set=oa.458927214200029&type=3&theater#
+Noctuidae,夜蛾科,Acronicta pruinosa,胡頹子劍紋夜蛾,Lepidoptera of Taiwan Volume 1 ;  Page : 192,#https://www.facebook.com/photo.php?fbid=256886881120315&set=oa.465717243521026&type=3&theater#
+Noctuidae,夜蛾科,Agrotis ipsilon,小地老虎,合歡山的蛾 ;  Page : 510,#https://www.facebook.com/photo.php?fbid=231432910305157&set=o.177883715557195&type=3&theater#
+Noctuidae,夜蛾科,Agrotis segetum,黃地老虎,合歡山的蛾 ;  Page : 510,#https://www.facebook.com/photo.php?fbid=334540836703722&set=o.458912734201477&type=3&theater#
+Noctuidae,夜蛾科,Anadevidia peponis,葫蘆夜蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 259,#https://www.facebook.com/photo.php?fbid=497254360375562&set=oa.500800716598825&type=1#
+Noctuidae,夜蛾科,Anomis mesogona,,認識台灣的昆蟲 14夜蛾科--台灣鄰近地區的相關種類 ;  Page : 71,#https://www.facebook.com/photo.php?fbid=248696611898006&set=o.177883715557195&type=3&theater#
+Noctuidae,夜蛾科,Antha grata,斜額夜蛾,認識台灣的昆蟲 15 夜蛾科--台灣鄰近地區的相關種類 ;  Page : 78,#https://www.facebook.com/photo.php?fbid=459575364130001&set=oa.458927214200029&type=3&theater#
+Noctuidae,夜蛾科,Antoculeora yashimotoi,,,#https://www.facebook.com/photo.php?fbid=227285144054807&set=o.177883715557195&type=1&theater#
+Noctuidae,夜蛾科,Arcte coerula,苧麻夜蛾,合歡山的蛾 ;  Page : 387,#https://www.facebook.com/photo.php?fbid=394721557247196&set=o.177883715557195&type=1&theater#
+Noctuidae,夜蛾科,Callopistria duplicans,弧角散紋夜蛾,認識台灣的昆蟲 15 夜蛾科--台灣鄰近地區的相關種類 ;  Page : 103,#https://www.facebook.com/photo.php?fbid=343287589129593&set=oa.589852744440808&type=3&theater#
+Noctuidae,夜蛾科,Callopistria guttulalis,珠紋散紋夜蛾,認識台灣的昆蟲 15 夜蛾科--台灣鄰近地區的相關種類 ;  Page : 113,#https://www.facebook.com/photo.php?fbid=775284015844638&set=o.458912734201477&type=3&theater#
+Noctuidae,夜蛾科,Callopistria japonibia,東洋散紋夜蛾,台灣蛾類圖說五 ;  Page : 299,#https://www.facebook.com/photo.php?fbid=1502354853321789&set=o.177883715557195&type=1&permPage=1#
+Noctuidae,夜蛾科,Callopistria maillardi,粉紅帶散紋夜蛾,認識台灣的昆蟲 15 夜蛾科--台灣鄰近地區的相關種類 ;  Page : 107,#https://www.facebook.com/photo.php?fbid=512226002125556&set=o.177883715557195&type=1&permPage=1#
+Noctuidae,夜蛾科,Callopistria phaeogona,暗角散紋夜蛾,認識台灣的昆蟲 15 夜蛾科--台灣鄰近地區的相關種類 ;  Page : 110,#https://www.facebook.com/photo.php?fbid=919061484775977&set=o.177883715557195&type=1&permPage=1#
+Noctuidae,夜蛾科,Callopistria pulchrilinea,麗紋散紋夜蛾,認識台灣的昆蟲 15 夜蛾科--台灣鄰近地區的相關種類 ;  Page : 109,#https://www.facebook.com/photo.php?fbid=461436180607351&set=o.177883715557195&type=1&permPage=1#
+Noctuidae,夜蛾科,Callopistria repleta,紅暈散紋夜蛾,認識台灣的昆蟲 15 夜蛾科--台灣鄰近地區的相關種類 ;  Page : 105,#https://www.facebook.com/photo.php?fbid=10150828445985583&set=o.177883715557195&type=1&theater#
+Noctuidae,夜蛾科,Callyna semivitta,半點頂夜蛾,認識台灣的昆蟲 15 夜蛾科--台灣鄰近地區的相關種類 ;  Page : 74,#https://www.facebook.com/photo.php?fbid=667895743226742&set=oa.462151650544252&type=3&theater#
+Noctuidae,夜蛾科,Checupa stegeri,窄翅綠夜蛾,合歡山的蛾 ;  Page : 431,#https://www.facebook.com/photo.php?fbid=458838724203665&set=oa.458927214200029&type=3&theater#
+Noctuidae,夜蛾科,Chrysodeixis eriosoma,南方銀輝夜蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 250,#http://www.facebook.com/photo.php?fbid=2731830393883&set=o.177883715557195&type=1&ref=nf#
+Noctuidae,夜蛾科,Chytonix variegata,黯基斑流夜蛾,合歡山的蛾 ;  Page : 398,#https://www.facebook.com/photo.php?fbid=462604363827101&set=oa.458927214200029&type=3&theater#
+Noctuidae,夜蛾科,Condica illecta,大耳紋夜蛾,認識台灣的昆蟲 15 夜蛾科--台灣鄰近地區的相關種類 ;  Page : 94,#https://www.facebook.com/photo.php?fbid=3362795388943&set=o.177883715557195&type=3&theater#
+Noctuidae,夜蛾科,Craniophora fasciata,條首夜蛾,鞍馬山的蛾1 ;  Page : 77,#https://www.facebook.com/photo.php?fbid=859445260739287&set=o.177883715557195&type=1&permPage=1#
+Noctuidae,夜蛾科,Cruriopsis funebris cognata,碎斑虎蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 22,#https://www.facebook.com/photo.php?fbid=296336233792115&set=o.177883715557195&type=1&theater#
+Noctuidae,夜蛾科,Ctenoplusia albostriata,白條夜蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 254,#https://www.facebook.com/photo.php?fbid=3305739570838&set=o.177883715557195&type=1&permPage=1#
+Noctuidae,夜蛾科,Cymatophoropsis formosana,台灣斑蕊夜蛾,台灣蛾類圖說五 ;  Page : 19,#https://www.facebook.com/photo.php?fbid=571382402884384&set=oa.461796713913079&type=3&theater#
+Noctuidae,夜蛾科,Diarsia nigrosigna,黑點歹夜蛾,合歡山的蛾 ;  Page : 511,#http://www.flickr.com/photos/hkguu/5790616358/in/set-72157622169894055#
+Noctuidae,夜蛾科,Entomogramma fautrix,,認識台灣的昆蟲 14夜蛾科--台灣鄰近地區的相關種類 ;  Page : 94,#https://www.facebook.com/photo.php?fbid=659783397426239&set=o.177883715557195&type=1&permPage=1#
+Noctuidae,夜蛾科,Episteme lectrix sauteri,選彩虎蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 17,#https://www.facebook.com/photo.php?fbid=760841040603161&set=o.177883715557195&type=1&permPage=1#
+Noctuidae,夜蛾科,Euplexidia angusta,黃綠類錦夜蛾,合歡山的蛾 ;  Page : 443,#https://www.facebook.com/photo.php?fbid=452472268180273&set=o.177883715557195&type=1&permPage=1#
+Noctuidae,夜蛾科,Exsula dentatrix albomaculata,五斑虎蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 21,#https://www.facebook.com/photo.php?fbid=146694542122233&set=o.177883715557195&type=3&theater#
+Noctuidae,夜蛾科,Feliniopsis indistans,,Lepidoptera of Taiwan Volume 1 ;  Page : 194,#https://www.facebook.com/photo.php?fbid=313461312119807&set=o.177883715557195&type=1&permPage=1#
+Noctuidae,夜蛾科,Iontha acerces,,,
+Noctuidae,夜蛾科,Mimeusemia vilemani,四斑虎蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 19,#https://www.facebook.com/photo.php?fbid=608878322463595&set=o.177883715557195&type=1&permPage=1#
+Noctuidae,夜蛾科,Niphonyx segregata,葎草流夜蛾,認識台灣的昆蟲 15 夜蛾科--台灣鄰近地區的相關種類 ;  Page : 89,#https://www.facebook.com/photo.php?fbid=656298007792431&set=o.458912734201477&type=3&theater#
+Noctuidae,夜蛾科,Phlogophora albovittata,白斑衫夜蛾,合歡山的蛾 ;  Page : 443,#https://www.facebook.com/photo.php?fbid=394717330580952&set=o.177883715557195&type=1&ref=nf#
+Noctuidae,夜蛾科,Plusiopalpa adrasta shisa,長鬚銅夜蛾,合歡山的蛾 ;  Page : 394,#https://www.facebook.com/photo.php?fbid=231432596971855&set=o.177883715557195&type=3&theater#
+Noctuidae,夜蛾科,Polia goliath,鵬灰夜蛾,合歡山的蛾 ;  Page : 502,#https://www.facebook.com/photo.php?fbid=640398312711121&set=oa.585519974874085&type=3&theater#
+Noctuidae,夜蛾科,Sarbanissa interposita,白灰虎蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 15,#https://www.facebook.com/photo.php?fbid=452471588180341&set=o.177883715557195&type=1&permPage=1#
+Noctuidae,夜蛾科,Spodoptera litura,斜紋夜蛾,合歡山的蛾 ;  Page : 424,#http://www.facebook.com/photo.php?fbid=3434565579785&set=o.177883715557195&type=1&ref=nf#
+Noctuidae,夜蛾科,Thysanoplusia intermixta,,,#https://www.facebook.com/photo.php?fbid=340566016112976&set=o.458912734201477&type=3&theater#
+Noctuidae,夜蛾科,Tiracola plagiata,掌夜蛾,合歡山的蛾 ;  Page : 505,#https://www.facebook.com/photo.php?fbid=10151540020443956&set=o.177883715557195&type=1&permPage=1#
+Noctuidae,夜蛾科,Trachea auriplena auriplena,白斑陌夜蛾,合歡山的蛾 ;  Page : 430,#https://www.facebook.com/photo.php?fbid=657392557682976&set=o.458912734201477&type=3&theater#
+Noctuidae,夜蛾科,Trichosea champa,鑲夜蛾,認識台灣的昆蟲 15 夜蛾科--台灣鄰近地區的相關種類 ;  Page : 198,#https://www.facebook.com/photo.php?fbid=646030222077882&set=o.177883715557195&type=3&permPage=1#
+Noctuidae,夜蛾科,Trisuloides caerulea,藍后夜蛾,認識台灣的昆蟲 17 蛾類增補篇 ;  Page : 50,#https://www.facebook.com/photo.php?fbid=229607430484301&set=o.177883715557195&type=1&permPage=1#
+Noctuidae,夜蛾科,Trisuloides sericea,后夜蛾,台灣蛾類圖說五 ;  Page : 4,#http://www.facebook.com/photo.php?fbid=223711664407211&set=o.177883715557195&type=1&ref=nf#
+Noctuidae,夜蛾科,Xanthodes transversa,犁紋黃夜蛾,認識台灣的昆蟲 8 夜蛾科--台灣及其他地區之比較 ;  Page : 267,#https://www.facebook.com/photo.php?fbid=337591643032521&set=oa.589852744440808&type=3&theater#
+Noctuidae,夜蛾科,Xenotrachea albidisca pseudodisca,,,#https://www.facebook.com/photo.php?fbid=461359583951579&set=oa.461679043924846&type=3&theater#
+Noctuidae,夜蛾科,Xylostola indistincta,矇紋夜蛾,合歡山的蛾 ;  Page : 464,#https://www.facebook.com/photo.php?fbid=393941190658566&set=o.177883715557195&type=1&theater#
+Nolidae,瘤蛾科,Blenina senex,柿癬皮瘤蛾,合歡山的蛾 ;  Page : 285,#https://www.facebook.com/photo.php?fbid=332863543505331&set=oa.589852744440808&type=3&theater#
+Nolidae,瘤蛾科,Camptoloma carum,,認識台灣的昆蟲 14夜蛾科--台灣鄰近地區的相關種類 ;  Page : 186,#https://www.facebook.com/photo.php?fbid=472936382840775&set=o.177883715557195&type=1&permPage=1#
+Nolidae,瘤蛾科,Gabala roseoretis,,認識台灣的昆蟲 14夜蛾科--台灣鄰近地區的相關種類 ;  Page : 185,#https://www.facebook.com/photo.php?fbid=3370250535317&set=o.177883715557195&type=3&theater#
+Nolidae,瘤蛾科,Gadirtha inexacta,癩皮瘤蛾,合歡山的蛾 ;  Page : 284,#https://www.facebook.com/photo.php?fbid=469643223092962&set=oa.542778922401004&type=1&theater#
+Nolidae,瘤蛾科,Gadirtha pulchra,,,#https://www.facebook.com/photo.php?fbid=455756167851883&set=o.177883715557195&type=1&permPage=1#
+Nolidae,瘤蛾科,Hylophilodes esakii,,Lepidoptera of Taiwan Volume 1 ;  Page : 186,#http://www.flickr.com/photos/bettaman/6109489952/in/photostream/#
+Nolidae,瘤蛾科,Tyana falcata,綠角翅夜蛾,合歡山的蛾 ;  Page : 284,#https://www.facebook.com/photo.php?fbid=393938153992203&set=o.177883715557195&type=1&theater#
+Nolidae,瘤蛾科,Westermannia elliptica elliptica,圓俊瘤蛾,合歡山的蛾 ;  Page : 284,#https://www.facebook.com/photo.php?fbid=10150828441390583&set=o.177883715557195&type=1&theater#
+Notodontidae,舟蛾科,Chadisra bipars,眼紋木舟蛾,認識台灣的昆蟲 10 蘿紋娥科 帶蛾科 大?蛾科 ?蛾科 舟蛾科 ;  Page : 133,#https://www.facebook.com/photo.php?fbid=607073979311711&set=o.177883715557195&type=3&permPage=1#
+Notodontidae,舟蛾科,Chadisra bipartita,木舟蛾,認識台灣的昆蟲 10 蘿紋娥科 帶蛾科 大?蛾科 ?蛾科 舟蛾科 ;  Page : 134,#http://www.facebook.com/photo.php?fbid=174692305992443&set=o.177883715557195&type=1&ref=nf#
+Notodontidae,舟蛾科,Clostera anachoreta,楊扇舟蛾,認識台灣的昆蟲 10 蘿紋娥科 帶蛾科 大?蛾科 ?蛾科 舟蛾科 ;  Page : 231,#https://www.facebook.com/photo.php?fbid=471754819505324&set=o.177883715557195&type=1&permPage=1#
+Notodontidae,舟蛾科,Clostera restitura,,,#https://www.facebook.com/photo.php?fbid=209286399199700&set=o.177883715557195&type=1&permPage=1#
+Notodontidae,舟蛾科,Disparia variegata,迴舟蛾,認識台灣的昆蟲 10 蘿紋娥科 帶蛾科 大?蛾科 ?蛾科 舟蛾科 ;  Page : 156,#https://www.facebook.com/photo.php?fbid=461360780618126&set=oa.461679043924846&type=3&theater#
+Notodontidae,舟蛾科,Dudusa nobillis,斜帶白斑舟蛾,認識台灣的昆蟲 10 蘿紋娥科 帶蛾科 大?蛾科 ?蛾科 舟蛾科 ;  Page : 81,#https://www.facebook.com/photo.php?fbid=10201385003620810&set=o.177883715557195&type=1&permPage=1#
+Notodontidae,舟蛾科,Dudusa synopla,,,#https://www.facebook.com/photo.php?fbid=2164853498570&set=o.177883715557195&type=1&theater#
+Notodontidae,舟蛾科,Euhampsonia cristata,,,#https://www.facebook.com/photo.php?fbid=10151432231290583&set=oa.459529720806445&type=3&theater#
+Notodontidae,舟蛾科,Euhampsonia formosana,台灣星舟蛾,認識台灣的昆蟲 10 蘿紋娥科 帶蛾科 大?蛾科 ?蛾科 舟蛾科 ;  Page : 191,#http://www.facebook.com/photo.php?fbid=10151768032640173&set=o.177883715557195&type=1&theater#
+Notodontidae,舟蛾科,Fentonia baibarana,平紛舟蛾,認識台灣的昆蟲 10 蘿紋娥科 帶蛾科 大?蛾科 ?蛾科 舟蛾科 ;  Page : 137,#https://www.facebook.com/photo.php?fbid=1506411749582766&set=o.177883715557195&type=1&permPage=1#
+Notodontidae,舟蛾科,Formofentonia orbifer rotundata,褐頂斑舟蛾,認識台灣的昆蟲 10 蘿紋娥科 帶蛾科 大?蛾科 ?蛾科 舟蛾科 ;  Page : 185,#https://www.facebook.com/photo.php?fbid=10150828419390583&set=o.177883715557195&type=1&theater#
+Notodontidae,舟蛾科,Hyperaeschrella kosemponica,甲仙暗齒舟蛾,認識台灣的昆蟲 10 蘿紋娥科 帶蛾科 大?蛾科 ?蛾科 舟蛾科 ;  Page : 219,#https://www.facebook.com/photo.php?fbid=231420390306409&set=o.177883715557195&type=3&theater#
+Notodontidae,舟蛾科,Hyperaeschrella nigribasis,雙線亥齒舟蛾,認識台灣的昆蟲 10 蘿紋娥科 帶蛾科 大?蛾科 ?蛾科 舟蛾科 ;  Page : 219,#https://www.facebook.com/photo.php?fbid=864282876922192&set=o.177883715557195&type=1&permPage=1#
+Notodontidae,舟蛾科,Liparopsis formosana,中灰舟蛾,認識台灣的昆蟲 10 蘿紋娥科 帶蛾科 大?蛾科 ?蛾科 舟蛾科 ;  Page : 93,#https://www.facebook.com/photo.php?fbid=772549739445771&set=o.458912734201477&type=3&theater#
+Notodontidae,舟蛾科,Mesophalera bruno,,,#https://www.facebook.com/photo.php?fbid=232791790155155&set=o.177883715557195&type=3&theater#
+Notodontidae,舟蛾科,Mesophalera sigmata,下黑舟蛾,認識台灣的昆蟲 10 蘿紋娥科 帶蛾科 大?蛾科 ?蛾科 舟蛾科 ;  Page : 166,#https://www.facebook.com/photo.php?fbid=418695111498501&set=a.400345923333420.95171.100000740485445&type=1&theater#
+Notodontidae,舟蛾科,Neocerura liturata liturata,,,#https://www.facebook.com/photo.php?fbid=639188389496599&set=pcb.786734834672077&type=1&relevant_count=2#
+Notodontidae,舟蛾科,Neopheosia fasciata fasciata,雲舟蛾,鞍馬山的蛾 2 ;  Page : 106,#https://www.facebook.com/photo.php?fbid=3306382858665&set=o.177883715557195&type=1&theater#
+Notodontidae,舟蛾科,Netria multispinae multispinae,,,#https://www.facebook.com/photo.php?fbid=3370238815024&set=o.177883715557195&type=3&theater#
+Notodontidae,舟蛾科,Periergos magna,裂紋舟蛾,認識台灣的昆蟲 10 蘿紋娥科 帶蛾科 大?蛾科 ?蛾科 舟蛾科 ;  Page : 155,#https://www.facebook.com/photo.php?fbid=461360537284817&set=oa.461679043924846&type=3&theater#
+Notodontidae,舟蛾科,Phalera flavescens,黑緣舟蛾,認識台灣的昆蟲 10 蘿紋娥科 帶蛾科 大?蛾科 ?蛾科 舟蛾科 ;  Page : 172,#https://www.facebook.com/photo.php?fbid=343287672462918&set=oa.589852744440808&type=3&theater#
+Notodontidae,舟蛾科,Pseudofentonia (Disparia) diluta variegata,弱擬紛舟蛾,鞍馬山的蛾 2 ;  Page : 111,#https://www.facebook.com/photo.php?fbid=419751141465185&set=oa.462259177200166&type=3&theater#
+Notodontidae,舟蛾科,Pseudofentonia (Mimus) nigrofasciata,黑紋擬紛舟蛾,鞍馬山的蛾 2 ;  Page : 111,#https://www.facebook.com/photo.php?fbid=332863470172005&set=oa.589852744440808&type=3&theater#
+Notodontidae,舟蛾科,Ptilodon saturata,絢羽齒舟蛾,鞍馬山的蛾 2 ;  Page : 114,#https://www.facebook.com/photo.php?fbid=632682716816014&set=oa.585519974874085&type=3&theater#
+Notodontidae,舟蛾科,Rachiades albimaculata,蕈紋埔舟蛾,台灣蛾類圖說二 ;  Page : 274,#https://www.facebook.com/photo.php?fbid=461358870618317&set=oa.461679043924846&type=3&theater#
+Notodontidae,舟蛾科,Semidonta basalis,銀裙舟蛾,認識台灣的昆蟲 10 蘿紋娥科 帶蛾科 大?蛾科 ?蛾科 舟蛾科 ;  Page : 221,#https://www.facebook.com/photo.php?fbid=461361200618084&set=oa.461679043924846&type=3&theater#
+Notodontidae,舟蛾科,Somera viridifusca viridifusca,,,#https://www.facebook.com/photo.php?fbid=622777607812594&set=o.177883715557195&type=1&permPage=1#
+Notodontidae,舟蛾科,Stauropus alternus,弓紋蟻舟蛾,認識台灣的昆蟲 10 蘿紋娥科 帶蛾科 大?蛾科 ?蛾科 舟蛾科 ;  Page : 96,#https://www.facebook.com/photo.php?fbid=293531144072854&set=o.177883715557195&type=1&ref=nf#
+Notodontidae,舟蛾科,Syntypistis pallidifascia pallidifascia,褐丸胯舟蛾,認識台灣的昆蟲 10 蘿紋娥科 帶蛾科 大?蛾科 ?蛾科 舟蛾科 ;  Page : 119,#https://www.facebook.com/photo.php?fbid=461358097285061&set=oa.461679043924846&type=3&theater#
+Notodontidae,舟蛾科,Syntypistis subgeneris,,,#https://www.facebook.com/photo.php?fbid=859446167405863&set=o.177883715557195&type=1&permPage=1#
+Notodontidae,舟蛾科,Syntypistis umbrosa,,,#https://www.facebook.com/photo.php?fbid=369389133172796&set=oa.468623806563703&type=3&theater#
+Notodontidae,舟蛾科,Tarsolepis taiwana,銀斑斷舟蛾,認識台灣的昆蟲 10 蘿紋娥科 帶蛾科 大?蛾科 ?蛾科 舟蛾科 ;  Page : 90,#https://www.facebook.com/photo.php?fbid=440064992689166&set=o.177883715557195&type=1&theater#
+Notodontidae,舟蛾科,Togaritensha curvilinea,黃斑舟蛾,認識台灣的昆蟲 10 蘿紋娥科 帶蛾科 大?蛾科 ?蛾科 舟蛾科 ;  Page : 154,#https://www.facebook.com/photo.php?fbid=393935480659137&set=o.177883715557195&type=1&theater#
+Notodontidae,舟蛾科,Uropyia meticulodina,雙色美舟蛾,認識台灣的昆蟲 10 蘿紋娥科 帶蛾科 大?蛾科 ?蛾科 舟蛾科 ;  Page : 131,#http://www.flickr.com/photos/bettaman/6105798259/in/photostream#
+Oecophoridae,織蛾科,Ashinaga longimana,長腳大織蛾,認識台灣的昆蟲 17 蛾類增補篇 ;  Page : 139,#https://www.facebook.com/photo.php?fbid=10204068735788566&set=o.458912734201477&type=3&theater#
+Oecophoridae,織蛾科,Lamprystica purpurata,,,#https://www.facebook.com/photo.php?fbid=763333907024569&set=o.458912734201477&type=3#
+Pterophoridae,羽蛾科,Diacrotricha fasciola,,,#https://www.facebook.com/photo.php?fbid=678782068855296&set=o.177883715557195&type=1&permPage=1#
+Pyralidae,螟蛾科,Arctioblepsis rubida,黑脈厚鬚螟,認識台灣的昆蟲 19 螟蛾總科 ;  Page : 21,#https://www.facebook.com/photo.php?fbid=774801012553977&set=o.458912734201477&type=3&theater#
+Pyralidae,螟蛾科,Arippara indicator,,認識台灣的昆蟲 19 螟蛾總科 ;  Page : 17,#https://www.facebook.com/photo.php?fbid=597215653718732&set=oa.626549394104476&type=3&theater#
+Pyralidae,螟蛾科,Coenodomus dudgeoni,,,#https://www.facebook.com/photo.php?fbid=630024800347170&set=oa.538685142810382&type=1&permPage=1#
+Pyralidae,螟蛾科,Doloessa viridis,,認識台灣的昆蟲 19 螟蛾總科 ;  Page : 34,#https://www.facebook.com/photo.php?fbid=3370207694246&set=o.177883715557195&type=1&theater#
+Pyralidae,螟蛾科,Endotricha consocia,,認識台灣的昆蟲 19 螟蛾總科 ;  Page : 25,#https://www.facebook.com/photo.php?fbid=393928663993152&set=o.177883715557195&type=1&theater#
+Pyralidae,螟蛾科,Herculia pelasgalis,赤雙紋螟,認識台灣的昆蟲 19 螟蛾總科 ;  Page : 12,#https://www.facebook.com/photo.php?fbid=418854931554806&set=oa.462259177200166&type=3&theater#
+Pyralidae,螟蛾科,Locastra muscosalis,,認識台灣的昆蟲 19 螟蛾總科 ;  Page : 40,#https://www.facebook.com/photo.php?fbid=278740092299721&set=gm.781160848562809&type=1#
+Pyralidae,螟蛾科,Orybina flaviplaga,金雙斑螟蛾,認識台灣的昆蟲 19 螟蛾總科 ;  Page : 23,#https://www.facebook.com/photo.php?fbid=254238504718486&set=oa.463437060415711&type=3&theater#
+Pyralidae,螟蛾科,Propachys nigrivena,,,#https://www.facebook.com/photo.php?fbid=256880194454317&set=oa.465717243521026&type=3&theater#
+Pyralidae,螟蛾科,Tegulifera bicoloralis,,,#https://www.facebook.com/photo.php?fbid=139916842809950&set=o.177883715557195&type=1&permPage=1#
+Saturniidae,天蠶蛾科,Actias heterogyna subaurea,,,#https://www.facebook.com/photo.php?fbid=10201949210362779&set=o.458912734201477&type=3&theater#
+Saturniidae,天蠶蛾科,Actias neidhoederi,,,#https://www.facebook.com/photo.php?fbid=632678416816444&set=oa.585519974874085&type=3&theater#
+Saturniidae,天蠶蛾科,Actias selene ningpoana,長尾水青蛾,認識台灣的昆蟲 6 鱗翅目王蛾科　木蠹蛾科 ;  Page : 22,#https://www.facebook.com/photo.php?fbid=3256876175774&set=o.177883715557195&type=1&theater#
+Saturniidae,天蠶蛾科,Antheraea formosana,紅目天蠶蛾,認識台灣的昆蟲 6 鱗翅目王蛾科　木蠹蛾科 ;  Page : 51,#https://www.facebook.com/photo.php?fbid=544906552297937&set=o.458912734201477&type=3&theater#
+Saturniidae,天蠶蛾科,Attacus atlas formosanus,皇蛾,認識台灣的昆蟲 6 鱗翅目王蛾科　木蠹蛾科 ;  Page : 12,#https://www.facebook.com/photo.php?fbid=779525612079408&set=o.177883715557195&type=1&permPage=1#
+Saturniidae,天蠶蛾科,Eriogyna pyretorum pearsoni,四黑目天蠶蛾,認識台灣的昆蟲 6 鱗翅目王蛾科　木蠹蛾科 ;  Page : 99,#https://www.facebook.com/photo.php?fbid=447972175215201&set=o.177883715557195&type=3&theater#
+Saturniidae,天蠶蛾科,Loepa formosensis,黃豹天蠶蛾,認識台灣的昆蟲 6 鱗翅目王蛾科　木蠹蛾科 ;  Page : 60,#https://www.facebook.com/photo.php?fbid=288145881320830&set=oa.467684346657649&type=3&theater#
+Saturniidae,天蠶蛾科,Loepa mirandula,大黃豹天蠶蛾,Waiting for collect ;  Page : ,#https://www.facebook.com/photo.php?fbid=642791742470022&set=o.458912734201477&type=3&theater#
+Saturniidae,天蠶蛾科,Samia wangi,,,#http://www.facebook.com/photo.php?fbid=174687302659610&set=o.177883715557195&type=1&ref=nf#
+Saturniidae,天蠶蛾科,Samia watsoni formosana,大眉紋天蠶蛾,認識台灣的昆蟲 6 鱗翅目王蛾科　木蠹蛾科 ;  Page : 85,#http://www.facebook.com/photo.php?fbid=295994897159582&set=o.177883715557195&type=1&ref=nf#
+Sesiidae,透翅蛾科,Nokona chrysoides,,,#http://www.facebook.com/photo.php?fbid=3702475236627&set=oa.429940800351484&type=1&ref=nf#
+Sesiidae,透翅蛾科,Oligophlebiella polishana,,認識台灣的昆蟲  20 長角蛾科 穀蛾科麥蛾科和其他一些小蛾類 ;  Page : 194,#https://www.facebook.com/photo.php?fbid=576322582407450&set=gm.459043057521778&type=1&relevant_count=1&ref=nf#
+Sphingidae,天蛾科,Acherontia lachesis,人面天蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 177,#http://www.facebook.com/photo.php?fbid=398013793557905&set=oa.360991020579796&type=1&theater#
+Sphingidae,天蛾科,Acosmerycoides harterti,鋸線天蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 226,#https://www.facebook.com/photo.php?fbid=753678591332537&set=o.177883715557195&type=1&permPage=1#
+Sphingidae,天蛾科,Acosmeryx castanea,半緣缺角天蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 227,#https://www.facebook.com/photo.php?fbid=594022697282662&set=o.177883715557195&type=1&permPage=1#
+Sphingidae,天蛾科,Acosmeryx naga naga,全緣缺角天蛾,鞍馬山的蛾 2 ;  Page : 89,#https://www.facebook.com/photo.php?fbid=422539681099525&set=o.177883715557195&type=1&theater#
+Sphingidae,天蛾科,Agrius convolvuli,蝦殼天蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 174,#https://www.facebook.com/photo.php?fbid=293530737406228&set=o.177883715557195&type=1&theater#
+Sphingidae,天蛾科,Ambulyx ochracea,裂斑鷹翅天蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 188,#https://www.facebook.com/photo.php?fbid=684966911562739&set=oa.568578586568224&type=3&theater#
+Sphingidae,天蛾科,Ambulyx sericeipennis,亞洲鷹翅天蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 186,#https://www.facebook.com/photo.php?fbid=479077928893287&set=o.177883715557195&type=1&permPage=1#
+Sphingidae,天蛾科,Ampelophaga rubiginosa myosotis,背中白天蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 225,#https://www.facebook.com/photo.php?fbid=474544629313202&set=oa.623005081125574&type=3&theater#
+Sphingidae,天蛾科,Angonyx testacea,褐綠天蛾,Waiting for collect ;  Page : ,#https://www.facebook.com/photo.php?fbid=10152014749611831&set=oa.783034131708814&type=1&theater#
+Sphingidae,天蛾科,Callambulyx tatarinovii formosana,榆綠天蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 215,#https://www.facebook.com/photo.php?fbid=366576953401738&set=o.177883715557195&type=1&theater#
+Sphingidae,天蛾科,Cechenena lineosa,背線天蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 282,#https://www.facebook.com/photo.php?fbid=246279672242168&set=oa.649037245189024&type=1&theater#
+Sphingidae,天蛾科,Cechenena minor,平背天蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 281,#http://www.facebook.com/photo.php?fbid=432553206762946&set=o.177883715557195&type=1&ref=nf#
+Sphingidae,天蛾科,Cephonodes hylas,透翅天蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 219,#https://www.facebook.com/photo.php?fbid=604763856208375&set=o.177883715557195&type=1&permPage=1#
+Sphingidae,天蛾科,Clanis bilineata formosana,豆天蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 196,#https://www.facebook.com/photo.php?fbid=231422576972857&set=o.177883715557195&type=3&theater#
+Sphingidae,天蛾科,Cypoides chinensis,楓天蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 213,#https://www.facebook.com/photo.php?fbid=663800197042212&set=o.458912734201477&type=3&theater#
+Sphingidae,天蛾科,Dahira rubiginosa,赭色天蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 224,#https://www.facebook.com/photo.php?fbid=592344697451875&set=oa.461310140628403&type=3&theater#
+Sphingidae,天蛾科,Daphnis hypothous crameri,暗綠白腰天蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 221,#https://www.facebook.com/photo.php?fbid=288145677987517&set=oa.467684346657649&type=3&theater#
+Sphingidae,天蛾科,Daphnis nerii,粉綠白腰天蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 222,#https://www.facebook.com/photo.php?fbid=4060753207079&set=o.177883715557195&type=1&theater#
+Sphingidae,天蛾科,Dolbina inexacta,白星天蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 184,#https://www.facebook.com/photo.php?fbid=684967541562676&set=oa.568578586568224&type=3&theater#
+Sphingidae,天蛾科,Hippotion celerio,銀條斜線天蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 257,#https://www.facebook.com/photo.php?fbid=307913179375670&set=gm.803673412978219&type=1#
+Sphingidae,天蛾科,Hippotion velox,斜線天蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 259,#https://www.facebook.com/photo.php?fbid=288144707987614&set=oa.467684346657649&type=3&theater#
+Sphingidae,天蛾科,Langia zenzeroides formosana,鋸翅天蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 207,#https://www.facebook.com/photo.php?fbid=2862735905838&set=o.177883715557195&type=1&theater#
+Sphingidae,天蛾科,Macroglossum bombylans,青背長喙天蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 247,#https://www.facebook.com/photo.php?fbid=3397583294755&set=o.177883715557195&type=3&theater#
+Sphingidae,天蛾科,Macroglossum corythus luteatum,平帶長喙天蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 253,#https://www.facebook.com/photo.php?fbid=340711555996886&set=o.177883715557195&type=1&theater#
+Sphingidae,天蛾科,Macroglossum fritzei,佛瑞茲長喙天蛾,認識台灣的昆蟲 17 蛾類增補篇 ;  Page : 122,#http://www.facebook.com/photo.php?fbid=3311125657232&set=o.177883715557195&type=1&ref=nf#
+Sphingidae,天蛾科,Macroglossum heliophila,九節木長喙天蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 243,#https://www.facebook.com/photo.php?fbid=10200308785536877&set=o.177883715557195&type=1&permPage=1#
+Sphingidae,天蛾科,Macroglossum mitchelli imperator,背帶長喙天蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 250,#https://www.facebook.com/photo.php?fbid=204554263037872&set=o.458912734201477&type=3&theater#
+Sphingidae,天蛾科,Macroglossum neotroglodytus,灰紋長喙天蛾,Waiting for collect ;  Page : ,#https://www.facebook.com/photo.php?fbid=476253245809007&set=oa.623005081125574&type=3&theater#
+Sphingidae,天蛾科,Macroglossum passalus,虎皮楠長喙天蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 249,#https://www.facebook.com/photo.php?fbid=662229283803020&set=oa.468156699943747&type=3&theater#
+Sphingidae,天蛾科,Macroglossum poecilum,叉帶長喙天蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 240,#https://www.facebook.com/photo.php?fbid=475223079245357&set=oa.623005081125574&type=3&theater#
+Sphingidae,天蛾科,Macroglossum pyrrhosticta,黃斑長喙天蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 236,#https://www.facebook.com/photo.php?fbid=417951258302549&set=gm.600038250008404&type=1#
+Sphingidae,天蛾科,Macroglossum sitiene,膝帶長喙天蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 241,#https://www.facebook.com/photo.php?fbid=235872339861214&set=o.177883715557195&type=1&theater#
+Sphingidae,天蛾科,Macroglossum ungues cheni,陳氏長喙天蛾,Waiting for collect ;  Page : ,#http://www.facebook.com/photo.php?fbid=391228214249685&set=oa.437066749638889&type=1&ref=nf#
+Sphingidae,天蛾科,Marumba cristata bukaiana,楠六點天蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 205,#https://www.facebook.com/photo.php?fbid=403903486416687&set=o.458912734201477&type=3&theater#
+Sphingidae,天蛾科,Marumba gaschkewitschii gressitti,桃六點天蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 200,#https://www.facebook.com/photo.php?fbid=464291523655135&set=oa.459494137476670&type=3&theater#
+Sphingidae,天蛾科,Marumba sperchius horiana,栗六點天蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 204,#https://www.facebook.com/photo.php?fbid=686351551436663&set=o.177883715557195&type=1&permPage=1#
+Sphingidae,天蛾科,Meganoton analis gressitti,粗斜紋天蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 180,#https://www.facebook.com/photo.php?fbid=862436377105564&set=o.177883715557195&type=1&permPage=1#
+Sphingidae,天蛾科,Neogurelca himachala sangaica,三角凹緣天蛾,Waiting for collect ;  Page : ,#https://www.facebook.com/photo.php?fbid=572509502848302&set=pcb.648541528571929&type=1&theater#
+Sphingidae,天蛾科,Neogurelca hyas,凹緣天蛾,Waiting for collect ;  Page : ,#https://www.facebook.com/photo.php?fbid=407595582614403&set=o.177883715557195&type=1&permPage=1#
+Sphingidae,天蛾科,Parum colligata,構月天蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 209,#https://www.facebook.com/photo.php?fbid=790000894365213&set=gm.787585684586992&type=1#
+Sphingidae,天蛾科,Pergesa actea,斜綠天蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 274,#https://www.facebook.com/photo.php?fbid=794286353924636&set=o.458912734201477&type=3&theater#
+Sphingidae,天蛾科,Polyptychus chinensis,三線天蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 199,#https://www.facebook.com/photo.php?fbid=777623905590481&set=gm.651709298255152&type=1&theater#
+Sphingidae,天蛾科,Psilogramma increta,霜降天蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 181,#http://www.flickr.com/photos/hkguu/4589265008/in/set-72157622169894055#
+Sphingidae,天蛾科,Psilogramma menephron,霜天蛾,Waiting for collect ;  Page : ,#https://www.facebook.com/photo.php?fbid=656309307756841&set=o.177883715557195&type=1&permPage=1#
+Sphingidae,天蛾科,Rhagastis binoculata,雙斑白肩天蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 280,#https://www.facebook.com/photo.php?fbid=638558586228427&set=oa.585519974874085&type=3&theater#
+Sphingidae,天蛾科,Rhagastis mongoliana,蒙古白肩天蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 277,#https://www.facebook.com/photo.php?fbid=885853524764295&set=oa.462151650544252&type=3&theater#
+Sphingidae,天蛾科,Theretra clotho,斜紋天蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 265,#https://www.facebook.com/photo.php?fbid=256829051126098&set=oa.465717243521026&type=3&theater#
+Sphingidae,天蛾科,Theretra latreillii lucasii,直翅斜紋天蛾,Waiting for collect ;  Page : ,#https://www.facebook.com/photo.php?fbid=408256032548358&set=o.177883715557195&type=1&theater#
+Sphingidae,天蛾科,Theretra nessus,綠背斜紋天蛾,認識台灣的昆蟲 9 蠶蛾科 波紋蛾科 刺蛾科 枯葉蛾科天蛾科 ;  Page : 263,#https://www.facebook.com/photo.php?fbid=463864450426267&set=o.177883715557195&type=1&permPage=1#
+Sphingidae,天蛾科,Theretra oldenlandiae oldenlandiae,雙斜紋天蛾,Waiting for collect ;  Page : ,#https://www.facebook.com/photo.php?fbid=472154862801189&set=o.177883715557195&type=1&theater#
+Thyrididae,網蛾科,Pyrinioides sinuosus,金盞窗蛾,Waiting for collect ;  Page : ,#http://www.facebook.com/photo.php?fbid=10150891333024525&set=o.177883715557195&type=1&ref=nf#
+Thyrididae,網蛾科,Sonagara strigipennis,岔紋窗蛾,認識台灣的昆蟲  20 長角蛾科 穀蛾科麥蛾科和其他一些小蛾類 ;  Page : 225,#https://www.facebook.com/photo.php?fbid=458859264201611&set=oa.458927214200029&type=3&theater#
+Tineidae,蕈蛾科,Machaeropteris petalacma,,認識台灣的昆蟲  20 長角蛾科 穀蛾科麥蛾科和其他一些小蛾類 ;  Page : 37,#https://www.facebook.com/photo.php?fbid=10150801687699525&set=o.177883715557195&type=3&theater#
+Tineidae,蕈蛾科,Monopis monochella,,,#https://www.facebook.com/photo.php?fbid=465419983545539&set=oa.458927214200029&type=3&theater#
+Tineidae,蕈蛾科,Tinea pellionella,,認識台灣的昆蟲  20 長角蛾科 穀蛾科麥蛾科和其他一些小蛾類 ;  Page : 50,#https://www.facebook.com/photo.php?fbid=584913074866735&set=gm.603495479662681&type=1#
+Tortricidae,捲蛾科,Adoxophyes privatana,,,#https://www.facebook.com/photo.php?fbid=243610192448286&set=o.177883715557195&type=1&permPage=1#
+Tortricidae,捲蛾科,Cryptophlebia relpetana,,,#https://www.facebook.com/photo.php?fbid=4989410052430&set=oa.465470320212385&type=3&theater#
+Tortricidae,捲蛾科,Homona magnanima,,,#https://www.facebook.com/photo.php?fbid=886983644652115&set=o.177883715557195&type=1&permPage=1#
+Uraniidae,燕蛾科,Acropteris leptaliata,微點燕蛾,Waiting for collect ;  Page : ,#https://www.facebook.com/photo.php?fbid=555157331272859&set=o.458912734201477&type=3&theater#
+Uraniidae,燕蛾科,Chundana emarginata,,,#https://www.facebook.com/photo.php?fbid=461359650618239&set=oa.461679043924846&type=3&theater#
+Uraniidae,燕蛾科,Dysaethria cretacea,,,#https://www.facebook.com/photo.php?fbid=152785961513091&set=o.177883715557195&type=1&theater#
+Uraniidae,燕蛾科,Dysaethria flavistriga,黃紋雙尾蛾,Waiting for collect ;  Page : ,#https://www.facebook.com/photo.php?fbid=331689290289423&set=oa.589852744440808&type=3&theater#
+Uraniidae,燕蛾科,Lyssa zampa,大黑燕蛾,認識台灣的昆蟲 17 蛾類增補篇 ;  Page : 157,#http://www.facebook.com/photo.php?fbid=2084142139547&set=o.177883715557195&type=1&ref=nf#
+Uraniidae,燕蛾科,Micronia aculeata,一點燕蛾,Waiting for collect ;  Page : ,#https://www.facebook.com/photo.php?fbid=10152420229449525&set=o.177883715557195&type=1&permPage=1#
+Uraniidae,燕蛾科,Oroplema plagifera,,Waiting for collect ;  Page : ,#https://www.facebook.com/photo.php?fbid=463137893770498&set=oa.459494137476670&type=3&theater#
+Uraniidae,燕蛾科,Phazaca kosemponicola,甲仙雙尾蛾,Waiting for collect ;  Page : ,#https://www.facebook.com/photo.php?fbid=10201995680682338&set=o.458912734201477&type=3&theater#
+Uraniidae,燕蛾科,Pseudomicronia advocataria,,,#http://www.facebook.com/photo.php?fbid=3212677596092&set=o.177883715557195&type=1&ref=nf#
+Uraniidae,燕蛾科,Pterotosoma castanea,暗帶雙尾蛾,認識台灣的昆蟲 17 蛾類增補篇 ;  Page : ,#https://www.facebook.com/photo.php?fbid=463115827106038&set=oa.459494137476670&type=3&theater#
+Uraniidae,燕蛾科,Warreniplema fumicosta,,,#https://www.facebook.com/photo.php?fbid=489954007685405&set=o.177883715557195&type=1&permPage=1#
+Zygaenidae,斑蛾科,Agalope trimacula,,,#https://www.facebook.com/photo.php?fbid=724544267588222&set=gm.651773998248682&type=1&theater#
+Zygaenidae,斑蛾科,Arbudas leno,,,
+Zygaenidae,斑蛾科,Artona hainana,海南禾斑蛾,認識台灣的昆蟲 12 斑蛾和其他一些白天活動的蛾類 ;  Page : ,#https://www.facebook.com/photo.php?fbid=3322979353567&set=o.177883715557195&type=1&theater#
+Zygaenidae,斑蛾科,Balataea taiwana,,,#https://www.facebook.com/photo.php?fbid=804571839566810&set=o.458912734201477&type=3&theater#
+Zygaenidae,斑蛾科,Chalcosia diana,,,#https://www.facebook.com/photo.php?fbid=4191515483440&set=o.177883715557195&type=1&permPage=1#
+Zygaenidae,斑蛾科,Chalcosia formosana contradicta,,,#https://www.facebook.com/photo.php?fbid=399855493386957&set=o.177883715557195&type=3&theater#
+Zygaenidae,斑蛾科,Chalcosia thaivana owadai,,,#https://www.facebook.com/photo.php?fbid=475658095785007&set=o.177883715557195&type=3&theater#
+Zygaenidae,斑蛾科,Chalcosia thaivana thaivana,,,#https://www.facebook.com/photo.php?fbid=922112231135971&set=o.458912734201477&type=3&theater#
+Zygaenidae,斑蛾科,Clelea formosana,蓬萊藍紋斑蛾,認識台灣的昆蟲 12 斑蛾和其他一些白天活動的蛾類 ;  Page : ,#https://www.facebook.com/photo.php?fbid=452473188180181&set=o.177883715557195&type=1&permPage=1#
+Zygaenidae,斑蛾科,Erasmia pulchella hobsoni,雙星錦斑蛾,認識台灣的昆蟲 12 斑蛾和其他一些白天活動的蛾類 ;  Page : 34,#https://www.facebook.com/photo.php?fbid=542094869245772&set=o.177883715557195&type=1&permPage=1#
+Zygaenidae,斑蛾科,Erasmiphlebohecta picturata,,,#http://www.facebook.com/photo.php?fbid=3332908961801&set=o.177883715557195&type=1&ref=nf#
+Zygaenidae,斑蛾科,Eterusia aedea formosana,茶斑蛾,認識台灣的昆蟲 12 斑蛾和其他一些白天活動的蛾類 ;  Page : 39,#https://www.facebook.com/photo.php?fbid=662229100469705&set=oa.468156699943747&type=3&theater#
+Zygaenidae,斑蛾科,Eterusia taiwana,臺灣茶斑蛾,Waiting for collect ;  Page : ,#https://www.facebook.com/photo.php?fbid=381442018561107&set=o.177883715557195&type=3&theater#
+Zygaenidae,斑蛾科,Formozygaena shibatai,,,#https://www.facebook.com/photo.php?fbid=4157448810682&set=o.177883715557195&type=1&permPage=1#
+Zygaenidae,斑蛾科,Gynautocera rubriscutellata,紅腹長翅螢斑蛾,Waiting for collect ;  Page : ,#https://www.facebook.com/photo.php?fbid=863240373693109&set=o.177883715557195&type=1&permPage=1#
+Zygaenidae,斑蛾科,Histia flabellicornis ultima,重陽木螢斑蛾,Waiting for collect ;  Page : ,#https://www.facebook.com/photo.php?fbid=442012375816858&set=o.177883715557195&type=1&theater#
+Zygaenidae,斑蛾科,Hysteroscene extravagans,,,#https://www.facebook.com/photo.php?fbid=1456627957919463&set=o.177883715557195&type=1&theater#
+Zygaenidae,斑蛾科,Illiberis horni,,,#https://www.facebook.com/photo.php?fbid=863241097026370&set=o.177883715557195&type=1&permPage=1#
+Zygaenidae,斑蛾科,Illiberis phacusana,,,#https://www.facebook.com/photo.php?fbid=464768260206159&set=o.177883715557195&type=1&theater#
+Zygaenidae,斑蛾科,Pidorus atratus,,,#https://www.facebook.com/photo.php?fbid=824033327624312&set=o.177883715557195&type=1&permPage=1#
+Zygaenidae,斑蛾科,Rhodopsona marginata,,,#https://www.facebook.com/photo.php?fbid=2728237983649&set=o.177883715557195&type=1&theater#
+Zygaenidae,斑蛾科,Soritia strandi,史氏狹翅螢斑蛾,Waiting for collect ;  Page : ,#https://www.facebook.com/photo.php?fbid=418910218132418&set=o.177883715557195&type=3&theater#

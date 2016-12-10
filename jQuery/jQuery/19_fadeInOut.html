@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>jQuery</title>
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/jquery-3.1.0.min.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
+		<script>
+			$(document).ready(function(){
+			//	$('img').hover(function(){},function(){});
+			/*	$('img').hover(function(){
+					$(this).fadeOut(1500);
+				},function(){
+					$(this).fadeIn(1500);
+				});
+			*/
+			
+				$('img').click(function(){
+					$(this).fadeOut(1000).delay(1000).fadeIn();
+				});
+			});
+		</script>
+	</head>
+	<body>
+		
+		<div>
+			<img src="../images/washDrawing/001.JPG">
+		</div>
+		<div id="feedback"></div>
+	</body>
+</html>

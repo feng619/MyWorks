@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+<style type="text/css">
+	svg{
+		outline: 2px solid #ccc;
+	}
+</style>
+</head>
+<body>
+
+	<script>
+		var w = 400; 
+		var h = 200;
+
+		var svg = d3.select('body').append('svg')
+					.attr('width', w)
+					.attr('height', h);
+
+
+
+
+		var data_cir = [{before:{'cx':"300.504", 'cy':"129.58", 'r':"10.925"}, after:{'cx':"590.369", 'cy':"292.417"}},
+						{before:{'cx':"232.397", 'cy':"235.317", 'r':"10.925"}, after:{'cx':"545.747", 'cy':"266.216"}},
+						{before:{'cx':"341.264", 'cy':"308.505", 'r':"10.925"}, after:{'cx':"518.548", 'cy':"394.547"}}];
+
+		var data_line = [{before:{'x1':"294.592", 'y1':"138.758", 'x2':"237.908", 'y2':"226.76"},
+							 after:{'x1':"585.017", 'y1':"303.342", 'x2':"528.332", 'y2':"391.345"}},
+						 {before:{'x1':"240.656", 'y1':"240.87", 'x2':"332.538", 'y2':"302.639"},
+						 	 after:{'x1':"543.683", 'y1':"275.952", 'x2':"520.729", 'y2':"384.261"}},
+						 {before:{'x1':"337.689", 'y1':"299.047", 'x2':"303.077", 'y2':"140.187"},
+						 	 after:{'x1':"756.39", 'y1':"379.047", 'x2':"596.741", 'y2':"299.617"}}];
+
+
+
+		var ori_w = 841.89;
+		var ori_h = 595.28;
+		var scale_x = d3.scale.linear()
+						.domain([0,ori_w])
+						.range([0,w]);
+		var scale_y = d3.scale.linear()
+						.domain([0,ori_h])
+						.range([0,h]);
+
+		svg.selectAll('line').data(data_line).enter().append('line')
+			.attr({
+				'fill':'none',
+				'stroke':'#000000',
+				'stroke-width':3,
+				'x1': (d)=>scale_x(d.before.x1),
+				'y1': (d)=>scale_y(d.before.y1),
+				'x2': (d)=>scale_x(d.before.x2),
+				'y2': (d)=>scale_y(d.before.y2)
+			})
+			.transition()
+			.duration(3000)
+			.attr({
+				'x1': (d)=>scale_x(d.after.x1),
+				'y1': (d)=>scale_y(d.after.y1),
+				'x2': (d)=>scale_x(d.after.x2),
+				'y2': (d)=>scale_y(d.after.y2)
+			});
+
+		svg.selectAll('circle').data(data_cir).enter().append('circle')
+			.attr({
+				'fill':'white',
+				'stroke':'#000000',
+				'stroke-width':3,
+				'cx': (d)=>scale_x(d.before.cx),
+				'cy': (d)=>scale_y(d.before.cy),
+				'r': (d)=>d.before.r
+			})
+			.transition()
+			.duration(3000)
+			.attr({
+				'cx': (d)=>scale_x(d.after.cx),
+				'cy': (d)=>scale_y(d.after.cy)
+			});
+
+	
+	</script>
+</body>
+</html>

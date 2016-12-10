@@ -1,0 +1,210 @@
+
+<!DOCTYPE>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>WuchienWebsite</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<style type="text/css">
+			html, body {
+				padding: 0;
+				margin: 0;
+			}
+			ul, li {
+				padding: 0;
+				margin: 0;
+				list-style: none;
+				text-decoration: none;
+				display: block;
+			}
+			.container {
+				width: 990px;
+				height: 320px;
+				position: relative;
+			}
+			.block {
+				position: absolute;
+				background: #aaa;
+				text-align: center;
+			}
+			#block0{
+				width: 480px;
+				height: 320px;
+				z-index: 5;
+				top: 0;
+				left: 254.1px;
+			}
+			#block1, #block4{
+				width: 428.2px;
+				height: 285.5px;
+				z-index: 3;
+				opacity: .75;
+			}
+			#block2, #block3{
+				width: 344.3px;
+				height: 229.5px;
+				z-index: 1;
+				opacity: .25;
+			}
+			#block1{
+				top: 17.27px;
+				left: 546.29px;
+			}
+			#block2{
+				top: 45.23px;
+				left: 486.51px;
+			}
+			#block3{
+				top: 45.23px;
+				left: 157.35px;
+			}
+			#block4{
+				top: 17.27px;
+				left: 13.7px;
+			}
+
+		</style>
+		
+		<script type="text/javascript">
+
+		 	var pi = Math.PI, r = 280, /*圓形的半徑*/
+		 	    rad = (360/5)*pi/180,  /*圓形切分成 5 等分時的弧度*/
+		 	    w1 = 480, h1 = 320,    /*主圖片的寬與高*/
+		 	    wh1 = w1/h1,           /*主圖片的寬高比*/
+		 	    minh = 220,            /*最底圖片的寬與高*/
+		 	    d = (h1-minh)/2,
+
+		 	    mag2 = (r+r*Math.cos(1*rad))/(2*r),  	  /*次圖片的寬與高 縮小倍率*/
+		 	    mag3 = (r+r*Math.cos(2*rad))/(2*r),  	  /*底圖片的寬與高 縮小倍率*/
+
+		 	    h2 = (h1-minh)*mag2+minh, w2 = h2*wh1,    /*次圖片的寬與高*/
+		 	    h3 = (h1-minh)*mag3+minh, w3 = h3*wh1,    /*底圖片的寬與高*/
+		 	    wcon = 2*r+w2, hcon = h1,     			  /*整個container的寬與高*/
+
+		 	    lef1 = wcon/2 + r*Math.sin(0)     - w1/2,    /*主圖片的 Left*/
+		 	    lef2 = wcon/2 + r*Math.sin(1*rad) - w2/2,    /*次右圖片的 Left*/
+		 	    lef3 = wcon/2 + r*Math.sin(2*rad) - w3/2,    /*底右圖片的 Left*/
+		 	    lef4 = wcon/2 + r*Math.sin(3*rad) - w3/2,    /*底左圖片的 Left*/
+		 	    lef5 = wcon/2 + r*Math.sin(4*rad) - w2/2,    /*次左圖片的 Left*/
+
+		 	    top1 =     0    ,    /*主圖片的 top*/
+		 	    top2 = (h1-h2)/2,    /*次右圖片的 top*/
+		 	    top3 = (h1-h3)/2,    /*底右圖片的 top*/
+		 	    top4 = (h1-h3)/2,    /*底左圖片的 top*/
+		 	    top5 = (h1-h2)/2;    /*次左圖片的 top*/
+
+
+		 	document.write("設定: "+'<br>');
+		 	document.write("圓形切分成 5 等分時的弧度 = "+Math.sin(rad)+'<br>');
+		 	document.write("圓形的半徑 = "+r+'<br>');
+		 	document.write("主圖片的寬與高 = "+w1+" 和 "+h1+'<br>');
+		 	document.write("最底圖片的高 = "+minh+'<br>');
+
+		 	document.write("<br>資訊: "+'<br>');
+		 	document.write("次圖片的寬與高 = "+w2.toFixed(2)+" 和 "+h2.toFixed(2)+'<br>');
+		 	document.write("底圖片的寬與高 = "+w3.toFixed(2)+" 和 "+h3.toFixed(2)+'<br>');
+		 	document.write("次圖片的寬與高 縮小倍率 = "+mag2.toFixed(2)+'<br>');
+		 	document.write("底圖片的寬與高 縮小倍率 = "+mag3.toFixed(2)+'<br>');
+		 	document.write("容器的寬與高 = "+wcon.toFixed(2)+" 和 "+hcon.toFixed(2)+'<br>');
+		 	document.write("主圖片的左上角座標   : Left : "+lef1.toFixed(2)+" ; Top : "+ top1.toFixed(2) +' ; <br>');
+		 	document.write("次右圖片的左上角座標 : Left : "+lef2.toFixed(2)+" ; Top : "+ top2.toFixed(2) +' ; <br>');
+		 	document.write("底右圖片的左上角座標 : Left : "+lef3.toFixed(2)+" ; Top : "+ top3.toFixed(2) +' ; <br>');
+		 	document.write("底左圖片的左上角座標 : Left : "+lef4.toFixed(2)+" ; Top : "+ top4.toFixed(2) +' ; <br>');
+		 	document.write("次左圖片的左上角座標 : Left : "+lef5.toFixed(2)+" ; Top : "+ top5.toFixed(2) +' ; <br>');
+
+		$(function(){
+				var index = 0, count = 5;
+
+				$(".container").on("next", function(){	
+					$("#block" + ((index+0)%count)).animate({  /* block 0 前往 block 4 (次左) 的 css */
+						width: w2,
+						height: h2,
+						top: top5,
+						left: lef5
+					}).css("opacity","0.75").off("click").on("click",function(){$(".container").trigger("next");});
+					$("#block" + ((index+1)%count)).animate({  /* block 1 前往 block 0 (主圖) 的 css */
+						width: w1,
+						height: h1,
+						top: top1,
+						left: lef1
+					}).css("opacity","1").off("click");
+
+					$("#block" + ((index+2)%count)).animate({  /* block 2 前往 block 1 (次右) 的 css */
+						width: w2,
+						height: h2,
+						top: top2,
+						left: lef2
+					}).css("opacity","0.75").off("click").on("click",function(){$(".container").trigger("prev");});
+					$("#block" + ((index+3)%count)).animate({  /* block 3 前往 block 2 (底右) 的 css */
+						width: w3,
+						height: h3,
+						top: top3,
+						left: lef3
+					}).css("opacity","0.25").off("click");
+					$("#block" + ((index+4)%count)).animate({  /* block 4 前往 block 3 (底左) 的 css */
+						width: w3,
+						height: h3,
+						top: top4,
+						left: lef4
+					}).css("opacity","0.25").off("click");
+					index = (index + 1)%count;
+				});
+
+				$(".container").on("prev", function(){	
+					$("#block" + ((index+0)%count)).animate({  /* index=0時  block 0 前往 block 1 的 css */
+						width: w2,
+						height: h2,
+						top: top2,
+						left: lef2
+					}).css("opacity","0.75").off("click").on("click",function(){$(".container").trigger("prev");});
+					$("#block" + ((index+1)%count)).animate({  /* index=0時  block 1 前往 block 2 的 css */
+						width: w3,
+						height: h3,
+						top: top3,
+						left: lef3
+					}).css("opacity","0.25").off("click");
+
+					$("#block" + ((index+2)%count)).animate({  /* index=0時  block 2 前往 block 3 的 css */
+						width: w3,
+						height: h3,
+						top: top4,
+						left: lef4
+					}).css("opacity","0.25").off("click");
+					$("#block" + ((index+3)%count)).animate({  /* index=0時  block 3 前往 block 4 的 css */
+						width: w2,
+						height: h2,
+						top: top5,
+						left: lef5
+					}).css("opacity","0.75").off("click").on("click",function(){$(".container").trigger("next");});
+					$("#block" + ((index+4)%count)).animate({  /* index=0時  block 4 前往 block 0 的 css */
+						width: w1,
+						height: h1,
+						top: top1,
+						left: lef1
+					}).css("opacity","1").off("click");
+					index = (index - 1 + count)%count;
+				});
+				$(".container").trigger("next");
+		});
+
+		/*  初始方向	next的轉彎方向   prev的轉彎方向			所以.on("click",function(){$(".container").trigger("next");})
+			3	2			4	3			2	1				next要加在 0,2 ; prev 要加在 3,0
+		4			1	0			2	3			0
+		 	  0               1 		      4								     */
+
+		</script>
+	</head>
+	<body>
+
+		<ul class="container">
+			<li id="block0" class="block">block0</li>
+			<li id="block1" class="block">block1</li>
+			<li id="block2" class="block">block2</li>
+			<li id="block3" class="block">block3</li>
+			<li id="block4" class="block">block4</li>
+		</ul>
+		
+	</body>
+</html>
+
+

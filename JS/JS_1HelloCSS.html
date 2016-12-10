@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+<script>
+	//寫法一
+	var Print_t = class {
+		constructor(fz,color){
+			this.fz=fz;
+			this.color=color;
+		}
+		output(text){
+			return '<span style=font-size:'+this.fz+'px;color:'+this.color+';>'+text+'</span><br>';
+		}
+	}
+	for(let i=0; i<10; i++){
+		let text = i%2==0 ? new Print_t(i*2+12,'red'): new Print_t(i*2+12,'blue');
+		document.write(text.output('I LOVE JAVASCRIPT!'));
+	}
+
+	
+</script>
+
+</head>
+<body>
+
+<div>
+	<p>1</p>
+	<p>2</p>
+	<p>3</p>
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+</div>
+
+
+<script>
+	//寫法二
+	let px = "123456789";
+	let px_arr = Array.from(px,x=>x*2+10);
+	let boxp = document.querySelectorAll("p");
+	Array.from(boxp).forEach(function(cv,i){
+		cv.innerHTML="I LOVE JAVASCRIPT!";
+		cv.style.fontSize=px_arr[i]+'px';
+		cv.style.color=i%2==0?'red':'blue';
+	});
+
+</script>    
+</body>
+</html>

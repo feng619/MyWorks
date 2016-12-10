@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>jQuery</title>
+		<link rel="stylesheet" href="css/style.css">
+		<style>
+			p[name="silvia"]{
+				color:red;
+			}
+			a{
+				color:green;
+			}
+			a[href]{
+				color:orange;
+			}
+			a[href *= "google.com"]{
+				color:red;
+			}
+			a[href ^= "https://"]{
+				color:steelblue;
+			}
+			a[href $= ".pdf"]{
+				color:purple;
+			}
+			input[type="submit"],input[type="reset"],input[type="button"],button{
+				width:100px;
+				height:25px;
+			}
+		</style>
+	</head>
+	<body>
+		<p>useless text</p>
+		<p name="peter">useless text</p>
+		<p name="silvia">useless text</p>
+		<p>useless text</p>
+		<hr>
+		<a href="http://www.google.com">Google</a> | 
+		<a href="http://www.google.com.tw">Google -- Taiwan</a> | 
+		<a href="https://www.google.com">Google</a> | 
+		<a href="http://maps.google.com">Google Maps API</a> | 
+		<a href="http://fonts.google.com">Google Fonts API</a> | 
+		<a href="http://www.google.com/temp.pdf">Google with pdf</a> | 
+		<hr>
+		<input type="submit" value="傳送出去了">
+		<input type="reset" value="重新填寫">
+		<input type="button" value="按鈕">
+		<button>新按鈕</button>
+	</body>
+</html>

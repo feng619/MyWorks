@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+
+</head>
+<body>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" ></script>
+	<script>
+
+// 8.	請寫一支滾輪搖奬程式
+// (事件、計時器、物件操作、Math、陣列…)(8roller.htm)  
+	var data = [ { num: 1  , x: 1 , y: 1 }, { num: 2  , x: 2 , y: 1 },
+				 { num: 3  , x: 3 , y: 1 }, { num: 4  , x: 4 , y: 1 },
+				 { num: 5  , x: 4 , y: 2 }, { num: 6  , x: 4 , y: 3 },
+				 { num: 7  , x: 4 , y: 4 }, { num: 8  , x: 3 , y: 4 },
+				 { num: 9  , x: 2 , y: 4 }, { num: 10 , x: 1 , y: 4 },
+				 { num: 11 , x: 1 , y: 3 }, { num: 12 , x: 1 , y: 2 } ];
+
+	var svg = d3.select('body').append('svg')
+	.attr("width",500)
+	.attr("height",500);
+
+	var elem = svg.selectAll('g').data(data).enter().append('g')
+				.attr('transform',function(d){return 'translate('+d.x*100+','+d.y*100+')'});
+
+	var cirs = elem.append('circle')
+				// .attr('cx',function(d,i){return d.x*100})
+				// .attr('cy',function(d,i){return d.y*100})
+				.attr('r',40)
+				.attr('fill','none')
+				.attr('stroke','#aaa')
+				.attr('stroke-width',2);
+
+
+
+
+	d3.select('body').append('button')
+	.attr('id','btn')
+	.text('抽獎')
+	.attr('type','button');
+
+
+	var act = 0;
+	var stopid;
+	var runtime = rand(24,36);
+	var timerspeed = 10;
+
+	function rand(min,max){
+		return min+Math.floor(Math.random()*(max-min+1));
+	}
+	function run(){
+		runtime--;
+		act++; act%=12;
+		console.log(act);
+		cirs.attr('fill',function(d,i){
+			return i==act ? 'red':'none';
+		})
+
+		//漸漸變慢
+		clearInterval(stopid);
+		timerspeed+=10;
+		stopid = setInterval(run,timerspeed);
+
+		if(!runtime){
+			clearInterval(stopid);
+
+			cirs.attr('fill',function(d,i){
+			return i==act ? 'yellow':'none';
+			})
+
+			//顯示文字
+			elem.append('text')
+			.attr('dx',function(d,i){return -22})
+			.text(function(d,i){
+				let money = rand(200,3000);
+				return i==act ? money-money%100+' 元' : ''
+			});
+		}
+
+	}
+	function timer(){
+		act = 0;
+		runtime = rand(20,32);
+		timerspeed = 10;
+		d3.selectAll('text').remove();
+		stopid = setInterval(run,timerspeed);
+	}
+	d3.select('#btn').on('click',timer);
+
+
+	</script>
+</body>
+</html>

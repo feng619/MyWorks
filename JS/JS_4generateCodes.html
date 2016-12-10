@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<link href="" rel="stylesheet">
+	<script>
+// 4.	請寫一段JavaScript的程式,在網頁上隨機產生4~7個介於0..9之間不同顏色的數字
+
+	function rand(min,max){
+		return min+Math.floor(Math.random()*(max-min+1));
+	}
+
+	var data = [...new Array(rand(4,7))].fill(0).map(()=>rand(0,9));
+
+	d3.selectAll('p').data(data).enter().append('p').text(function(d){return d}).style('color',function(d){
+	return 'rgba('+rand(0,255)+','+rand(0,255)+','+rand(0,255)+',1)'
+	}).style('padding-left','50px');
+
+	</script>
+
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>jQuery</title>
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/jquery-3.1.0.min.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('#submitButton').click(function(){
+					var name = $('#name').val();
+					$('#feedback').append(name + '<br>').css('text-decoration','underline');
+				});
+			});
+		</script>
+	</head>
+	<body>
+		Your Name: <input type="text" id="name">
+		<button id="submitButton">Submit</button>
+		<div id="feedback"></div>
+	</body>
+</html>

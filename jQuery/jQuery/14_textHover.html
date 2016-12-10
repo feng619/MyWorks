@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>jQuery</title>
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/jquery-3.1.0.min.js"></script>
+		<script>
+			$(document).ready(function(){
+			//	$('.textHover').mousemove().mouseout();
+				$('.textHover').mousemove(function(e){
+				//	$('#feedback').html('X : ' + e.clientX + ' Y : ' + e.clientY);
+					var hovertext = $(this).attr('hovertext');
+					$('#theDiv').text(hovertext).show();
+					
+				//	$('#theDiv').css().css();
+				//	$('#theDiv').css({});
+					$('#theDiv').css({
+						'left': e.clientX + 15,
+						'top': e.clientY + 10,
+					});
+				}).mouseout(function(){
+					$('#theDiv').hide();
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div id="theDiv"></div>
+		<p>
+			<a href="http://www.google.com.tw" class="textHover" hovertext="Google, a powerful search engine.">Google</a> | 
+			<a href="http://www.bbc.com/" class="textHover" hovertext="BBC Trust publishes response to public consultation.">BBC News</a> | 
+			<a href="http://www.cafepress.com/" class="textHover" hovertext="CafePress is the world’s best online gift shop. With over one billion items, our purpose is to bring our customers’ passions to life by helping them express themselves and connect with others through unique designs and products.">Cafepress</a>
+		</p>
+		<p>
+			<img src="../images/limes.jpg" class="textHover" hovertext="Very fresh limes...">
+		</p>
+		<div id="feedback"></div>
+	</body>
+</html>
+
+<!--  -->

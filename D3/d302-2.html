@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+<style>
+	p{
+		display: block;
+		background-color: #ccc;
+		font-size: 0;
+		margin: 20px;
+		height: 30px;
+	}
+	span{
+		display: inline-block;
+		line-height: 30px;
+		font-size: 16px;
+		text-align: center;
+	}
+
+</style>
+</head>
+<body>
+    
+    <div id="chart"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" ></script>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" ></script> -->
+
+
+
+    <script>
+    var data = [{'a':12,'b':50},{'a':30,'b':38}];
+
+    	var pp = d3.selectAll('p').data(data).enter().append('p');
+    	pp
+    	.append('span')
+    	.text(function(d){return d.a})
+    	.style('width',function(d){return d.a*2+'px'})
+    	.transition().delay(300)
+    	.style('background-color','red');
+
+    	pp
+    	.append('span')
+    	.text(function(d){return d.b})
+    	.style('width',function(d){return d.b*2+'px'})
+    	.transition().delay(300)
+    	.style('background-color','#fa0');
+
+    // var data2 = [{'x':12,'y':50},{'x':30,'y':38}];
+
+
+    	// var line = d3.svg.line()
+    	// .x(function(d){return d.x;})
+    	// .y(function(d){return d.y;});
+
+    	// d3.select('svg').append('g').append('path').attr({'d':line(data),'y': 0,'stroke': '#000','stroke-width': '5px','fill': 'none'});
+ 
+
+
+//     var data = [
+//   {'x':10,'y':10},
+//   {'x':50,'y':100},
+//   {'x':60,'y':50},
+//   {'x':100,'y':30}
+// ];
+ // var svg = d3.select('body')
+ //    .append('svg')
+ //    .attr({
+ //      'width': 800,
+ //      'height': 800
+ //    });
+
+ //     var line = d3.svg.line()
+ //    .x(function(d) {
+ //      return d.x;
+ //    })
+ //    .y(function(d) {
+ //      return d.y;
+ //    });
+
+ //     svg.append('path')
+ //    .attr({
+ //      'd': line(data),
+ //      'stroke': '#000',
+ //      'stroke-width': '5px',
+ //      'fill': 'none'
+ //    });
+
+
+// var circle = svgContainer.append("line")
+//                          .attr("x1", 5)
+//                          .attr("y1", 5)
+//                          .attr("x2", 50)
+//                          .attr("y2", 50)
+//                          .attr("stroke-width", 2)
+//                          .attr("stroke", "black");
+
+
+//The data for our line
+var lineData = [ { "x": 1,   "y": 5},  { "x": 20,  "y": 20},
+                 { "x": 40,  "y": 10}, { "x": 60,  "y": 40},
+                 { "x": 80,  "y": 5},  { "x": 100, "y": 60}];
+
+
+// This is the accessor function we talked about above
+var lineFunction = d3.svg.line()
+                         .x(function(d) { return d.x; })
+                         .y(function(d) { return d.y; })
+                         .interpolate("linear");
+
+//The SVG Container 寬高不可有單位
+var svgContainer = d3.select("body").append("svg")
+                                    .attr("width", 200)
+                                    .attr("height", 200);
+
+// The line SVG Path we draw
+var lineGraph = svgContainer.append("path")
+                            .attr("d", lineFunction(lineData))
+                            .attr("stroke", "blue")
+                            .attr("stroke-width", 2)
+                            .attr("fill", "none");
+
+                            // var lineGraph = svgContainer.append("path")
+                            // .attr("d", 'M0 0 L20 50 Z')
+                            // .attr("stroke", "blue")
+                            // .attr("stroke-width", 2)
+                            // .attr("fill", "none");
+
+
+// var circle = svgContainer.append("line")
+//                          .attr("x1", 5)
+//                          .attr("y1", 5)
+//                          .attr("x2", 50)
+//                          .attr("y2", 50)
+//                          .attr("stroke-width", 2)
+//                          .attr("stroke", "black");
+
+//The data for our line
+var lineData2= [ [5],  [20],
+                 [10], [40],
+                 [5],  [60]];
+
+
+// This is the accessor function we talked about above
+var lineFunction2= d3.svg.line()
+                         .x(function(d,i) { return i*20+1; })
+                         .y(function(d,i) { return d[0]; })
+                         .interpolate("linear");
+
+//The SVG Container 寬高不可有單位
+var svgContainer2 = d3.select("body").append("svg")
+                                    .attr("width", 200)
+                                    .attr("height", 200);
+
+// The line SVG Path we draw
+var lineGraph = svgContainer2.append("path")
+                            .attr("d", lineFunction2(lineData2))
+                            .attr("stroke", "blue")
+                            .attr("stroke-width", 2)
+                            .attr("fill", "none");
+
+    </script>
+
+</body>
+</html>

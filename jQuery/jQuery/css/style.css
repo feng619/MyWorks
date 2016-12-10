@@ -1,0 +1,84 @@
+
+/* 3_slideDown.html */
+#clickMe{
+	color:#02A999;
+	background:#42342B;
+	width:306px;
+	font:bold 20px Tahoma;
+	text-align:center;
+	padding:10px;
+	text-transform:capitalize;
+	margin-bottom:5px;
+}
+#content{
+	border:3px dashed #02A999;
+	width:300px;
+	text-align:center;
+	padding:10px;
+	display:none;
+}
+/* 7_addClass.html */
+table, table tr, table td{
+	border:1px solid;
+}
+.highlight{
+	background:yellow;
+}
+label{
+	text-transform:capitalize;
+}
+
+/* 14_textHover.html */
+#theDiv{
+	position:absolute;
+	
+	font:normal 14px Tahoma;
+	color:steelblue;
+	border:1px solid #ccc;
+	background:#fff;
+	padding:10px;
+	
+	display:none;
+}
+
+/* 15_slideDownUp.html */
+#topMessage{
+	margin:0px auto;
+	background:#999;
+	color:#fff;
+	text-align:center;
+	width:600px;
+	font:22px Tahoma;
+	padding:10px 20px;
+	
+	display:none;
+}
+
+/* 18_animation.html */
+
+.myPhoto{
+	width:100px;
+	height:100px;
+}
+#board{
+	width:100px;
+	background:#aaa;
+	padding:25px;
+	
+	position:absolute;
+	left:-125px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

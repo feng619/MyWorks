@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<style type="text/css">
+	p{
+		display: block;
+		background-color: #ccc;
+	}
+</style>
+  
+</head>
+<body>
+  
+  <svg width="100%" height="400px" viewBox="0 0 800 400" preserveAspectRatio="xMidYMid"></svg>  
+
+</body>
+
+  <script>
+  	var data = [
+  ["Iceland",14.1],
+  ["Egypt",30.4],
+  ["Syria",27.6],
+  ["Malaysia",17.5],
+  ["Japan",8.3],
+  ["USA",12.7],
+  ["Taiwan",8.5],
+  ["India",21.8],
+  ["Germany",8.1]
+];
+
+var path = d3.select('svg').selectAll('path').data(data).enter().append('path');
+
+// document.write(path[1]);
+
+
+// var paragraphs = document.getElementsByTagName("p");
+// for (var i = 0; i < paragraphs.length; i++) {
+//   var paragraph = paragraphs.item(i);
+//   paragraph.style.setProperty("color", "red", null);
+// }
+
+ // d3.selectAll("p").style("color", "red");
+
+// d3.selectAll("p").style("color", function() {
+//   return "hsl(" + Math.random() * 360 + ",100%,50%)";
+// });
+
+// d3.selectAll("p").style("color", function(d, i) {
+//   return i % 2 ? "#fff" : "#eee";
+// });
+
+// d3.selectAll('p').data([[12,2],[16,3],[20,4],[24,5],[28,6],[32,7]]).style({'width':function(d){return d[0]*10 + 'px'} , 'font-size':function(d){return d[1]*6 + 'px'} });
+
+d3.selectAll('p').data([12,16,20,24,28,32,36]).enter().append('p').text(function(d){return 'I am number '+d}).transition().delay(function(d,i){return i*200}).style('font-size',function(d){return d+'px'});
+
+// path.attr("d", function(d,i) {
+//   var x1 = 100, x2 = 100 + d[1] * 22;
+//   var y1 = i * 40, y2 = i * 40 + 30;
+//   return (
+//     "M" + x1 + " " + y1 +
+//     "L" + x2 + " " + y1 +
+//     "L" + x2 + " " + y2 +
+//     "L" + x1 + " " + y2 + "Z"
+//   );
+// });
+
+// var color = d3.scale.category20();
+// path.attr("fill", function(d,i) { return color(d[0]); });
+
+  </script>
+
+</html>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" ></script>
+<style>
+    svg{
+        outline: 2px solid #ccc;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .descrip{
+        outline: 2px solid #ccc;
+        display: inline-block;
+        vertical-align: top;
+        width: 200px;
+        height: 600px;
+    }
+    img{
+        width: 200px;
+
+    }
+</style>
+</head>
+<body>
+    <script>
+
+   
+                       
+        var nodes = [ { name:'Arctiidae', num: 50}, { name:'Chrysaeglia magnifica', num: 312},
+                      { name:'Aglaomorpha histrio formosana', num: 44}, { name:'Macrobrochis gigas', num: 38},
+                      { name:'Cyana hamata', num: 35}, { name:'Nyctemera adversata', num: 30},
+                      { name:'Lemyra rhodophilodes', num: 28}, { name:'Miltochrista sauteri', num: 25},  //6,7
+
+                      { name:'Noctuidae', num: 50}, { name:'Asota heliconia zebrina', num: 138},
+                      { name:'Asota plana lacteata', num: 33}, { name:'Spodoptera litura', num: 28},
+                      { name:'Erebus ephesperis', num: 25}, // 12
+
+                      { name:'Geometridae', num: 50}, { name:'Milionia zonea pryeri', num: 97},  // 13 , 14
+                      { name:'Mixochlora vittata', num: 54}, { name:'Hyposidra talaca', num: 35},
+                      { name:'Cleora fraterna', num: 31}, { name:'Traminda aventiaria', num: 28},
+                      { name:'Eumelea ludovicata', num: 27}, { name:'Biston perclarus', num: 27},
+                      { name:'Pingasa ruginaria pacifica', num: 27},// 21
+
+                      { name:'Bombycidae', num: 50}, { name:'Ernolatia moorei', num: 73}, // 23
+
+                      { name:'Zygaenidae', num: 50}, { name:'Histia flabellicornis ultima', num: 72},
+                      { name:'Eterusia aedea formosana', num: 26}, // 26
+
+                      { name:'Lasiocampidae', num: 50}, { name:'Trabala vishnou guttata', num: 72},
+                      { name:'Lebeda nobilis', num: 30}, // 29
+
+                      { name:'Sphingidae', num: 50}, { name:'Acherontia lachesis', num: 45}, //31
+
+                      { name:'Saturniidae', num: 50}, { name:'Actias heterogyna subaurea', num: 44},
+                      { name:'Loepa formosensis', num: 39}, { name:'Actias selene ningpoana', num: 33},
+                      { name:'Attacus atlas formosanus', num: 30}, //36
+
+                      { name:'Callidulidae', num: 50}, { name:'Callidula attenuata', num: 25}, //38
+                      //根目錄
+                      { name:'Moth', num: 50}
+                      ];
+                     
+        var edges = [  { source : 0  , target: 1 } , { source : 0  , target: 2 } ,
+                       { source : 0  , target: 3 } , { source : 0  , target: 4 } ,
+                       { source : 0  , target: 5 } , { source : 0  , target: 6 } ,
+                       { source : 0  , target: 7 } ,
+
+                       { source : 8  , target: 9 } , { source : 8  , target: 10} ,
+                       { source : 8  , target: 11} , { source : 8  , target: 12} ,
+                       
+                       { source : 13 , target: 14} , { source : 13 , target: 15} ,
+                       { source : 13 , target: 16} , { source : 13 , target: 17} ,
+                       { source : 13 , target: 18} , { source : 13 , target: 19} ,
+                       { source : 13 , target: 20} , { source : 13 , target: 21} ,
+
+                       { source : 22 , target: 23} , 
+
+                       { source : 24 , target: 25} , { source : 24 , target: 26} ,
+
+                       { source : 27 , target: 28} , { source : 27 , target: 29} ,
+
+                       { source : 30 , target: 31} ,
+
+                       { source : 32 , target: 33} , { source : 32 , target: 34} ,
+                       { source : 32 , target: 35} , { source : 32 , target: 36} ,
+
+                       { source : 37 , target: 38} ,
+
+                       //連結所有科名
+
+                       { source : 39 , target: 0 } , { source : 39 , target: 8 } ,
+                       { source : 39 , target: 13} , { source : 39 , target: 22} ,
+                       { source : 39 , target: 24} , { source : 39 , target: 27} ,
+                       { source : 39 , target: 30} , { source : 39 , target: 32} ,
+                       { source : 39 , target: 37} 
+                    ];    
+        
+        var width = 1000;
+        var height = 600;
+        
+        
+        var svg = d3.select("body")
+                    .append("svg")
+                    .attr("width",width)
+                    .attr("height",height);
+        
+        var force = d3.layout.force()
+                .nodes(nodes)       //指定节点数组
+                .links(edges)       //指定连线数组
+                .size([width,height])   //指定范围
+                .linkDistance(150)  //指定连线长度
+                .charge(-400);  //相互之间的作用力
+
+        force.start();  //开始作用
+
+        console.log(nodes);
+        console.log(edges);
+        
+        //添加连线      
+        var svg_edges = svg.selectAll("line")
+                            .data(edges)
+                            .enter()
+                            .append("line")
+                            .style("stroke","#ccc")
+                            .style("stroke-width",1);
+        
+        var color = d3.scale.category20();
+                
+        //添加节点          
+        var svg_nodes = svg.selectAll("circle")
+                            .data(nodes)
+                            .enter()
+                            .append("circle")
+                            .attr("r",function(d,i){return Math.round(d.num/4)})
+                            .style("fill",function(d,i){
+                                return color(i);
+                            })
+                            .on('mouseover',function(){
+                                d3.select('.descrip').append('img').attr('class','testimg').attr('src','https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/13882221_850114878456255_8942600940750188010_n.jpg?oh=a5e431ca451dec371df3a96a2a20b3c4&oe=588600E1');
+                            })
+                            .on('mouseout',function(){
+                                d3.select('.testimg').remove();
+                            })
+                            .call(force.drag);  //使得节点能够拖动
+
+        //添加描述节点的文字
+        var svg_texts = svg.selectAll("text")
+                            .data(nodes)
+                            .enter()
+                            .append("text")
+                            .style("fill", "black")
+                            .style('font-size', '8px')
+                            .attr("dx", 20)
+                            .attr("dy", 8)
+                            .text(function(d){
+                                return d.name;
+                            });
+                    
+
+        force.on("tick", function(){    //对于每一个时间间隔
+        
+             //更新连线坐标
+             svg_edges.attr("x1",function(d){ return d.source.x; })
+                    .attr("y1",function(d){ return d.source.y; })
+                    .attr("x2",function(d){ return d.target.x; })
+                    .attr("y2",function(d){ return d.target.y; });
+             
+             //更新节点坐标
+             svg_nodes.attr("cx",function(d){ return d.x; })
+                    .attr("cy",function(d){ return d.y; });
+
+             //更新文字坐标
+             svg_texts.attr("x", function(d){ return d.x; })
+                .attr("y", function(d){ return d.y; });
+        });
+
+
+
+
+
+
+    </script>
+
+    <div class="descrip"></div>
+
+    
+</body>
+</html>

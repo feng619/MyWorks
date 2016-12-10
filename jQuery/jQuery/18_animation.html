@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>jQuery</title>
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/jquery-3.1.0.min.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
+		<script>
+			$(document).ready(function(){
+			//	$('#board').hover(function(){},function(){});
+				$('#board').hover(function(){
+				//	$(this).animate({},1000);
+					$(this).animate({
+						left:'0px',
+						backgroundColor:'red'
+					},1200);
+				},function(){
+					$(this).animate({
+						left:'-125px'
+					},2000,'easeOutBounce');
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<h2>
+			Mouse over the gray stripe on the left edge.
+		</h2>
+		<div id="board">
+			<img src="../images/washDrawing/011.JPG" class="myPhoto">
+			<img src="../images/washDrawing/007.JPG" class="myPhoto">
+			<img src="../images/washDrawing/001.JPG" class="myPhoto">
+			<img src="../images/washDrawing/032.JPG" class="myPhoto">
+			<img src="../images/washDrawing/045.JPG" class="myPhoto">
+			<img src="../images/washDrawing/036.JPG" class="myPhoto">
+			<img src="../images/washDrawing/037.JPG" class="myPhoto">
+		</div>
+	</body>
+</html>

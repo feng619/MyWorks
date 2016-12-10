@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+
+</head>
+<body>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" ></script>
+	<script>
+
+// 7.	可以點按淡出做圖片淡出的效果，點按淡入做圖片淡入的效果。 (事件、計時器、物件操作)(7fadeInOut.html)
+
+	d3.select('body').append('img')
+	.attr('src','https://c1.staticflickr.com/9/8255/29158529205_1e2eef030b_b.jpg')
+	.attr("width",600)
+	.attr("height",400);
+
+	d3.select('body').append('button')
+	.attr('id','btn')
+	.text('淡出')
+	.attr('type','button');
+
+	var opa = 1;
+	var stopid;
+	var minus = true;
+
+	function opachg(){
+		minus? opa-=0.05 : opa+=0.05;
+		console.log(opa);
+		if(opa<0){
+			minus = false;
+			//不能用attr('disabled',false)
+			d3.select('#btn').attr('disabled',null).text('淡入');
+			clearInterval(stopid);
+		}
+		if(opa>1){
+			minus = true;
+			d3.select('#btn').attr('disabled',null).text('淡出');
+			clearInterval(stopid);
+		}
+		d3.select('img').style('opacity',opa);
+	}
+	function fade(){
+		d3.select('#btn').attr('disabled',true);
+		stopid = setInterval(opachg,200);
+	}
+	function init(){
+		d3.select('#btn').on('click',fade);
+	}
+	window.onload = init;
+
+	</script>
+</body>
+</html>

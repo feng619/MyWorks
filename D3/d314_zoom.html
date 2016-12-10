@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" ></script>
+<style>
+</style>
+</head>
+<body>
+    
+    <script>
+
+        var x,y,s;
+
+        var zoom = d3.behavior.zoom()
+            .translate([0, 0])
+            .scaleExtent([1, 10])
+            .scale(1)
+            .on("zoom", zoomed);
+
+        function zoomed() {
+          // x=d3.event.translate[0];
+          // y=d3.event.translate[1];
+          // s=d3.event.scale;
+          // console.log(d3.event.scale);
+          container.attr("transform", "translate(" + d3.event.translate + ") scale(" + d3.event.scale + ")");
+        }
+
+
+
+    var w = 800;
+    var h = 400;
+
+    var svg = d3.select('body')
+    .append('svg')
+    .attr({
+      'width':w,
+      'height':h
+    }).style({
+      'border':'1px solid #000'
+    }).call(zoom);
+
+    var container = svg.append('g');
+
+    container.append('g')
+      .selectAll('line')
+      .data(d3.range(0, w, 30))
+      .enter()
+      .append('line')
+      .attr({
+        'x1': function(d) { return d; },
+        'y1': 0,
+        'x2': function(d) { return d; },
+        'y2': h,
+        'stroke':'#ddd',
+        'fill':'none'
+      });
+
+    container.append('g')
+      .selectAll('line')
+      .data(d3.range(0, h, 30))
+      .enter()
+      .append('line')
+      .attr({
+        'x1': 0,
+        'y1': function(d) { return d; },
+        'x2': w,
+        'y2': function(d) { return d; },
+        'stroke':'#ddd',
+        'fill':'none'
+      });
+
+
+
+        var data = [
+          {'cx':150, 'cy':210, 'r':50, 'fill':'#ff0000'},
+          {'cx':75, 'cy':55, 'r':40, 'fill':'#00cc00'},
+          {'cx':200, 'cy':30, 'r':30, 'fill':'#0000ff'},
+          {'cx':650, 'cy':190, 'r':70, 'fill':'#0099cc'},
+          {'cx':300, 'cy':200, 'r':30, 'fill':'#ff9900'}
+        ];
+
+        container.append("g").selectAll('circle')
+          .data(data)
+          .enter()
+          .append('circle')
+          .attr({
+            'cx': function(d){return d.cx;},
+            'cy': function(d){return d.cy;},
+            'r': function(d){return d.r;},
+            'fill': function(d){return d.fill;}
+          })
+          .style({
+            'cursor':'pointer'
+          });
+
+
+    </script>
+    
+</body>
+</html>

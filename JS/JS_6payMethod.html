@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+<style type="text/css">
+	*{
+		text-align: center;
+	}
+	#thetd{
+		width: 280px;
+	}
+	table{
+		display: none;
+	}
+	#main{
+		display: table;
+	}
+</style>
+</head>
+<body>
+	<form>
+		<table id='main' border=1>
+		<caption>確認訂單</caption>
+			<tr>
+				<td>收件人姓名</td>
+				<td><input type="text" name=""></td>
+			</tr>
+			<tr>
+				<td>收件人地址</td>
+				<td><input type="text" name=""></td>
+			</tr>
+			<tr>
+				<td>付款方式</td>
+				<td id='thetd'>
+					<input type="radio" name="m" value="cash" id='ca' >現金
+					<input type="radio" name="m" value="cradit" id='crad' >信用卡
+					<input type="radio" name="m" value="atm" id='atm' >ATM轉帳
+
+					<table id='tb1'>
+						<tr><td>信用卡號碼 : <input type="text" name=""></td></tr>
+						<tr><td>到期年月 : <input type="text" name=""></td></tr>
+					</table>
+					<table id='tb2'>
+						<tr><td>銀行代號 : <input type="text" name=""></td></tr>
+						<tr><td>扣款帳號 : <input type="text" name=""></td></tr>
+					</table>
+
+				</td>
+			</tr>
+		</table>
+	</form>
+
+	<script>
+	
+		var tb1 = document.getElementById('tb1');
+		var tb2 = document.getElementById('tb2');
+
+		document.getElementById('crad').onclick = func;
+		document.getElementById('atm').onclick = func2;
+		document.getElementById('ca').onclick = func3;
+		function func(){
+			tb2.style.display = 'none';
+			tb1.style.display = 'table';
+		}
+		function func2(){
+			tb1.style.display = 'none';
+			tb2.style.display = 'table';
+		}
+		function func3(){
+			tb1.style.display = 'none';
+			tb2.style.display = 'none';
+		}
+
+	</script>
+</body>
+</html>
