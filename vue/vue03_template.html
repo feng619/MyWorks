@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js"></script> 
+<style type="text/css">
+h1{
+    color: steelblue;
+}
+.colorRed{
+    color:red;
+}
+</style>
+</head>
+<body>
+
+
+
+<!-- ====================================================== -->
+    <h1>todo list</h1>
+
+    <div id="demo9">
+        <input type="text" v-model='newTodo' v-on:keyup.enter='add'>
+        <ul>
+            <li v-for="(todo, i) in todos">
+                {{todo}}
+                <button v-on:click='remove(i)'>X</button>
+            </li>
+        </ul>
+    </div>
+    
+    <script>
+        var s9 = new Vue({
+            el: '#demo9',
+            data: {
+                newTodo: '',
+                todos: ['洗碗','切菜']
+            },
+            methods: {
+                add: function(){
+                    this.todos.push(this.newTodo);
+                    this.newTodo='';
+                },
+                remove: function(i){
+                    this.todos.splice(i,1)
+                }
+            }
+        });
+    </script>
+
+
+
+
+
+<!-- ====================================================== -->
+    <h1>v-for</h1>
+
+    <div id="demo8">
+        <ul>
+            <template v-for="(cv, i) in boxes">
+                <h3>{{'標題 '+ i +' : ' +cv}}</h3>
+            </template>
+            <template v-for="(cv, key) in boxes2">
+                <h3>{{'標題 '+ key +' : ' +cv}}</h3>
+            </template>
+        </ul>
+    </div>
+    
+    <script>
+        var s8 = new Vue({
+            el: '#demo8',
+            data: {
+                boxes:['如何吃飯','如何喝茶','如何走路'],
+                boxes2:{'a':'如何吃飯','b':'如何喝茶','c':'如何走路'}
+            }
+        });
+    </script>
+
+
+
+
+
+<!-- ====================================================== -->
+    <h1>v-if</h1>
+
+    <div id="demo7">
+        <p v-if="Math.random()>0.5">larger than 0.5</p>
+        <p v-else>smaller than 0.5</p>
+
+        <p v-show="condition">condition is true</p>
+        <p v-show="!condition">condition is false</p>
+    </div>
+    
+    <script>
+        var s7 = new Vue({
+
+            el: '#demo7',
+            data: {
+                condition: true
+            }
+        });
+    </script>
+
+
+
+
+
+<!-- ====================================================== -->
+    <h1>Class</h1>
+
+    <div id="demo6">
+        <p v-bind:class="{colorRed: isActive}">I'm red if isActive is true</p>
+        <p v-bind:class="[alwaysTrue]">I'm red coz alwaysTrue always true</p>
+    </div>
+    
+    <script>
+        var s6 = new Vue({
+
+            el: '#demo6',
+            data: {
+                isActive: true,
+                alwaysTrue: 'colorRed'
+            }
+        });
+    </script>
+
+
+
+
+
+<!-- ====================================================== -->
+    <h1>计算属性</h1>
+
+    <div id="demo5">
+        <p>{{first_name}}</p>
+        <p>{{last_name}}</p>
+        <p>{{full_name}}</p>
+        <input type="text" v-model='full_name'>
+    </div>
+    
+    <script>
+        var s5 = new Vue({
+
+            el: '#demo5',
+            data: {
+                first_name: 'wu',
+                last_name: 'chien'
+            },
+            computed: {
+                full_name: {
+                    get: function(){
+                        return this.first_name + ' ' + this.last_name
+                    },
+
+                    set: function(cv){
+                        var cv = cv.split(' ');
+                        this.first_name = cv[0];
+                        this.last_name  = cv[1];
+                    }
+                }
+            }
+        });
+    </script>
+
+
+
+
+<!-- ====================================================== -->
+    <h1>v-bind</h1>
+
+    <div id="demo4">
+        <p>http://icons.iconarchive.com/icons/ph03nyx/super-mario/256/Mushroom-Super-icon.png</p>
+        <p>http://files.softicons.com/download/game-icons/super-mario-icons-by-sandro-pereira/ico/Mushroom%20-%201UP.ico</p>
+        <p>http://files.softicons.com/download/game-icons/super-mario-icons-by-sandro-pereira/ico/Flower%20-%20Ice.ico</p>
+        <input v-model="link" size="110"><br>
+        <img v-bind:src="link">
+    </div>
+    
+    <script>
+        var s4 = new Vue({
+
+            el: '#demo4',
+
+            data: {
+                link: "http://files.softicons.com/download/game-icons/super-mario-icons-by-sandro-pereira/ico/Mushroom%20-%201UP.ico"
+            }
+        });
+    </script>
+
+
+
+
+<!-- ====================================================== -->
+    <h1>filters</h1>
+
+    <div id="demo3">
+        {{ msg | capitalize('hello') | add }}
+    </div>
+    
+    <script>
+        var s3 = new Vue({
+
+            el: '#demo3',
+
+            data: {
+                msg: "vue"
+            },
+
+            filters: {
+                capitalize: function (value, second) {
+                    if (!value) return ''
+                    value = value.toString()
+                    return second + value.charAt(0).toUpperCase() + value.slice(1)
+                },
+                add: function(value){
+                    return 'capitalize 函式 的輸出的結果會再帶入 add 函式: ' + value
+                }
+            }
+        });
+    </script>
+
+
+
+<!-- ====================================================== -->
+    <h1>v-bind:id="dynamicId"</h1>
+
+    <div id="demo2">
+        <div v-bind:id="dynamicId">{{msg}}</div>
+    </div>
+    
+    <script>
+        var s2 = new Vue({
+            el: '#demo2',
+            data: {
+                dynamicId: 'myFirstDynamicID',
+                msg: "I'm inside the #myFirstDynamicID"
+
+            }
+        });
+    </script>
+
+
+
+<!-- ====================================================== -->
+    <h1>v-html</h1>
+
+    <div id="demo" v-html="msg">
+        双大括号会将数据解释为纯文本，而非 HTML 。为了输出真正的 HTML ，你需要使用 v-html 指令：
+        {{msg}}
+    </div>
+
+    <script>
+    	var s1 = new Vue({
+    		el: '#demo',
+            data: {
+                msg: '<h2>123</h2>'
+            }
+    	});
+    </script>
+
+</body>
+</html>

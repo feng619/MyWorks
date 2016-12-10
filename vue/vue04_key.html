@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js"></script> 
+<style type="text/css">
+h1{
+    color: steelblue;
+}
+.colorRed{
+    color:red;
+}
+</style>
+</head>
+<body>
+
+<!-- ====================================================== -->
+    <h1>event</h1>
+
+    <div id="demo5">
+        <p>{{total}}</p>
+        <child v-on:listener="getTotal"></child>
+        <child v-on:listener="getTotal"></child>
+    </div>
+    
+    <script>
+        var s5 = new Vue({
+            el: '#demo5',
+            data: {
+                total: 0
+            },
+            components: {
+                'child': {
+                    data: function(){
+                        return {
+                            count: 0
+                        }
+                    },
+                    template: '<button v-on:click="add">{{count}}</button>',
+                    methods: {
+                        add: function(){
+                            this.count +=1;
+                            this.$emit('listener');
+                        }
+                    }
+                }
+            },
+            methods: {
+                'getTotal': function(){
+                    this.total +=1;
+                }
+            }
+        });
+    </script>
+
+
+
+
+<!-- ====================================================== -->
+    <h1>props</h1>
+
+    <div id="demo4">
+        <child my-prop="say"></child>
+        <child v-bind:my-prop="say"></child>
+    </div>
+    
+    <script>
+        var s4 = new Vue({
+            el: '#demo4',
+            data: {
+                say: 'hihi'
+            },
+            components: {
+                'child': {
+                    props: ['myProp'],
+                    template: '<p>{{myProp}}</p>'
+                }
+            }
+        });
+    </script>
+
+
+
+
+<!-- ====================================================== -->
+    <h1>組件</h1>
+
+    <div id="demo3">
+        <counter></counter>
+        <counter></counter>
+    </div>
+    
+    <script>
+        var s3 = new Vue({
+            el: '#demo3',
+            components: {
+                'counter': {
+                    template: '<button v-on:click="count+=1">{{count}}</button>',
+                    data: function(){
+                        return {count:0}
+                    }                    
+                }
+
+            }
+        });
+    </script>
+
+
+
+
+<!-- ====================================================== -->
+    <h1>表單</h1>
+
+    <div id="demo2">
+        <input type="radio" value="hot" v-model="checked">hot
+        <input type="radio" value="cold" v-model="checked">cold
+        <input type="radio" value="warm" v-model="checked">warm
+        <p>checked : {{checked}}</p><br>
+
+        <input type="checkbox" value="hot" v-model="checkbox">hot
+        <input type="checkbox" value="cold" v-model="checkbox">cold
+        <input type="checkbox" value="warm" v-model="checkbox">warm
+        <p>checkbox : {{checkbox}}</p><br>
+
+        <select v-model="selection" multiple>
+            <option v-for="op in ops">{{op}}</option>
+        </select>
+        <p>selection : {{selection}}</p><br>
+
+        <input type="text" v-model.lazy.number="msg">
+        <p>msg : {{msg}}</p><br>
+
+    </div>
+    
+    <script>
+        var s2 = new Vue({
+            el: '#demo2',
+            data: {
+                checked: [],
+                checkbox: [],
+                selection: [],
+                ops: ['A','B','C','D'],
+                msg: ''
+            }
+        });
+    </script>
+
+
+
+
+
+<!-- ====================================================== -->
+    <h1>过滤/排序</h1>
+
+    <div id="demo1">
+        <ul>
+            <li v-for="n in evenNum">{{n}}</li>            
+        </ul>
+    </div>
+    
+    <script>
+        var s1 = new Vue({
+            el: '#demo1',
+            data: {
+                num: [1,2,3,4,5]
+            },
+            computed: {
+                evenNum: function(){
+                    return this.num.filter(cv=>cv%2!=0)
+                }
+            }
+        });
+    </script>
+
+</body>
+</html>

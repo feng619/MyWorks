@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js"></script>
+<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.14.1/lodash.min.js"></script>
+<script src="https://unpkg.com/tween.js@16.3.4"></script>
+<script src="https://unpkg.com/color-js@1.0.3/color.js"></script>
+<style type="text/css">
+h1{
+    color: steelblue;
+}
+</style>
+</head>
+<body>
+
+
+
+
+<!-- ====================================================== -->
+    <h1>slot</h1>
+
+    <div id="demo2">
+        <input v-model="num">
+        <mytemp :level="1">Hello, World!</mytemp>
+    </div>
+    
+    <script>
+        var s2 = new Vue({
+            el: '#demo2',
+            data: {
+                num: 1
+            },
+            components: {
+                'mytemp': {
+                    props: ['level'],
+                    template: '    <h1 v-if="level == 1">\
+                                      <slot></slot>\
+                                    </h1>\
+                                    <h2 v-if="level == 2">\
+                                      <slot></slot>\
+                                    </h2>\
+                                    <h3 v-if="level == 3">\
+                                      <slot></slot>\
+                                    </h3>\
+                                    <h4 v-if="level == 4">\
+                                      <slot></slot>\
+                                    </h4>\
+                                    <h5 v-if="level == 5">\
+                                      <slot></slot>\
+                                    </h5>\
+                                    <h6 v-if="level == 6">\
+                                      <slot></slot>\
+                                    </h6>'
+                }
+            }
+        });
+    </script>
+
+
+
+
+
+<!-- ====================================================== -->
+    <h1>watcher 數字</h1>
+
+    <div id="demo1">
+        <input v-model.number="num" type="number" step="20">
+        <p>{{animatedNumber}}</p>
+    </div>
+    
+    <script>
+        var s1 = new Vue({
+            el: '#demo1',
+            data: {
+                num: 0,
+                animatedNumber: 0
+            },
+            watch: {
+                num: function(newValue, oldValue) {
+                    var vm = this;
+                    function animate(time){
+                        requestAnimationFrame(animate);
+                        TWEEN.update(time);
+                    }
+                    new TWEEN.Tween({tweeningNum: oldValue})
+                            .easing(TWEEN.Easing.Quadratic.Out)
+                            .to({tweeningNum: newValue},1000)
+                            .onUpdate(function(){
+                                vm.animatedNumber = this.tweeningNum.toFixed(0);
+                            })
+                            .start();
+                    animate();
+                }
+            }
+        });
+    </script>
+
+</body>
+</html>
+

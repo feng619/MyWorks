@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js"></script> 
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="https://unpkg.com/tween.js@16.3.4"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" ></script>
+<style type="text/css">
+h1{
+    color: steelblue;
+}
+svg{
+    border:2px solid #ccc;
+}
+</style>
+</head>
+<body>
+
+    <h1>railSlider</h1>
+
+    <div id="demo1">
+    	<button @click="up_slide">up</button>
+    	<button @click="down_slide">down</button><br>
+    </div>
+    
+    <script>
+
+        var s1 = new Vue({
+            el: '#demo1',
+            data: {
+            	pattern_ids: ['url(#ptrn01)','url(#ptrn02)','url(#ptrn03)','url(#ptrn04)','url(#ptrn05)']
+            },
+            computed: {
+            },
+            watch: {
+                pattern_ids: function(newValue, oldValue){
+                    this.update_slider(newValue);
+                }
+            },
+            methods: {
+            	update_slider: function(data) {
+		            var boxes = svg1.selectAll(".box").data(data);
+		            boxes.attr({
+		            		'fill': d=>d
+		                });  
+		        },
+		        up_slide: function() {
+		        	let f_ele = this.pattern_ids.shift();
+		        	this.pattern_ids.push(f_ele);
+					d3.select('#focus_slider').style("fill", this.pattern_ids[1]);
+		        },
+		        down_slide: function() {
+		        	let L_ele = this.pattern_ids.pop();
+		        	this.pattern_ids.unshift(L_ele);
+					d3.select('#focus_slider').style("fill", this.pattern_ids[1]);
+		        }
+            }
+        });
+
+        var data=[{'id': 'path1', 'class': 'no', 'd':"M240.84-14.117 C209.748-3.192,122.353,51.429,132.437,156.472s126.05,181.512,193.277,221.848"},
+        			{'id': 'path2', 'class': 'no', 'd':"M563.529-9.915 c-89.916,45.378-239.495,159.664-260.504,200s-10.084,157.982,26.891,192.437"},
+        			{'id': 'path3', 'class': 'btn', 'd':"M302.185,10.253 c20.168,10.924,89.915,51.26,96.638,60.504s78.991-52.941,86.555-56.302S302.185,10.253,302.185,10.253z"},
+        			{'id': 'box1', 'class': 'box', 'd':"M282.017,14.455 C297.983,22.858,378.655,73.278,383.697,80s-44.538,42.017-44.538,42.017L209.748,24.539l18.925-10.084H282.017z"},
+        			{'id': 'box2', 'class': 'box', 'd':"M192.941,34.623 c3.068,2.169,132.773,100,132.773,100s-25.21,36.975-23.529,36.134S160.168,86.723,160.168,86.723S188.511,31.49,192.941,34.623z"},
+        			{'id': 'box3', 'class': 'box', 'd':"M153.445,102.633l134.454,79.469 c0,0-11.765,26.471-9.244,35.714s-131.933-44.538-131.933-50.42S144.202,109.298,153.445,102.633z"},
+        			{'id': 'path7', 'class': 'btn', 'd':"M155.126,199.449 c3.938-2.916,120.168,37.815,120.168,37.815s-17.647,30.252-13.445,30.252S138.993,211.391,155.126,199.449z"}];
+        var data2 = [{'id':'ptrn01', 'url': 'aa01.jpg'},
+        			 {'id':'ptrn02', 'url': 'aa02.jpg'},
+        			 {'id':'ptrn03', 'url': 'aa03.jpg'},
+        			 {'id':'ptrn04', 'url': 'aa04.jpg'},
+        			 {'id':'ptrn05', 'url': 'aa05.jpg'}];
+
+        // var data3 = ['yellow', 'red','green','blue','pink'];
+
+        var svg1 = d3.select('#demo1').append('svg').attr({
+                        'width': 841.89,
+                        'height': 595.28
+                    });
+
+        var def = svg1.append('defs').attr('id','mdef');
+        	def.selectAll('pattern').data(data2).enter().append('pattern').attr({
+        			'id': d=>d.id,
+	        		'patternUnits':"userSpaceOnUse",
+	        		'width':841.89,
+	        		'height':595.28
+	        	})
+	        	.append('image').attr({
+	        		'xlink:href':d=>d.url,
+	        		'x':0,
+	        		'y':0,
+	        		'width':841.89,
+	        		'height':595.28
+	        	});
+
+		svg1.append("rect")
+			.attr("id", "focus_slider")
+			.attr("x",0)
+			.attr("y",0)
+			.attr("width",841.89)
+			.attr("height",595.28)
+			.style("fill", s1.pattern_ids[1])
+			.style("stroke", "black")
+			.style("stroke-width", 1);
+
+        svg1.selectAll('path').data(data).enter().append('path').attr({
+                'id': d=>d.id,
+                'class': d=>d.class,
+                'd': d=>d.d,
+                'stroke': '#333',
+                'stroke-width': 3,
+                'fill': 'none'
+            });
+
+        svg1.select('#path3').attr({
+                'fill': '#ccc'
+            })
+        	.on('click',function(){
+        		s1.up_slide();
+        	});
+
+        svg1.select('#path7').attr({
+                'fill': '#ccc'
+            })
+        	.on('click',function(){
+        		s1.down_slide();
+        	});
+
+        s1.update_slider(s1.pattern_ids);
+
+    </script>
+
+
+</body>
+</html>

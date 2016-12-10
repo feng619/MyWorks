@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js"></script> 
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="https://unpkg.com/tween.js@16.3.4"></script>
+<style type="text/css">
+h1{
+    color: steelblue;
+}
+svg{
+    border:2px solid #ccc;
+}
+</style>
+</head>
+<body>
+
+    <h1>動態多邊形繪製</h1>
+
+    <div id="demo3">
+        外圓半徑：<input v-model="input_or" type="number" step="20">
+        內圓半徑：<input v-model="input_ir" type="number" step="20">
+        圓點數：<input type="number" v-model="point_num">
+        <p>{{input_or}}</p>
+        <p>{{outer_r}}</p>
+    </div>
+    
+    <script>
+
+        var s3 = new Vue({
+            el: '#demo3',
+            data: {
+                input_or: 250,
+                input_ir: 180,
+                center_x: 350,
+                center_y: 350,
+                outer_r: 250,
+                inner_r: 180,
+                point_num: 5
+            },
+            computed: {
+                points: function(){
+                    let x = this.center_x;
+                    let y = this.center_y;
+                    let o_r = this.outer_r;
+                    let i_r = this.inner_r;
+                    let n = this.point_num;
+                    let ang = 360/n; //360 ? = 2pi ?
+                    let point = [...new Array(2*n)].fill(0).map((cv,i)=>{
+                        return  i%2 == 0
+                                ? {'x': x + o_r*Math.cos( (90+ang*(i/2))*Math.PI/180 ),
+                                   'y': y - o_r*Math.sin( (90+ang*(i/2))*Math.PI/180 )}
+                                : {'x': x + i_r*Math.cos( (90+ (ang/2) +ang*((i-1)/2))*Math.PI/180 ),
+                                   'y': y - i_r*Math.sin( (90+ (ang/2) +ang*((i-1)/2))*Math.PI/180 )}
+                    });                    
+                    return point;
+                },
+                the_path: function(){
+                        let data = this.points;
+                        let d = 'M';
+                        data.map((cv,i)=>{
+                            d = i==0 ? d + (cv.x + ' ' + cv.y + ' ') : d + ('L' + cv.x + ' ' + cv.y + ' ');
+                        });            
+                        return d + 'Z';
+                    }
+            },
+            watch: {
+                points: function(newValue, oldValue){
+                    d3.select('.path3').remove();
+                    svg3.append('path').attr({
+                            'class': 'path3',
+                            'd': this.the_path,
+                            'stroke': '#333',
+                            'stroke-width': 3,
+                            'fill': 'none'
+                        }); 
+                },
+                input_or: function(newValue, oldValue){
+                    this.mytween(newValue, oldValue, 'outer_r');
+                },
+                input_ir: function(newValue, oldValue){
+                    this.mytween(newValue, oldValue, 'inner_r');
+                }
+            },
+            methods: {
+                mytween: function(newValue, oldValue, r){
+                    var vm = this;
+                    function animate(time){
+                        requestAnimationFrame(animate);
+                        TWEEN.update(time);
+                    }
+                    new TWEEN.Tween({tweeningNum: oldValue})
+                            .easing(TWEEN.Easing.Quadratic.Out)
+                            .to({tweeningNum: newValue},1000)
+                            .onUpdate(function(){
+                                if(r == 'outer_r'){
+                                    vm.outer_r = this.tweeningNum.toFixed(0);
+                                }else if(r == 'inner_r'){
+                                    vm.inner_r = this.tweeningNum.toFixed(0);
+                                }                                
+                            })
+                            .start();
+                    animate();
+                }
+            }
+        });
+
+        var svg3 = d3.select('#demo3').append('svg').attr({
+                        'width': 800,
+                        'height': 800
+                    });
+
+        var path = svg3.append('path').attr({
+                            'class': 'path3',
+                            'd': s3.the_path,
+                            'stroke': '#333',
+                            'stroke-width': 3,
+                            'fill': 'none'
+                        }); 
+
+
+    </script>
+
+
+
+
+
+<!-- ============================================================================================ -->
+    <h1>多邊形繪製--直線</h1>
+
+    <div id="demo2">
+        外圓半徑：<input type="range" min="0" max="300" v-model="outer_r">
+        內圓半徑：<input type="range" min="0" max="300" v-model="inner_r">
+        圓點數：<input type="number" v-model="point_num">
+    </div>
+    
+    <script>
+
+        var s2 = new Vue({
+            el: '#demo2',
+            data: {
+                center_x: 350,
+                center_y: 350,
+                outer_r: 250,
+                inner_r: 180,
+                point_num: 5
+            },
+            computed: {
+                points: function(){
+                    let x = this.center_x;
+                    let y = this.center_y;
+                    let o_r = this.outer_r;
+                    let i_r = this.inner_r;
+                    let n = this.point_num;
+                    let ang = 360/n; //360 ? = 2pi ?
+                    let point = [...new Array(2*n)].fill(0).map((cv,i)=>{
+                        return  i%2 == 0
+                                ? {'x': x + o_r*Math.cos( (90+ang*(i/2))*Math.PI/180 ),
+                                   'y': y - o_r*Math.sin( (90+ang*(i/2))*Math.PI/180 )}
+                                : {'x': x + i_r*Math.cos( (90+ (ang/2) +ang*((i-1)/2))*Math.PI/180 ),
+                                   'y': y - i_r*Math.sin( (90+ (ang/2) +ang*((i-1)/2))*Math.PI/180 )}
+                    });                    
+                    return point;
+                },
+                the_path: function(){
+                        let data = this.points;
+                        let d = 'M';
+                        data.map((cv,i)=>{
+                            d = i==0 ? d + (cv.x + ' ' + cv.y + ' ') : d + ('L' + cv.x + ' ' + cv.y + ' ');
+                        });            
+                        return d + 'Z';
+                    }
+            },
+            watch: {
+                points: function(newValue, oldValue){
+                    d3.select('.path2').remove();
+                    svg2.append('path').attr({
+                            'class': 'path2',
+                            'd': this.the_path,
+                            'stroke': '#333',
+                            'stroke-width': 3,
+                            'fill': 'none'
+                        }); 
+                }
+            }
+        });
+
+        var svg2 = d3.select('#demo2').append('svg').attr({
+                        'width': 800,
+                        'height': 800
+                    });
+
+        var path = svg2.append('path').attr({
+                            'class': 'path2',
+                            'd': s2.the_path,
+                            'stroke': '#333',
+                            'stroke-width': 3,
+                            'fill': 'none'
+                        }); 
+
+
+    </script>
+
+
+
+
+
+<!-- ============================================================================================ -->
+    <h1>多邊形繪製--圓點</h1>
+
+    <div id="demo1">
+        外圓半徑：<input type="range" min="0" max="300" v-model="outer_r">
+        內圓半徑：<input type="range" min="0" max="300" v-model="inner_r">
+        圓點數：<input type="number" v-model="point_num">
+    </div>
+    
+    <script>
+        function update_cir(svg, data) {
+            var cir = svg.selectAll("circle").data(data);
+            cir.exit().remove();
+            cir.enter().append("circle");
+            cir.attr({
+                        'class': 'dut',
+                        'cx': d=>d.x,
+                        'cy': d=>d.y,
+                        'r': 10
+                    });  
+        }
+                
+        var s1 = new Vue({
+            el: '#demo1',
+            data: {
+                center_x: 350,
+                center_y: 350,
+                outer_r: 250,
+                inner_r: 180,
+                point_num: 5
+            },
+            computed: {
+                points: function(){
+                    let x = this.center_x;
+                    let y = this.center_y;
+                    let o_r = this.outer_r;
+                    let i_r = this.inner_r;
+                    let n = this.point_num;
+                    let ang = 360/n; //360 ? = 2pi ?
+                    let point = [...new Array(2*n)].fill(0).map((cv,i)=>{
+                        return  i%2 == 0
+                                ? {'x': x + o_r*Math.cos( (90+ang*(i/2))*Math.PI/180 ),
+                                   'y': y - o_r*Math.sin( (90+ang*(i/2))*Math.PI/180 )}
+                                : {'x': x + i_r*Math.cos( (90+ (ang/2) +ang*((i-1)/2))*Math.PI/180 ),
+                                   'y': y - i_r*Math.sin( (90+ (ang/2) +ang*((i-1)/2))*Math.PI/180 )}
+                    });                    
+                    return point;
+                }
+            },
+            watch: {
+                points: function(newValue, oldValue){
+                    svg.call(update_cir,newValue);
+                    // same as  update_cir(svg,newValue);
+                }
+            }
+        });
+
+        var svg = d3.select('#demo1').append('svg').attr({
+                        'width': 800,
+                        'height': 800
+                    });
+
+        var cirs = svg.selectAll('circle').data(s1.points).enter().append('circle').attr({
+                            'class': 'dut',
+                            'cx': d=>d.x,
+                            'cy': d=>d.y,
+                            'r': 10
+                        }); 
+
+
+    </script>
+
+</body>
+</html>

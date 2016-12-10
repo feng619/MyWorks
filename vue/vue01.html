@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js"></script> 
+</head>
+<body>
+    <h1>数据双向绑定</h1>
+    <div id="s01">
+    	<p>{{msg}}</p>
+    	<input type="text" v-model='msg'>
+    </div>
+    <script>
+    	var s01 = new Vue({
+    		el: '#s01',
+    		data: {
+    			msg: 'Hello Vue.js!'
+    		}
+    	});
+        s01.msg='Hello';
+        console.log(s01.$el===document.getElementById('s01'));
+        console.log(s01.el);
+    </script>
+
+
+
+    <h1>渲染列表</h1>
+    <div id="s02">
+    	<ul>
+    		<li v-for='book in books'>
+    			{{'商品: ' + book.item + '; 價錢: ' + book.price + '.'}}
+    		</li>
+    	</ul>
+    </div>
+    <script>
+    	var s02 = new Vue({
+    		el: '#s02',
+    		data: {
+    			books: [{'item': 'book1' , 'price': 600 },
+    					{'item': 'book2' , 'price': 800 },
+    					{'item': 'book3' , 'price': 900 }]
+    		}
+    	});
+    </script>
+
+
+
+    <h1>事件的处理</h1>
+    <div id="s03">
+    	<p>{{msg}}</p>
+    	<button v-on:click='reverseMsg'>{{msg}}</button>
+    	<button v-on:click='add'>{{'add me '+num}}</button>
+    </div>
+    <script>
+    	var s03 = new Vue({
+    		el: '#s03',
+    		data: {
+    			msg: "plz_reverse_me",
+    			num: 0
+    		},
+    		methods: {
+    			reverseMsg: function(){
+    				this.msg = this.msg.split('').reverse().join('');
+    			},
+    			add: function(){
+    				this.num++;
+    			}
+    		}
+    	});
+    </script>
+</body>
+</html>

@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js"></script>
+<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.14.1/lodash.min.js"></script>
+
+<style type="text/css">
+h1{
+    color: steelblue;
+}
+</style>
+</head>
+<body>
+
+
+
+    <h1>transition-group 2</h1>
+    <style>
+        #outer{width: 480px;}
+        .mybox{display:inline-block; padding: 10px; border:1px solid #aaa; width: 30px;height: 30px;transition: transform 1s;}
+    </style>
+
+    <div id="demo11">
+        <button @click="shuffle">shuffle</button>
+        <transition-group name="mylist" tag="div" id="outer">
+            <div v-for="item in items" v-bind:key="item.id" class='mybox'>{{item.number}}</div>
+        </transition-group>
+    </div>
+    
+    <script>
+        var s11 = new Vue({
+            el: '#demo11',
+            data: {
+                items: Array.apply(null, { length: 81 })
+                              .map(function (_, index) {
+                                return {
+                                  id: index,
+                                  number: index % 9 + 1
+                                }
+                              })
+            },
+            methods: {
+                'shuffle': function(){
+                    this.items = _.shuffle(this.items);
+                }
+            }
+        });
+    </script>
+
+
+
+
+<!-- if ($) { V = $.Velocity } else { V = Velocity)
+如果 velocity 和 jQ 共用, 要用 $.Velocity
+單獨的話 可以直接用 Velocity -->
+<!-- ====================================================== -->
+    <h1>range</h1>
+
+    <div id="demo10">
+        input: <input type="range" min="0" v-bind:max="maxvalue" v-model="fadeInDuration">{{fadeInDuration}}<br>
+        output: <input type="range" min="0" v-bind:max="maxvalue" v-model="fadeOutDuration">{{fadeOutDuration}}
+        <transition name="flash" v-bind:css="false" v-on:before-enter="beforeEnter" v-on:enter="enter" v-on:leave="leave">
+            <p v-if="show">HELLO</p>
+        </transition>
+    </div>
+    
+    <script>
+        var s10 = new Vue({
+            el: '#demo10',
+            data: {
+                maxvalue: 1500,
+                fadeInDuration: 1000,
+                fadeOutDuration: 1000,
+                show: true
+            },
+            mounted: function () {
+                this.show = false
+            },
+            methods: {
+                beforeEnter: function(el){
+                    el.style.opacity = 0
+                },
+                enter: function(el, done){
+                    var that = this; //少了這行的話, 下一行的 this.show 的 this 已經不是 vm
+                    $.Velocity(el, {opacity:1}, {duration: this.fadeInDuration, complete: function(){ done(); that.show= false;}});
+                },
+                leave: function(el, done){
+                    var that = this;
+                    $.Velocity(el, {opacity:0}, {duration: this.fadeOutDuration, complete: function(){ done(); that.show= true;}});
+                }
+            }
+        });
+    </script>
+
+
+
+
+<!-- ====================================================== -->
+    <h1>transition-group</h1>
+    <style>
+        .mylist-enter, .mylist-leave-active{opacity: 0; transform: translateY(30px);}
+        .mylist-leave-active{position: absolute;}
+        .myspan{display:inline-block; padding: 10px; transition: all 1s}
+    </style>
+
+    <div id="demo9">
+        <button @click="add">add</button>
+        <button @click="remove">remove</button>
+        <button @click="shuffle">shuffle</button>
+        <transition-group name="mylist" tag="p">
+            <span v-for="item in items" v-bind:key="item" class='myspan'>{{item}}</span>
+        </transition-group>
+    </div>
+    
+    <script>
+        var s9 = new Vue({
+            el: '#demo9',
+            data: {
+                items: [1,2,3,4,5],
+                maxnum: 6
+            },
+            methods: {
+                'getran': function(){
+                    let i = this.items.length;
+                    return Math.floor(Math.random()*i);
+                },
+                'add': function(){
+                    this.items.splice(this.getran(), 0, this.maxnum++);
+                },
+                'remove': function(){
+                    this.items.splice(this.getran(), 1);
+                },
+                'shuffle': function(){
+                    this.items = _.shuffle(this.items);
+                }
+            }
+        });
+    </script>
+
+
+
+
+<!-- ====================================================== -->
+    <h1>component switch</h1>
+    <style>
+        .btn-enter, .btn-leave-active{opacity: 0;}
+        .btn-enter-active, .btn-leave-active{transition: opacity .5s}
+    </style>
+
+    <div id="demo8">
+            <!-- value 的值 直接雙向綁訂到 view 裡去 -->
+            <input v-model="view" type="radio" value="v-a" id="a" name='999'><label for="a">A</label>
+            <input v-model="view" type="radio" value="v-b" id="b" name='888'><label for="b">B</label><br>
+        <transition name="btn" mode="out-in">
+            <component v-bind:is="view"></component>
+        </transition>
+    </div>
+    
+    <script>
+        var s8 = new Vue({
+            el: '#demo8',
+            data: {
+                view: 'v-a'
+            },
+            components: {
+                'v-a': {
+                    template: '<div>HEY, Component A<div>'
+                },
+                'v-b': {
+                    template: '<div>HEY, Component B<div>'
+                }
+            }
+        });
+    </script>
+
+
+
+
+<!-- ====================================================== -->
+    <h1>velocity testing</h1>
+    <style type="text/css">
+        .aaa{
+            width: 100px;height: 100px;margin-left: 0;background-color: #ccc;
+        }
+    </style>
+    <div class="aaa"></div>
+    <script>
+        $(function(){
+            $('.aaa').velocity({'margin-left': '550px'});
+        });
+    </script>
+
+
+
+
+<!-- ====================================================== -->
+    <h1>button switch</h1>
+    <style>
+        .btn-enter, .btn-leave-active{opacity: 0;}
+        .btn-enter-active, .btn-leave-active{transition: opacity .5s}
+    </style>
+
+    <div id="demo7">
+        <transition name="btn" mode="out-in">
+        <!-- 当有相同标签名的元素切换时，需要通过 key 特性设置唯一的值来标记以让 Vue 区分它们，否则 Vue 为了效率只会替换相同标签内部的内容。 -->
+        <!-- 所以一定要設置 key , 否則不會有動畫  -->
+            <button v-if="is_on" @click="is_on = false" key='on'>on</button>
+            <button v-else       @click="is_on = true"  key='off'>off</button>
+        </transition>
+    </div>
+    
+    <script>
+        var s7 = new Vue({
+            el: '#demo7',
+            data: {
+                is_on: true
+            }
+        });
+    </script>
+
+
+
+
+
+<!-- ====================================================== -->
+    <h1>key</h1>
+
+    <div id="demo6">
+        <transition>
+            <button v-bind:key="state">{{btn_state}}</button>
+        </transition>
+    </div>
+    
+    <script>
+        var s6 = new Vue({
+            el: '#demo6',
+            data: {
+                state: 'save'
+            },
+            computed: {
+                btn_state: function(){
+                    if(this.state=='save'){
+                        return 'edit'
+                    }else if(this.state=='edit'){
+                        return 'save'
+                    }else if(this.state=='editing'){
+                        return 'cancel'
+                    }
+                }
+            }
+        });
+    </script>
+
+
+
+
+
+<!-- ====================================================== -->
+    <h1>velocity</h1>
+
+    <div id="demo5">
+        <button @click="show = !show">let's rock</button>
+        <transition name="whatever" v-on:before-enter="beforeEnter" v-on:enter="enter" v-on:leave="leave">
+            <p v-if="show">my 1st velocity.js</p>
+        </transition>
+    </div>
+    
+    <script>
+        $(function(){
+            new Vue({
+              el: '#demo5',
+              data: {
+                show: false
+              },
+              methods: {
+                beforeEnter: function (el) {
+                  el.style.opacity = 0
+                },
+                enter: function (el, done) {
+                  $.Velocity(el, { opacity: 1, fontSize: '1.4em' }, { duration: 300 })
+                  $.Velocity(el, { fontSize: '1em' }, { complete: done })
+                },
+                leave: function (el, done) {
+                  $.Velocity(el, { translateX: '15px', rotateZ: '50deg' }, { duration: 600 })
+                  $.Velocity(el, { rotateZ: '100deg' }, { loop: 2 })
+                  $.Velocity(el, {
+                    rotateZ: '45deg',
+                    translateY: '30px',
+                    translateX: '30px',
+                    opacity: 0
+                  }, { complete: done })
+                }
+              }
+            })
+        });
+    </script>
+
+
+
+
+
+
+<!-- ====================================================== -->
+    <h1>enter/leave class</h1>
+
+    <div id="demo4">
+        <button @click="show = !show">let's rock</button>
+        <transition name="whatever" enter-active-class="animated bounce" leave-active-class="animated hinge">
+            <p v-if="show">my 2nd animate.css</p>
+        </transition>
+    </div>
+    
+    <script>
+        var s4 = new Vue({
+            el: '#demo4',
+            data: {
+                show: true
+            }
+        });
+    </script>
+
+
+
+
+
+
+<!-- ====================================================== -->
+    <h1>use animate.css</h1>
+
+    <div id="demo3">
+        <button id='btn'>let's rock</button>
+        <p id='test'>my first animate.css</p>
+    </div>
+    
+    <script>
+    $(function(){
+        $.fn.extend({
+            animateCss: function (animationName) {
+                var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+                this.addClass('animated ' + animationName).one(animationEnd, function() {
+                    $(this).removeClass('animated ' + animationName);
+                });
+            }
+        });
+
+        $('#btn').on('click',function(){
+            $('#test').animateCss('jello');  
+        });
+              
+    });
+    </script>
+
+
+
+
+
+<!-- ====================================================== -->
+    <h1>transition</h1>
+    <style type="text/css">
+        .fade-enter-active, .fade-leave-active {
+          transition: opacity .5s
+        }
+        .fade-enter, .fade-leave-active {
+          opacity: 0
+        }
+    </style>
+
+    <div id="demo2">
+        <button @click="show = !show">toggle</button>
+        <transition name="fade">
+            <p v-if="show">HI</p>
+        </transition>
+    </div>
+    
+    <script>
+        var s2 = new Vue({
+            el: '#demo2',
+            data: {
+                show: true
+            }
+        });
+    </script>
+
+
+
+
+
+
+<!-- ====================================================== -->
+    <h1>對組件做v-model</h1>
+
+    <div id="demo1">
+        <p>parent: {{msg}}</p>
+        <child v-model="msg" v-bind:val="msg"></child>
+    </div>
+    
+    <script>
+        var s1 = new Vue({
+            el: '#demo1',
+            data: {
+                msg: 'hello'
+            },
+            components: {
+                'child': {
+                    props: ['val'],
+                    template:  '<div>\
+                                    <p>child: {{val}}</p>\
+                                    <input type="text" v-bind:value="val" v-model="val" v-on:input="up">\
+                                </div>',
+                    methods: {
+                        up: function(event){
+                            this.$emit('input', event.target.value)
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+
+</body>
+</html>
+

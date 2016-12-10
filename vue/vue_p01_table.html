@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js"></script> 
+<style type="text/css">
+h1{
+    color: steelblue;
+}
+table, tr, td{
+    border:1px solid #aaa;
+    border-collapse: collapse;
+    text-align: center;
+}
+td{
+    width: 120px;
+    padding: 10px;
+}
+span{
+    color:steelblue;
+}
+tr td:first-child{
+    font-weight: bold;
+}
+</style>
+</head>
+<body>
+
+    <h1>選擇菜色 幫你分類</h1>
+
+    <div id="demo1">
+        <foodgroup v-for="cv in groups" :val="cv" v-on:listener="getele"></foodgroup>
+        <p>This is what you choose => type : <span>{{mytype}}</span>, name: <span>{{myele}}</span></p>
+        <foodtable :foodt="tabledata"></foodtable>
+    </div>
+    
+    <script>
+        var s1 = new Vue({
+            el: '#demo1',
+            data: {
+                groups: [{
+                          'type':'Condiments',
+                          'list':['mustard','salt','pepper','spices','soy source','olive oil','ketchup','cooking oil','sugar']
+                         },
+                         {
+                          'type':'Deli',
+                          'list':['roast beef','turkey','Swiss cheese','potato salad','potato Diane']
+                         },
+                         {
+                          'type':'Coffee and Tea',
+                          'list':['coffee','herbal tea','hot chocolate','cafe au lait','latte','Con Panna','Viennese coffee']
+                         },
+                         {
+                          'type':'Bread',
+                          'list':['white bread','wheat bread','whole grain bread','rye bread','pretzel','pita bread','french bread','bagel','rolls','donut','bread sticks','swiss rolls','croissant']
+                         }],
+                tabledata: [['Condiments'],['Deli'],['Coffee and Tea'],['Bread']],
+                tablecount: [1,1,1,1],
+                mytype: '',
+                myele: ''
+            },
+            components: {
+                'foodgroup': {
+                    props: ['val'],
+                    template:  '<div>\
+                                    <h2>{{val.type}}</h2>\
+                                    <p>\
+                                        <button v-for="ele in val.list" v-on:click="goout">{{ele}}</button>\
+                                    </p>\
+                                </div>',
+                    methods: {
+                        goout: function(){
+                            this.$emit('listener', event.target.innerHTML, this.val.type);
+                            //this.$emit('listener', 1) 觸發listener 並且傳值給 on 的函式
+                            //this.$on('listener', function (id){})     id就是1
+                        }
+                    }
+                },
+                'foodtable': {
+                    props: ['foodt'],
+                    template: '<table>\
+                                    <tr v-for="ft in foodt">\
+                                        <td v-for="ftd in ft">{{ftd}}</td>\
+                                    </tr>\
+                               </table>'
+                }
+            },
+            methods: {
+                getele: function(ele, type){
+                    let t = this.tabledata;
+                    let count = this.tablecount;
+                    let max_i = t.reduce((t,cv)=>{return cv.length>t? cv.length:t},0);
+                    let r = ['Condiments','Deli','Coffee and Tea','Bread'].indexOf(type);
+
+                    this.mytype = type;
+                    this.myele = ele;
+
+                    count[r]++;
+                    if(count[r] > max_i){
+                        t.map(function(cv,i){ (i!=r) ? t[i].push('') : t[r].push(ele);} )
+                    }else{
+                        t[r].splice(count[r]-1, 1, ele);
+                    }
+                }
+            }
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js"></script> 
+<style type="text/css">
+    .top{
+        width: 300px;
+        height: 100px;
+        background-color: #aaa;
+    }
+    .right{
+        width: 300px;
+        height: 100px;
+        background-color: #fa0;
+    }
+</style>
+</head>
+<body>
+    <div id="demo">
+        <my-component></my-component>
+        <my-component2></my-component2>
+        <my-component3></my-component3>
+
+    </div>
+    <script>
+    	var s1 = new Vue({
+    		el: '#demo', //el: 'body' 似乎不能用
+    		components: {
+                'my-component': {
+                    template: '<div class="top">HIHI</div>'
+                },
+                'my-component2': {
+                    template: '<nok></nok>',
+                    components: {
+                        'nok': {
+                            template: '<h2>YEEEEEEEEEEEEEEEEEE</h2>'
+                        }
+                    }
+                },
+                'my-component3': {
+                    template: '<div class="right"></div>'
+                }
+    		}
+    	});
+    </script>
+</body>
+</html>

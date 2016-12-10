@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js"></script> 
+<!-- <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script> -->
+<script src="https://unpkg.com/tween.js@16.3.4"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" ></script>
+<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script> 
+<style type="text/css">
+h1{
+    color: steelblue;
+}
+#outOfW{
+    outline: 1px solid #ccc;
+    width: 1120px;
+    height: 580px;
+    margin: auto;
+    padding: 10px;
+    overflow: hidden;
+}
+#wrapper{
+    position: relative; /*給 leave-active 動畫定位用*/
+    outline: 1px solid steelblue;
+    width: 4520px;
+    height: 580px;
+    font-size: 0;
+}
+.block{
+    display: inline-block;
+    font-size: 16px;
+    width: 1120px;
+    height: 580px;
+    margin-right: 10px;
+    transition: all 1s;
+}
+.b01{
+    outline: 1px solid red;
+    background: url('aa01.jpg');
+}
+.b02{
+    outline: 1px solid blue;
+    background: url('aa02.jpg');
+}
+.b03{
+    outline: 1px solid green;
+    background: url('aa03.jpg');
+}
+.b04{
+    outline: 1px solid pink;
+    background: url('aa04.jpg');
+}
+.dbbox-enter-active, .dbbox-leave-active {
+    /*transition: all 1s;*/
+}
+.dbbox-leave-active {
+    position: absolute;
+}
+.dbbox-enter, .dbbox-leave-active {
+    /*opacity: 0;*/
+    transform: translateX(-1130px);
+}
+</style>
+</head>
+<body>
+
+    <h1>travelFrame</h1>
+
+    <div id="demo1">
+        <button @click="prev" :disabled="btn_disabled">prev</button>
+        <button @click="next" :disabled="btn_disabled">next</button>
+
+        <div id="outOfW">
+            <div id="wrapper">
+                <transition-group name="dbbox" tag="p">
+                    <my-component v-for="order in orders" v-bind:key="order" class="block" :is="order"></my-component>
+                </transition-group>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+
+        Vue.component('b01', {
+            template: '<div class="b01">HI~~~Im B01</div>'
+        })
+        Vue.component('b02', {
+            template: '<div class="b02">HI~~~Im B02</div>'
+        })
+        Vue.component('b03', {
+            template: '<div class="b03">HI~~~Im B03</div>'
+        })
+        Vue.component('b04', {
+            template: '<div class="b04">HI~~~Im B04</div>'
+        })
+
+        var s1 = new Vue({
+            el: '#demo1',
+            data: {
+                orders: ['b01','b02','b03','b04'],
+                btn_disabled: false
+            },
+            computed: {
+                ordersLen: function(){
+                    return this.orders.length;
+                }
+            },
+            watch: {
+            },
+            methods: {
+                prev: function(){
+                    this.btn_disabled = true;
+                    let n = [4,3,2,1];
+                    this.ordersLen<4 ? this.orders.unshift( 'b0'+n[this.ordersLen] ) : null;
+                    setTimeout(()=>s1.btn_disabled = false, 1000);
+                },
+                next: function(){
+                    this.btn_disabled = true;
+                    this.ordersLen>1 ? this.orders.shift() : null;
+                    setTimeout(()=>s1.btn_disabled = false, 1000);
+                }
+            }
+        });
+
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js"></script>
+<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script> 
+<style type="text/css">
+h1{
+    color: steelblue;
+}
+.left,.right{
+    height: 600px;
+    border: 2px solid #ccc; 
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+.left{
+    width: 800px;
+}
+.right{
+    width: 110px;
+}
+#demo1{
+    font-size: 0;
+}
+#outer{
+    width: 1200px;
+}
+.card{
+    width: 200px;
+    border:1px solid #aaa;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 16px;
+}
+.card img{
+    width: 200px;
+}
+.box, .line{
+    width: 100px;
+    height: 50px;
+    border:1px solid #aaa;
+    position: relative;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    /*transition: transform 1s;*/
+}
+.line:before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0px;
+    height: 50px;
+    outline: 2px solid #999;
+    left: 0;right: 0;margin: auto;
+}
+.box_wrapper{
+    transition: all 1s;
+    display: inline-block;
+    font-size: 0;
+}
+.dbbox-enter-active, .dbbox-leave-active {
+    transition: all 1s;
+}
+.dbbox-leave-active {
+    position: absolute;
+}
+.dbbox-enter, .dbbox-leave-active {
+    opacity: 0;
+    /*transform: translateY(30px);*/
+}
+</style>
+</head>
+<body>
+
+    <h1>Vue DnD</h1>
+
+    <div id="demo1">
+
+        <div class="left">
+            <div class='card' v-for="(card, $i) in cards" draggable="true" @dragstart="carddrag($event,$i,card)">
+                <img v-bind:src="card.url">
+                <h3>{{card.name}}</h3>
+                <p>{{card.subtitle}}</p>
+            </div>               
+        </div>
+
+        <!-- ================================================ -->
+        <div class="right">
+
+            <div class='box'>Start</div>
+            <div class='line' @dragover.prevent @drop="empty_drop($event)" v-if="items.length==0"></div>
+            <transition-group name="dbbox" tag="p">
+                <div class='box_wrapper' v-for="(item, $i) in items" v-bind:key="item">
+
+                    <div class='line' @dragover.prevent @drop="drop($event,$i)"></div>
+
+                    <div class='box' draggable="true" @dragstart="drag($event,$i)" @click="delete_box(item, $i)">{{item.name}}</div>
+
+                    <div class='line' @dragover.prevent @drop="last_drop($event,$i)" v-if="$i==items.length-1"></div>
+                </div>
+            </transition-group>
+            <div class='box'>End</div> 
+
+        </div>
+
+    </div>
+    
+    <script>
+        var s1 = new Vue({
+            el: '#demo1',
+            data: {
+                // cards 用 object 來儲存
+                cards: [{"name":"十分瀑布", "subtitle":"中國政府預計今天將公布三季度經濟增長數據。外界認為中國的增速會繼續放緩，債務問題也拉響了警報。","url":"http://static.wixstatic.com/media/136ba0_f3c12f6105854b299a341e55db273c5a.jpg_256"},
+                        {"name":"快樂島", "subtitle":"中國當局日前拘留多名澳大利亞賭場員工，引發外國博彩業擔憂。中國的反腐行動嚴格限制黨員賭博，澳門博彩業就曾成為目標。","url":"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT9ZQLyK_0OI7GnRuJBEcIxMbiET0DUtdThJrmK7a_KsJ5ng1VtWw"},
+                        {"name":"故宮博物院", "subtitle":"三星已宣布放棄Note 7，但該產品在中國卻繼續引發憤怒。一段手機著火的視頻被曝光，三星被指區別對待並欺騙中國消費者。","url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqaDTjQ5-aA5TRD7olP3daE2itSTLsFdMFABsagArR4H608hoeKQ"}],
+                // items 用 object 來儲存
+                items: []
+            },
+            methods: {
+                drag: function(event, i) {
+                    event.dataTransfer.setData("text", i);
+                },
+                drop: function(event, target_i) {
+                    // event.preventDefault();
+                    let i = event.dataTransfer.getData("text");
+
+                    if(i.length>2){        //從 左區 拖曳到 右區
+                        let i_cv = i;
+                        let arr = i_cv.split('* *');
+                        arr[1] = JSON.parse(arr[1]);
+                        this.cards.splice(arr[0], 1);
+                        this.items.splice(target_i, 0, arr[1]);
+
+                    }else if(i>target_i){  //由後往前拖曳
+                        let cv = this.items[i];
+                        this.items.splice(i, 1);
+                        this.items.splice(target_i, 0, cv);
+
+                    }else if(i<target_i){  //由前往後拖曳
+                        let cv = this.items[i];
+                        this.items.splice(i, 1);
+                        this.items.splice(target_i-1, 0, cv);
+                    }
+                },
+                last_drop: function(event, target_i) {
+                    // event.preventDefault();
+                    let i = event.dataTransfer.getData("text");
+
+                    if(i.length>2){        //從 左區 拖曳到 右區
+                        let arr = i.split('* *');
+                        arr[1] = JSON.parse(arr[1]);
+                        this.cards.splice(arr[0], 1);
+                        this.items.push(arr[1]);
+                    }else{
+                        let cv = this.items[i];
+                        this.items.splice(i, 1);
+                        this.items.push(cv);
+                    }
+                },
+                carddrag: function(event, i, cv){
+                    cv = JSON.stringify(cv);
+                    event.dataTransfer.setData("text", i+'* *'+cv);
+                },
+                delete_box: function(cv, i){
+                    this.items.splice(i, 1);
+                    this.cards.push(cv);
+                },
+                empty_drop: function($event){
+                    let i_cv = event.dataTransfer.getData("text");
+                    let arr = i_cv.split('* *');
+                    arr[1] = JSON.parse(arr[1]);
+                    this.cards.splice(arr[0], 1);
+                    this.items.push(arr[1]);
+                }
+            }
+        });
+    </script>
+</body>
+</html>

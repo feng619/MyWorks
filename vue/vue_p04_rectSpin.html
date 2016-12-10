@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js"></script> 
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="https://unpkg.com/tween.js@16.3.4"></script>
+<style type="text/css">
+h1{
+    color: steelblue;
+}
+svg{
+    border:2px solid #ccc;
+}
+</style>
+</head>
+<body>
+
+    <h1>rectSpin</h1>
+
+    <div id="demo1">
+		左邊長: <input v-model.number="rectH_to" type="range" :min="gap" max="300">{{rectH_to}}<br>
+    </div>
+    
+    <script>
+
+        var s1 = new Vue({
+            el: '#demo1',
+            data: {
+            	gap: 10,
+            	rectX: 50,
+            	rectY: 50,
+            	rectW: 500,
+            	rectH: 300,
+            	rectH_to: 300
+            },
+            computed: {
+            	L_rect: function(){
+            		let H = this.rectH - this.gap;
+            		let H_to = this.rectH_to - this.gap;
+            		return   'M'+this.rectX+' '+this.rectY+
+		            		' L'+(this.rectX+this.rectW)+' '+this.rectY+
+		            		' L'+(this.rectX+this.rectW)+' '+(this.rectY+H-H_to)+
+		            		' L'+this.rectX+' '+(this.rectY+H_to)+
+		            		' Z';
+            	},
+            	R_rect: function(){
+            		let H = this.rectH - this.gap;
+            		let H_to = this.rectH_to - this.gap;
+            		return   'M'+(this.rectX+this.rectW)+' '+(this.rectY+H+this.gap)+
+		            		' L'+this.rectX+' '+(this.rectY+H+this.gap)+
+		            		' L'+this.rectX+' '+(this.rectY+H_to+this.gap)+
+		            		' L'+(this.rectX+this.rectW)+' '+(this.rectY+H-H_to+this.gap)+
+		            		' Z';
+            	}
+            },
+            watch: {
+            	rectH_to: function(){
+            		d3.selectAll('.path1').remove();
+			        svg1.append('path').attr({
+			                'class': 'path1',
+			                'd': s1.L_rect,
+			                'stroke': '#333',
+			                'stroke-width': 3,
+			                'fill': 'none'
+			            }); 
+			        svg1.append('path').attr({
+			                'class': 'path1',
+			                'd': s1.R_rect,
+			                'stroke': '#333',
+			                'stroke-width': 3,
+			                'fill': 'none'
+			            }); 
+            	}
+            },
+            methods: {
+            }
+        });
+
+        var svg1 = d3.select('#demo1').append('svg').attr({
+                        'width': 800,
+                        'height': 800
+                    });
+
+        svg1.append('path').attr({
+                'class': 'path1',
+                'd': s1.L_rect,
+                'stroke': '#333',
+                'stroke-width': 3,
+                'fill': 'none'
+            }); 
+        svg1.append('path').attr({
+                'class': 'path1',
+                'd': s1.R_rect,
+                'stroke': '#333',
+                'stroke-width': 3,
+                'fill': 'none'
+            }); 
+
+    </script>
+
+
+</body>
+</html>
